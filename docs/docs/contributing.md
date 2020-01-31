@@ -16,6 +16,10 @@ Please make sure to restart your IDE in after running all setup commands
 
 ***
 
+Before contributing please see the [Code of Conduct](coc.html)
+
+***
+
 ### Contributing 
 
 You are free to clone, modify KAMI and KAMI Blue and make pull requests as you wish. To set up your development environment, make use of the following commands:
