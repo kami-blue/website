@@ -37,7 +37,7 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 ## Images
 
 <details> 
-	<summary>< Click to view iamges ></summary>
+	<summary>< Click to view images ></summary>
 	
 ***
 
