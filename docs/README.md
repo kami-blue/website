@@ -21,4 +21,3 @@
 [![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
 Please consider donating to help continue this project and get a unique cape in game. 
-
