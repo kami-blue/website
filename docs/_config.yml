@@ -4,6 +4,9 @@ show_downloads: true
 google_analytics: UA-157505961-1
 github:
   repository_url: https://github.com/S-B99/kamiblue
+  zip_url: https://github.com/S-B99/kamiblueWebsite/zipball/master
+  tar_url: https://github.com/S-B99/kamiblueWebsite/tarball/master
+  jar_url: https://github.com/S-B99/kamiblue/releases/download/v1.1.2/KAMI-Blue-v1.1.2-release.jar
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
