@@ -2,6 +2,7 @@ title: KAMI Blue
 description: A minecraft utility mod for anarchy servers
 show_downloads: true
 google_analytics:
+repository_url: https://github.com/S-B99/kamiblue
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
