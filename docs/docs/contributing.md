@@ -18,6 +18,8 @@ Please make sure to restart your IDE in after running all setup commands
 
 Before contributing please see the [Code of Conduct](coc.html)
 
+See [Support](support.html) for help.
+
 ***
 
 ### Contributing 

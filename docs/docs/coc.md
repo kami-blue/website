@@ -1,3 +1,11 @@
+---
+layout: default
+title: Code of Conduct
+description: Please follow this when contributing
+---
+
+#### [< back >](.././)
+
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

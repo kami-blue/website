@@ -38,6 +38,8 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 
 ## [Code of Conduct](docs/coc.html)
 
+## [Support](docs/support.html)
+
 ## Thank you
 
 [zeroeightysix](https://github.com/zeroeightysix) for the original [KAMI](https://github.com/zeroeightysix/KAMI)
