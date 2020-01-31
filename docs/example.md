@@ -4,7 +4,7 @@ title: Title
 description: Desc
 ---
 
-#### [< back >](././)
+#### [< back >](.././)
 
 ## Title
 

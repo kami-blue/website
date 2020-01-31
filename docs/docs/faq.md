@@ -4,7 +4,7 @@ title: Frequently asked questions
 description: Quick information about KAMI Blue
 ---
 
-#### [< back >](././)
+#### [< back >](.././)
 
 ## Installing
 
