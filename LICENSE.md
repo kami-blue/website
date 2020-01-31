@@ -1,3 +1,5 @@
+### The website https://blue.bella.wtf is licensed under the following license
+
 MIT License
 
 Copyright (c) 2020 Bella Who
