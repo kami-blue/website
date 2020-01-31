@@ -14,7 +14,7 @@ bundle update
 # Build a new gem archive.
 
 rm -rf jekyll-theme-cayman-*.gem
-gem build -q jekyll-theme-cayman.gemspec
+gem build -q jekyll-theme-cayman-custom.gemspec
 
 # Make sure we're on the master branch.
 
