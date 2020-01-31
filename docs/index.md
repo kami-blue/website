@@ -34,6 +34,35 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 
 </details>
 
+## Images
+
+<details> 
+	<summary>< Click to view iamges ></summary>
+	
+***
+
+### Click on images to expand
+
+Capes in game
+
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500"/>
+
+Rich presence on discord
+
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/rpc.png" width="500"/>
+
+Shulker preview being used in chat
+
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/shulkerChat.png" width="500"/>
+
+CrystalAura targeting
+
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500"/>
+
+***
+
+</details>
+
 ## [FAQ / Installing](docs/faq.html)
 
 ## [Building and Contributing](docs/contributing.html)
