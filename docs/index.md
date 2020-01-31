@@ -41,8 +41,6 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 	
 ***
 
-### Click on images to expand
-
 Capes in game
 
 <img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500"/>
