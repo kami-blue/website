@@ -1,18 +1,6 @@
 ---
 layout: default
 ---
-
-<img src="https://github.com/S-B99/kamiblue/blob/assets/assets/icons/kami.svg" align="left" width="120"/>
-
-# Website for S-B99/kamiblue
-
-### A minecraft utility mod for anarchy servers.
-
-# 
-<a href="https://github.com/S-B99/kamiblue/releases/download/v1.1.2/KAMI-Blue-v1.1.2-release.jar">
-<img src="https://github.com/S-B99/kamiblue/blob/assets/assets/icons/download.svg" width="200"/>
-</a>
-
 |              | S-B99 (feature/master)| 086 (upstream) |
 |:------------:|:-------------:|:--------------:|
 | Build Status | [![Build Status features-master](https://img.shields.io/travis/com/S-B99/kamiblue/feature/master?logo=gradle&label=build)](https://travis-ci.com/S-B99/kamiblue/) | [![Build Status 086](https://travis-ci.com/zeroeightysix/KAMI.svg?logo=gradle&branch=master)](https://travis-ci.com/zeroeightysix/KAMI) |
