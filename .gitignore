@@ -1,2 +1,4 @@
 .idea/
 website.iml
+docs/.jekyll-cache
+docs/Gemfile.lock
