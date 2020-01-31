@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+title: Cayman theme custom
+description: Modified Cayman theme
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman-custom
