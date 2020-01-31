@@ -4,7 +4,7 @@ title: Troubleshooting
 description: This page is meant to explain how to solve common issues when installing or using KAMI Blue. 
 ---
 
-#### [back](./)
+#### [< back >](././)
 
 ## Troubleshooting
 

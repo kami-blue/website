@@ -4,9 +4,11 @@ title: Frequently asked questions
 description: Quick information about KAMI Blue
 ---
 
-#### [back](./)
+#### [< back >](././)
 
 ## Installing
+
+***
 
 To install drag the `VERSION-release.jar` to your `mods/1.12.2` folder
 
