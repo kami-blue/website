@@ -20,6 +20,12 @@ Before contributing please see the [Code of Conduct](coc.html)
 
 See [Support](support.html) for help.
 
+#### Creating a pull request or issue
+If you are proposing a pull request, please make sure the change won't interfere with anything current, and that it is useful. 
+
+If you're creating an issue, please use the proper template and fill it out.
+
+
 ***
 
 ### Contributing 
