@@ -24,9 +24,9 @@ This is currently in active development. When issues are being closed is by mile
 <details>
 	<summary>< Click to view disclaimers ></summary>
 
-This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a *utility* mod.
+This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a <i>utility</i> mod.
 
-See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
+See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
 
 </details>
 
