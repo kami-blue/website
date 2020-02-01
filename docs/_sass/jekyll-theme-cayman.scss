@@ -383,6 +383,12 @@ nav {
   display: sticky;
   top: 0;
   width: 100%;
+  
+  @include small {
+    display: initial;
+    top: initial;
+    width: initial;
+  }
 }
 
 nav > a {
