@@ -1,5 +1,7 @@
 ---
 layout: default
+title: KAMI Blue
+description: A Minecraft utility mod for anarchy servers
 ---
 
 ### A Minecraft utility mod for anarchy servers
