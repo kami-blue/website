@@ -24,13 +24,9 @@ This is currently in active development. When issues are being closed is by mile
 <details>
 	<summary>< Click to view disclaimers ></summary>
 
-***
-
 This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a *utility* mod.
 
 See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
-
-***
 
 </details>
 
@@ -39,21 +35,21 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 <details> 
 	<summary>< Click to view images ></summary>
 
-Capes in game
+<p>Capes in game</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500" alt="Capes in game"/>
 
-Rich presence on discord
+<p>Rich presence on discord</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/rpc.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/rpc.png" width="500" alt="Rich presence on discord"/>
 
-Shulker preview being used in chat
+<p>Shulker preview being used in chat</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/shulkerChat.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/shulkerChat.png" width="500" alt="Shulker preview being used in chat"/>
 
-CrystalAura targeting
+<p>CrystalAura targeting</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500" alt="CrystalAura targeting"/>
 
 </details>
 

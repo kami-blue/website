@@ -380,6 +380,15 @@ a {
 nav {
   background: $body-text-color;
   text-align: center;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  
+  @include small {
+    position: initial;
+    top: initial;
+    width: initial;
+  }
 }
 
 nav > a {
