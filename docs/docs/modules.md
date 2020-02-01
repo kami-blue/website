@@ -1,18 +1,12 @@
 ---
 layout: default
 title: KAMI Blue Modules
-description: KAMI Blue Module List
+description: A list of modules this mod has
 ---
 
-## KAMI Blue Modules
+#### [< back >](.././)
 
-<details>
-    <summary>Capes</summary>
-    <ul>
-        <li>Capes</li>
-        <li>LayerCape</li>
-    </ul>
-</details>
+## KAMI Blue Modules
 
 <details>
     <summary>Combat</summary>
@@ -52,7 +46,6 @@ description: KAMI Blue Module List
         <li>InfoOverlay</li>
         <li>InventoryViewer</li>
         <li>Zoom</li>
-        <li>GUIColour</li>
     </ul>
 </details>
 
