@@ -9,13 +9,6 @@ description: A list of modules this mod has
 ## KAMI Blue Modules
 
 #### < click to expand >
-
-<details>
-    <summary>Capes</summary>
-    <ul>
-        <li>Capes</li>
-    </ul>
-</details>
  
 <details>
     <summary>Combat</summary>
@@ -43,6 +36,7 @@ description: A list of modules this mod has
     <summary>GUI</summary>
     <ul>
         <li>ArmourHide</li>
+        <li>Capes</li>
         <li>CleanGUI</li>
         <li>InfoOverlay</li>
         <li>InventoryViewer</li>
