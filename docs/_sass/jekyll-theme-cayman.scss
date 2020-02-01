@@ -378,17 +378,17 @@ a {
 }
 
 nav {
-  background: #666071;
+  background: $body-text-color;
   padding: 1rem 0;
   text-align: center;
 }
 
 nav > a {
   padding: 1rem;
-  color: #fafafa;
+  color: $off-white;
 }
 
 nav > a:hover {
-  background: #514c59;
+  background: $darker-text-color;
   text-decoration: none;
 }
