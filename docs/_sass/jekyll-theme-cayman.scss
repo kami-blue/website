@@ -376,3 +376,19 @@ a {
 .site-footer-credits {
   color: $blockquote-text-color;
 }
+
+nav {
+  background: #666071;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav > a {
+  padding: 1rem;
+  color: #fafafa;
+}
+
+nav > a:hover {
+  background: #514c59;
+  text-decoration: none;
+}
