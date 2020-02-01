@@ -12,7 +12,7 @@ description: A list of modules this mod has
  
 <details>
     <summary>Combat</summary>
-    <ul>
+    <p><ul>
         <li>AntiDeathScreen</li>
         <li>AntiFriendHit</li>
         <li>Aura</li>
@@ -29,24 +29,24 @@ description: A list of modules this mod has
         <li>Fastuse</li>
         <li>Pull32k</li>
         <li>Surround</li>
-    </ul>
+    </ul></p>
 </details>
 
 <details>
     <summary>GUI</summary>
-    <ul>
+    <p><ul>
         <li>ArmourHide</li>
         <li>Capes</li>
         <li>CleanGUI</li>
         <li>InfoOverlay</li>
         <li>InventoryViewer</li>
         <li>Zoom</li>
-    </ul>
+    </ul></p>
 </details>
 
 <details>
     <summary>Misc</summary>
-    <ul>
+    <p><ul>
         <li>AntiAFK</li>
         <li>AntiChatSpam</li>
         <li>AntiChunkBan</li>
@@ -74,12 +74,12 @@ description: A list of modules this mod has
         <li>PortalChat</li>
         <li>SkinFlicker</li>
         <li>VisualRange</li>
-    </ul>
+    </ul></p>
 </details>
 
 <details>
     <summary>Movement</summary>
-    <ul>
+    <p><ul>
         <li>AntiHunger</li>
         <li>AutoJump</li>
         <li>AutoWalk</li>
@@ -93,12 +93,12 @@ description: A list of modules this mod has
         <li>Strafe</li>
         <li>TimerSpeed</li>
         <li>Velocity</li>
-    </ul>
+    </ul></p>
 </details>
 
 <details>
     <summary>Player</summary>
-    <ul>
+    <p><ul>
         <li>AntiForceLook</li>
         <li>AutoArmour</li>
         <li>AutoEat</li>
@@ -114,12 +114,12 @@ description: A list of modules this mod has
         <li>Timer</li>
         <li>TpsSync</li>
         <li>YawLock</li>
-    </ul>
+    </ul></p>
 </details>
 
 <details>
     <summary>Render</summary>
-    <ul>
+    <p><ul>
         <li>AntiFog</li>
         <li>ArmourHUD</li>
         <li>BossStack</li>
@@ -140,13 +140,13 @@ description: A list of modules this mod has
         <li>TabFriends</li>
         <li>Tracers</li>
         <li>Trajectories</li>
-    </ul>
+    </ul></p>
 </details>
 
 <details>
     <summary>Experimental</summary>
-    <ul>
+    <p><ul>
         <li>AntiChunkLoadPatch</li>
         <li>GUIColour</li>
-    </ul>
+    </ul></p>
 </details>
