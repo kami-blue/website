@@ -61,6 +61,8 @@ CrystalAura targeting
 
 </details>
 
+## [Module List](docs/modules.html)
+
 ## [FAQ / Installing](docs/faq.html)
 
 ## [Building and Contributing](docs/contributing.html)
