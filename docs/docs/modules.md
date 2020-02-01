@@ -1,6 +1,6 @@
 ---
 layout: default
-title: KAMI Blue Modules
+title: Modules
 description: A list of modules this mod has
 ---
 
