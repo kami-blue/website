@@ -63,6 +63,8 @@ CrystalAura targeting
 
 ## [FAQ / Installing](docs/faq.html)
 
+## [Module List](docs/modules.html)
+
 ## [Building and Contributing](docs/contributing.html)
 
 ## [Troubleshooting](docs/troubleshooting.html)
