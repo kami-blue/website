@@ -31,14 +31,6 @@ description: A list of modules this mod has
 </details>
 
 <details>
-    <summary>Experimental</summary>
-    <ul>
-        <li>AntiChunkLoadPatch</li>
-        <li>GUIColour</li>
-    </ul>
-</details>
-
-<details>
     <summary>GUI</summary>
     <ul>
         <li>ArmourHide</li>
@@ -145,5 +137,13 @@ description: A list of modules this mod has
         <li>TabFriends</li>
         <li>Tracers</li>
         <li>Trajectories</li>
+    </ul>
+</details>
+
+<details>
+    <summary>Experimental</summary>
+    <ul>
+        <li>AntiChunkLoadPatch</li>
+        <li>GUIColour</li>
     </ul>
 </details>
