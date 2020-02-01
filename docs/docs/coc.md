@@ -6,7 +6,7 @@ description: Please follow this when contributing
 
 #### [< back >](.././)
 
-# Contributor Covenant Code of Conduct
+## Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
