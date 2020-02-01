@@ -380,6 +380,9 @@ a {
 nav {
   background: $body-text-color;
   text-align: center;
+  display: sticky;
+  top: 0;
+  width: 100%;
 }
 
 nav > a {
