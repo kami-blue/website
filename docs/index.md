@@ -24,13 +24,10 @@ This is currently in active development. When issues are being closed is by mile
 <details>
 	<summary>< Click to view disclaimers ></summary>
 
-***
-
 This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a *utility* mod.
 
 See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
 
-***
 
 </details>
 
@@ -38,8 +35,6 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 
 <details> 
 	<summary>< Click to view images ></summary>
-	
-***
 
 <p>Capes in game</p>
 
@@ -56,8 +51,6 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 <p>CrystalAura targeting</p>
 
 <img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500" alt="CrystalAura targeting"/>
-
-***
 
 </details>
 
