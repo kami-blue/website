@@ -30,7 +30,7 @@ KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 for
 
 ##### Baritone
 
-To use baritone, download the latest standalone forge mod from [here](https://github.com/cabaletta/baritone/releases/tag/v1.2.10).
+To use baritone, download the latest standalone forge mod from <a href="{{ site.baritone_url }}">here</a>.
 
 ##### Open the GUI
 Press Y.

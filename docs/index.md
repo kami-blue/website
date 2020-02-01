@@ -2,11 +2,27 @@
 layout: default
 ---
 
+### A Minecraft utility mod for anarchy servers
+
+This is an open source project written primarily by 086 and S-B99. It has many useful combat and general utilities to assist the player. 
+
+See the [FAQ](/docs/docs/faq.html) pages for information about using the mod itself, and the [modules](/docs/docs/modules.html) page for information about the 100 unique modules this has.
+
+This project was started under the name Root, by 086, and open sourced as KAMI in 2018. 
+In late 2019 S-B99 picked up the project as 086 does not intend to actively maintain 1.12.2, instead making a fabric 1.14.4 version.
+
+Due to the tidy codebase and how was it is to create your own modules, many forks and private skids based on KAMI and KAMI Blue, more recently, have been created. 
+The community as a whole appreciates everyone who has contributed to the open source KAMI and KAMI Blue. 
+
 [![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal)](https://paypal.me/bellawhotwo) 
 [![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
 [![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
 Please consider donating to help continue this project and get a unique cape in game. 
+
+##### Baritone is not included
+
+To use baritone, download the latest standalone forge mod from <a href="{{ site.baritone_url }}">here</a>.
 
 ## Images
 
