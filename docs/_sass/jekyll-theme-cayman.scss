@@ -380,12 +380,12 @@ a {
 nav {
   background: $body-text-color;
   text-align: center;
-  display: sticky;
+  position: sticky;
   top: 0;
   width: 100%;
   
   @include small {
-    display: initial;
+    position: initial;
     top: initial;
     width: initial;
   }
