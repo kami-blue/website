@@ -8,21 +8,6 @@ layout: default
 
 Please consider donating to help continue this project and get a unique cape in game. 
 
-### Status 
-
-Please see the [issues](https://github.com/S-B99/kamiblue/issues/) page for planned features and bugs.
-
-This is currently in active development. When issues are being closed is by milestone, and bugs are higher priority, though there aren't any bugs that break something completely.
-
-<details>
-	<summary>< Click to view disclaimers ></summary>
-
-<p>This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a <i>utility</i> mod.
-
-See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.</p>
-
-</details>
-
 ## Images
 
 <details> 
@@ -43,6 +28,21 @@ See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent.
 <p>CrystalAura targeting</p>
 
 <img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500" alt="CrystalAura targeting"/>
+
+</details>
+
+### Status 
+
+Please see the [issues](https://github.com/S-B99/kamiblue/issues/) page for planned features and bugs.
+
+This is currently in active development. When issues are being closed is by milestone, and bugs are higher priority, though there aren't any bugs that break something completely.
+
+<details>
+	<summary>< Click to view disclaimers ></summary>
+
+<p>This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a <i>utility</i> mod.
+
+See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.</p>
 
 </details>
 
