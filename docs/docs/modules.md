@@ -8,6 +8,15 @@ description: A list of modules this mod has
 
 ## KAMI Blue Modules
 
+#### < click to expand >
+
+<details>
+    <summary>Capes</summary>
+    <ul>
+        <li>Capes</li>
+    </ul>
+</details>
+ 
 <details>
     <summary>Combat</summary>
     <ul>
