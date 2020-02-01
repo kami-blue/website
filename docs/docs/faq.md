@@ -28,6 +28,10 @@ KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 for
 
 ***
 
+##### Baritone
+
+To use baritone, download the latest standalone forge mod from [here](https://github.com/cabaletta/baritone/releases/tag/v1.2.10).
+
 ##### Open the GUI
 Press Y.
 
@@ -43,10 +47,6 @@ You can unbind modules with backspace in the GUI or by running `.bind <module> n
 
 ##### Change command prefix
 By using the command `prefix <prefix>` or after having ran KAMI Blue (make sure it's closed), editing your configuration file (find it using `config path` in-game) and changing the value of `commandPrefix` to change the prefix.
-
-##### Baritone
-
-To use baritone, download the latest standalone forge mod from [here](https://github.com/cabaletta/baritone/releases/tag/v1.2.10).
 
 ##### Missing menus
 Make your GUI Scale smaller through the Minecraft settings and move your stuff back on screen. 
