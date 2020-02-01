@@ -39,6 +39,7 @@ description: KAMI Blue Module List
 <details>
     <summary>Experimental</summary>
     <ul>
+        <li>AntiChunkLoadPatch</li>
         <li>GUIColour</li>
     </ul>
 </details>
@@ -52,13 +53,6 @@ description: KAMI Blue Module List
         <li>InventoryViewer</li>
         <li>Zoom</li>
         <li>GUIColour</li>
-    </ul>
-</details>
-
-<details>
-    <summary>Hidden</summary>
-    <ul>
-        <li>Teleport</li>
     </ul>
 </details>
 
@@ -117,7 +111,6 @@ description: KAMI Blue Module List
 <details>
     <summary>Player</summary>
     <ul>
-        <li>AntiChunkLoadPatch</li>
         <li>AntiForceLook</li>
         <li>AutoArmour</li>
         <li>AutoEat</li>
@@ -130,9 +123,9 @@ description: KAMI Blue Module List
         <li>PitchLock</li>
         <li>PortalGodMode</li>
         <li>Scaffold</li>
-        <li>Timer.java</li>
+        <li>Timer</li>
         <li>TpsSync</li>
-        <li>YawLock.java</li>
+        <li>YawLock</li>
     </ul>
 </details>
 
