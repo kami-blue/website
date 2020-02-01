@@ -38,8 +38,6 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 
 <details> 
 	<summary>< Click to view images ></summary>
-	
-***
 
 Capes in game
 
@@ -56,8 +54,6 @@ Shulker preview being used in chat
 CrystalAura targeting
 
 <img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500"/>
-
-***
 
 </details>
 
