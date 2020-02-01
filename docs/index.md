@@ -41,21 +41,21 @@ See [forgehax](https://github.com/fr1kin/forgehax) for an equivalent. Some featu
 	
 ***
 
-Capes in game
+<p>Capes in game</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500" alt="Capes in game"/>
 
-Rich presence on discord
+<p>Rich presence on discord</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/rpc.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/rpc.png" width="500" alt="Rich presence on discord"/>
 
-Shulker preview being used in chat
+<p>Shulker preview being used in chat</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/shulkerChat.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/shulkerChat.png" width="500" alt="Shulker preview being used in chat"/>
 
-CrystalAura targeting
+<p>CrystalAura targeting</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500"/>
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500" alt="CrystalAura targeting"/>
 
 ***
 
