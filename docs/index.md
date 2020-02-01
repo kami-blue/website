@@ -61,18 +61,6 @@ CrystalAura targeting
 
 </details>
 
-## [FAQ / Installing](docs/faq.html)
-
-## [Module List](docs/modules.html)
-
-## [Building and Contributing](docs/contributing.html)
-
-## [Troubleshooting](docs/troubleshooting.html)
-
-## [Code of Conduct](docs/coc.html)
-
-## [Support](docs/support.html)
-
 ## Thank you
 
 [zeroeightysix](https://github.com/zeroeightysix) for the original [KAMI](https://github.com/zeroeightysix/KAMI)
