@@ -13,7 +13,7 @@ See the [FAQ](/docs/docs/faq.html) pages for information about using the mod its
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
 In late 2019 S-B99 picked up the project as 086 does not intend to actively maintain 1.12.2, instead focusing on making a fabric 1.14.4 version.
 
-Due to the tidy codebase and how was it is to create your own modules, many forks and private skids based on KAMI and KAMI Blue, more recently, have been created. 
+Due to the tidy codebase and how easy it is to create your own modules, many forks and private skids based on KAMI and KAMI Blue, more recently, have been created. 
 The community as a whole appreciates everyone who has contributed to the open source KAMI and KAMI Blue. 
 
 [![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal)](https://paypal.me/bellawhotwo) 
