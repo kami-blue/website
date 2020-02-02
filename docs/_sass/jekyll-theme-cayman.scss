@@ -32,6 +32,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  background: $bg-color;
 }
 
 #skip-to-content {
@@ -398,7 +399,7 @@ nav > a {
 }
 
 nav > a:hover {
-  background: $darker-text-color;
+  background: $nav-hover;
   text-decoration: none;
 }
 
