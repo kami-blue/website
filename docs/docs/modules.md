@@ -134,7 +134,7 @@ description: A list of modules this mod has
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
         <li>Pathfind<p><i>A path finder for AutoWalk</i></p></li>
-        <li>ShulkerBypass<p><i>Bypasses the shulker preview patch on 2b2t</i></p></li>
+        <li>ShulkerBypass<p><i>Bypasses the shulker preview patch</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
         <li>StorageESP<p><i>Draws nice little lines around storage items</i></p></li>
         <li>TabFriends<p><i>Highlights friends in the tab menu</i></p></li>
