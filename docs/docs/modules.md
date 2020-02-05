@@ -37,7 +37,7 @@ description: A list of modules this mod has
     <p><ul>
         <li>Capes<p><i>Shows a fancy cape for KAMI Blue donators, that all users can see. Donate or boost the Discord to unlock!</i></p></li>
         <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
-        <li>CleanGUI<p><i>Makes the background of the GUI fully transparent</i></p></li>
+        <li>CleanGUI<p><i>Modifies parts of the GUI to be transparent</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
         <li>InventoryViewer<p><i>View your inventory on screen</i></p></li>
         <li>Zoom<p><i>Configures FOV</i></p></li>
