@@ -58,4 +58,5 @@ In order to show modules on screen when the GUI is closed, hit the magnifying gl
 ##### More
 
 Run `i help` in #bot-commands channel in the [discord server](https://discord.gg/KfpqwZB).
+
 ***
