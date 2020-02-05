@@ -70,7 +70,7 @@ description: A list of modules this mod has
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
         <li>NoEntityTrace<p><i>Blocks entities from stopping you from mining</i></p></li>
         <li>NoPacketKick<p><i>Prevent large packets from kicking you</i></p></li>
-        <li>NoSoundLag<p><i>Prevents sound lag</i></p></li>
+        <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
         <li>VisualRange<p><i>Shows players who enter and leave range in chat</i></p></li>
