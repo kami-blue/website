@@ -4,11 +4,7 @@ title: Modules
 description: A list of modules this mod has
 ---
 
-#### [< back >](.././)
-
 ## KAMI Blue Modules
-
-#### < click to expand >
  
 <details>
     <summary>Combat</summary>

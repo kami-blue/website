@@ -4,8 +4,6 @@ title: Troubleshooting
 description: This page is meant to explain how to solve common issues when installing or using KAMI Blue. 
 ---
 
-#### [< back >](.././)
-
 ## Troubleshooting
 
 #### If you experience an issue and it's not listed here, please [open a new issue](https://github.com/s-b99/kamiblue/issues/new/choose) and a contributor will help you further.
