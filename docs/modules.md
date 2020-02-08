@@ -6,6 +6,8 @@ description: A list of modules this mod has
 
 ## KAMI Blue Modules
  
+##### Click menus to expand
+
 <details>
     <summary>Combat</summary>
     <p><ul>
