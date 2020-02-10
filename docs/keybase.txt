@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sb99
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://blue.bella.wtf
+  * I am sb99 (https://keybase.io/sb99) on keybase.
+  * I have a public key ASCBQDoz3GRy5Z6yc-ZeHLUbeeQy58Ogh7YL2nbrO3x5igo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012081403a33dc6472e59eb273e65e1cb51b79e432e7c3a087b60bda76eb3b7c798a0a",
+      "host": "keybase.io",
+      "kid": "012081403a33dc6472e59eb273e65e1cb51b79e432e7c3a087b60bda76eb3b7c798a0a",
+      "uid": "6b3d3619835c9c4527e9dc8c29142219",
+      "username": "sb99"
+    },
+    "merkle_root": {
+      "ctime": 1581343970,
+      "hash": "19b78cddaa1806335d9cb365597949ea75aff717bfc47ba995a95b6270ba477e96e30b83d66370f666abcbc0d582a495eccb9fb0bf257ca2092af84fc115d9b1",
+      "hash_meta": "7b6ee964c497425c45d71b0812f8c2b4abb18f80fc2381f43e714eac44c495b4",
+      "seqno": 14553482
+    },
+    "service": {
+      "entropy": "hmAqw7dVZtLgdWEBbaRuMDy3",
+      "hostname": "blue.bella.wtf",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1581343985,
+  "expire_in": 504576000,
+  "prev": "b18f645e740c7b3717ba60c87e5cbcb033584df199641e6070527477bff091f4",
+  "seqno": 31,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggUA6M9xkcuWesnPmXhy1G3nkMufDoIe2C9p26zt8eYoKp3BheWxvYWTESpcCH8QgsY9kXnQMezcXumDIfly8sDNYTfGZZB5gcFJ0d7/wkfTEILbOet/oO7twiPh+mOuGVkq8dEUM7V3TwZWVEe+C+n7PAgHCo3NpZ8RA92GVbINU4ypR08+eqVEy7US4SCtoLHBLsIe3rU8i27evhQct+2Xjer34ZQ/5RCSWFYJGzS5TAMdyrkzNP4V2BKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDNOp2lQN7KLOwR4zL2p/SyBEsfc3gB0NpsNM3WMYstbo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sb99
+
+==================================================================
