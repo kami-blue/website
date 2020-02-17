@@ -37,7 +37,7 @@ On Windows, for the following commands use `./gradlew` instead of `gradlew.bat`
 Of-course you can also use a Gradle installation if you for some reason want another version of gradle
 ```
 git clone https://github.com/S-B99/kamiblue/
-cd KAMI
+cd kamiblue
 ```
 Import KAMI Blue into your IDE of choice. 
 ```
@@ -47,7 +47,7 @@ Import KAMI Blue into your IDE of choice.
 ```
 If you use IntelliJ, import `build.gradle`
 
-If you use Eclipse, import a new gradle project and select the KAMI folder. 
+If you use Eclipse, import a new gradle project and select the `kamiblue` folder. 
 
 If you have gradle related issues with either of these force your gradle version to `4.8.1`
 
@@ -69,7 +69,7 @@ If you get build errors see this: [troubleshooting page](docs/troubleshooting.md
 You can build by running these commands (without the <>) in a terminal.
 ```
 git clone https://github.com/S-B99/kamiblue/
-cd KAMI
+cd kamiblue
 
 chmod +x gradlew
 ./gradlew <args>
@@ -85,23 +85,23 @@ If you use more than one then it must be in that order.
 
 Build is required, `mkdir` makes the `mods/1.12.2` directory, `rmOld` removes old versions of KAMI and KAMI Blue\* in that directory, and `copy` copies the build release to the `mods/1.12.2` directory. 
 
-\*`rmOld` removes any jars ending in `-release.jar`, which is the format KAMI used and that KAMI Blue uses. If you use any other mod that uses that naming scheme please remove old versions manually.
+\*`rmOld` removes any jars beginning with `kamiblue` and ending in `-release.jar`, which is the format that KAMI Blue uses. If you use any other mod that uses that naming scheme please remove old versions manually.
 
-If you prefer copying it manually, find a file in `build/libs` called `KAMI-<kamiVersion>-**release**.jar` which you can copy to the `mods/1.12.2` folder of a minecraft instance that has forge installed.
+If you prefer copying it manually, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods/1.12.2` folder of a minecraft instance that has forge installed.
 
 Note: This assumes your Minecraft folder is in the default location under your home folder.
 
-Note: Any argument other then `build` assumes you downloaded KAMI Blue to a nested folder inside your home folder. For example `~/Downloads/KAMI` or `~/Documents/KAMI`. This will be fixed as per [issue #15](https://github.com/S-B99/kamiblue/issues/15)
+Note: Any argument other then `build` assumes you downloaded KAMI Blue to a nested folder inside your home folder. For example `~/Downloads/kamiblue` or `~/Documents/kamiblue`. This will be fixed as per ~~[issue #15](https://github.com/S-B99/kamiblue/issues/15)~~ [issue #192](https://github.com/S-B99/kamiblue/issues/192)
 
 ***
 
 #### Windows
-You can build by running these commands in a terminal with the current directory being KAMI. (EG. `cd C:\Users\Username\Downloads\KAMI`)
+You can build by running these commands in a terminal with the current directory being KAMI Blue. (EG. `cd C:\Users\Username\Downloads\kamiblue`)
 ```
 gradlew.bat build
 ```
 
-To copy on windows find a file in `build/libs` called `KAMI-<kamiVersion>-**release**.jar` which you can copy to the `mods\1.12.2` folder of a minecraft instance that has forge installed.
+To copy on windows find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods\1.12.2` folder of a minecraft instance that has forge installed.
 
 Note: This assumes your minecraft folder is in the default location under your %appdata% folder.
 
