@@ -8,7 +8,7 @@ description: A Minecraft utility mod for anarchy servers
 
 This is an open source project written primarily by 086 and S-B99. It has many useful combat and general utilities to assist the player. 
 
-See the [FAQ](/docs/docs/faq.html) pages for information about using the mod itself, and the [modules](/docs/docs/modules.html) page for information about the 100 unique modules this has.
+See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 100 unique modules this has.
 
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
 In late 2019 S-B99 picked up the project as 086 does not intend to actively maintain 1.12.2, instead focusing on making a fabric 1.14.4 version.
@@ -72,7 +72,7 @@ See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent.
 | Media        | [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) | [![Discord 086](https://img.shields.io/discord/496724196542513174?label=discord&logo=discord&logoColor=white)](http://discord.gg/9hvwgeg) |
 | Downloads    | [![Dl discord](https://img.shields.io/badge/discord-22k-brightgreen?logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) [![Dl Github](https://img.shields.io/github/downloads/S-B99/kamiblue/total?label=github&logo=github)](https://github.com/S-B99/kamiblue/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github)](https://github.com/zeroeightysix/KAMI/releases) |
 | Version      | [![Version master](https://img.shields.io/github/v/release/S-B99/kamiblue?color=dark-green&label=latest&logo=java)](https://github.com/S-B99/kamiblue/releases) | [![Version 086](https://img.shields.io/github/v/tag/zeroeightysix/kami?color=bright-green&label=latest%20%28pre%20v1.0.0%29&logo=java)](https://github.com/zeroeightysix/KAMI/releases) |
-| Commits     | [![Commits Mine](https://img.shields.io/github/commits-since/s-b99/kamiblue/v1.0.1?label=commits%20since%20forked&logo=git&logoColor=white)](https://github.com/S-B99/kamiblue/releases) | [![Commits 086](https://img.shields.io/github/commits-since/zeroeightysix/kami/b9-3?logo=git&logoColor=white)](https://github.com/zeroeightysix/KAMI/releases) |
+| Commits     | [![Commits Mine](https://img.shields.io/github/commits-since/s-b99/kamiblue/v1.0.0?label=commits%20since%20forked&logo=git&logoColor=white)](https://github.com/S-B99/kamiblue/releases) | [![Commits 086](https://img.shields.io/github/commits-since/zeroeightysix/kami/b9-3?logo=git&logoColor=white)](https://github.com/zeroeightysix/KAMI/releases) |
 
 ## Thank you
 
