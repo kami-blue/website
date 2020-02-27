@@ -6,7 +6,7 @@ description: A Minecraft utility mod for anarchy servers
 
 #### Join the beta!
 
-Join our Discord for beta releases!
+Join our [Discord]({{ site.discord_url }}) for beta releases!
 
 ### A Minecraft utility mod for anarchy servers
 
