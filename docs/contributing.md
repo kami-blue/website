@@ -19,6 +19,7 @@ Before contributing please see the [Code of Conduct](coc.html)
 See [Support](support.html) for help.
 
 #### Creating a pull request or issue
+
 If you are proposing a pull request, please make sure the change won't interfere with anything current, and that it is useful. 
 
 If you're creating an issue, please use the proper template and fill it out.
@@ -61,11 +62,46 @@ If you get build errors see this: [troubleshooting page](docs/troubleshooting.md
 
 ***
 
+### Scripts folder
+
+You might've noticed that there is a scripts folder. This is a collection scripts I made to make the build process more streamlined on *my* machine. These are unfortunately hardcoded and won't work without you using the same structure as me. 
+
+***
+
+#### `build.sh`
+
+This runs `./gradlew build rmOld copy` in a clean folder, in order to prevent gradle cache related issues when deploying. It achieves this by copying the bare required files (gradle files and `src/`) into a new folder in the same parent dir as the run dir, for example if you have `~/projects/kamiblue`, it will create `~/projects/kblue-beta`, and it deletes the folder after. 
+
+Usage 
+  - Run `./scripts/build.sh`
+  
+Requirements 
+  - Your project folder is named `kamiblue`, for example `~/projects/kamiblue`.
+  - You're using the default `~/.minecraft` directory, with `mods/1.12.2` existing (run `./gradlew mkdir` beforehand).
+  - Your project folder is 2 levels in your home directory, for example `~/Downloads/kamiblue`.
+
+#### `ver.sh` and `fullVer.sh`
+
+This uses `sed` in order to change the version string to the version, date and build number.
+
+These changes it to `v1.9.9-12-31-01` and `v2.0.0`, respectively, for example. 
+
+Usage
+  - `./scripts/ver.sh v1.9.9 01`
+  - `./scripts/fullVer.sh v2.0.0`
+  
+Requirements
+  - Your project dir has the git repo setup and you can commit locally
+  - Your project structure for the main class and `mcmod.info` is the same as the upstream repo. 
+
+***
+
 ### Building
 
 ***
 
 #### Linux
+
 You can build by running these commands (without the <>) in a terminal.
 ```
 git clone https://github.com/S-B99/kamiblue/
