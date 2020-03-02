@@ -18,7 +18,7 @@ KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 for
    * **OS X**: `~/Library/Application Support/minecraft`
 3. Navigate to the `mods` directory. If it doesn't exist, create it.
 4. Get the KAMI Blue `.jar` file.
-   * By **downloading** it: click [here]({{ site.github.jar_url }})
+   * By **downloading** it: click [here]({{ site.github.beta_jar_url }})
    * By **building** it: see [building](/contributing).
 5. Drag the `-release.jar` file into your mods directory.
 
