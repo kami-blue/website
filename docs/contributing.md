@@ -58,7 +58,7 @@ Note: I don't recommend using runClient as sometimes it's wonky. If you have iss
 
 *** 
 
-If you get build errors see this: [troubleshooting page](docs/troubleshooting.md)
+If you get build errors see this: [troubleshooting page](troubleshooting)
 
 ***
 
@@ -143,6 +143,6 @@ Note: This assumes your minecraft folder is in the default location under your %
 
 ***
 
-If you get build errors see this: [troubleshooting page](docs/troubleshooting.md)
+If you get build errors see this: [troubleshooting page](troubleshooting)
 
 ***
