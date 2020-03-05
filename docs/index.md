@@ -35,6 +35,10 @@ To use baritone, download the latest standalone forge mod from <a href="{{ site.
 <details> 
 	<summary>< Click to view images ></summary>
 
+<p>Elytra and Cape</p>
+
+<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/elytra.gif" width="500" alt="Elytra and Cape"/>
+
 <p>Capes in game</p>
 
 <img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500" alt="Capes in game"/>
