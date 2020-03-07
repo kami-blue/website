@@ -9,8 +9,8 @@ github:
   tar_url: https://github.com/S-B99/kamiblueWebsite/tarball/master
   jar_url: https://github.com/S-B99/kamiblue/releases/download/v1.1.2/KAMI-Blue-v1.1.2-release.jar
   jar_name: 1.1.2  
-  beta_jar_url: https://cdn.discordapp.com/attachments/634549110145286156/685618179757834260/kblue-beta-v1.1.2-03-06-01-release.jar
-  beta_jar_name: 1.1.2-beta-03-06-01
+  beta_jar_url: https://cdn.discordapp.com/attachments/634012886930423818/685653948979609641/kblue-beta-COMBAT-v1.1.2-03-06-01-release.jar
+  beta_jar_name: 1.1.2-beta-03-06-02
 discord_url: https://discord.gg/KfpqwZB
 baritone_url: https://github.com/cabaletta/baritone/releases/tag/v1.2.10
 theme: jekyll-theme-cayman
