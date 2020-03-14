@@ -10,7 +10,7 @@ github:
   jar_url: https://github.com/S-B99/kamiblue/releases/download/v1.1.2/KAMI-Blue-v1.1.2-release.jar
   jar_name: 1.1.2  
 discord_url: https://discord.gg/KfpqwZB
-baritone_url: https://github.com/cabaletta/baritone/releases/tag/v1.2.10
+baritone_url: https://github.com/cabaletta/baritone/releases/tag/v1.2.12
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
