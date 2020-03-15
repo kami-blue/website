@@ -24,7 +24,7 @@ The community as a whole appreciates everyone who has contributed to the open so
 [![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
 [![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
-Please consider donating to help continue this project and get a unique cape in game. 
+Please consider donating to help continue this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
 
 ##### Baritone is not included
 
