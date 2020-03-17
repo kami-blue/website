@@ -107,7 +107,7 @@ description: A list of modules this mod has
         <li>Blink<p><i>Cancels server side packets</i></p></li>
         <li>Fastbreak<p><i>Nullifies block hit delay</i></p></li>
         <li>Freecam<p><i>Leave your body and trascend into the realm of the gods</i></p></li>
-        <li>LiquidInteract<p><i>Makes liquid interaction like blocks</i></p></li>
+        <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
         <li>NoBreakAnimation<p><i>Prevents block break animation server side</i></p></li>
         <li>NoEntityTrace<p><i>Blocks entities from stopping you from mining</i></p></li>
         <li>NoFall<p><i>Prevents fall damage</i></p></li>
