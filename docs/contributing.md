@@ -14,7 +14,7 @@ Please make sure to restart your IDE and reimport gradle in after running all se
 
 You are free to clone, modify KAMI and KAMI Blue and make pull requests as you wish. 
 
-Before contributing please see the [Code of Conduct](coc.html)
+Before contributing please see the [Code of Conduct](codeofconduct)
 
 See [Support](support.html) for help.
 
