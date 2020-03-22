@@ -6,7 +6,7 @@ description: This page is meant to explain how to solve common issues when insta
 
 ## Troubleshooting
 
-#### If you experience an issue and it's not listed here, please [open a new issue](https://github.com/s-b99/kamiblue/issues/new/choose) and a contributor will help you further.
+#### If you experience an issue and it's not listed here, please [open a new issue]({{ site.github.repository_url }}/issues/new/choose) and a contributor will help you further.
 
 ## Setup
 ###### Could not find tools.jar
@@ -29,7 +29,10 @@ Make sure your workspace is clean and run
 
 **Please make sure you're on the latest version of forge before proceeding!**
 
+Look for where it crashed and go to the line it crashed at. Make sure you're not referencing `mc.player` or `mc.world` when either of those are null, ie have a `if (mc.player == null) return;` before you reference those.
+
 ## When using Intellij / Eclipse
-Crashes in game but it worked fine / errors link to files you haven't changed
+
+###### Crashes in game but it worked fine / errors link to files you haven't changed
 
 Delete your `.gradle` cache
