@@ -15,7 +15,7 @@ description: A list of modules this mod has
         <li>AutoTPA<p><i>Automatically decline or accept TPA requests</i></p></li>
         <li>ChatEncryption<p><i>Encrypts and decrypts chat messages (Delimiter %)</i></p></li>
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
-        <li>CustomChat<p><i>Adds a watermark to the end of your message to let others know you're using KAMI Blue</i></p></li>
+        <li>CustomChat<p><i>Add a custom suffix to the end of your message!</i></p></li>
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
     </ul></p>
