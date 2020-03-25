@@ -14,16 +14,23 @@ If you encounter this error when building, you most likely don't have the Java D
 Head over to [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to download the oracle JDK. Install it and try again.
 
 ###### Minecraft not loading at all
+
+Note: only applicable if running through Forge and not an IDE. 
+
 What `.jar` are you using in your `mods` folder? Make sure to use the one that ends with `-release` (`VERSION-release.jar`)
 
 ###### Just doesn't work when using runClient
-Don't use that, try building and running forge normally
+Don't use that, try running it through your IDE or building and running forge normally
 
 ###### Crashes before game starts with SpongePowered error
 Make sure your workspace is clean and run
 ./gradlew clean
 ./gradlew setupDecompWorkspace
 ./gradlew build
+
+###### Crashes before game starts with some obscure Java error
+
+Set your application configuration's JRE in Intellij to a manual path to a downloaded and extracted *Oracle* Java 8 JRE
 
 ## Crashes in-game
 

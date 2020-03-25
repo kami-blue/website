@@ -44,6 +44,15 @@ If you do not wish to run from an IDE, use `./gradlew runClient` to run KAMI Blu
 
 Note: I don't recommend using runClient as sometimes it's wonky. If you have issues then do `./gradlew clean`
 
+#### Running in Intellij Idea
+
+Make sure your workspace is setup as per above, and then hit reimport inside gradle
+
+![](https://cdn.discordapp.com/attachments/634010567107149824/692375743472205885/2020-03-25-101300_278x143_scrot.png)
+
+Then go to your Minecraft Client in the run tab, and change the classpath to `kamiblue.main`, as it will give an error if you don't. Then you can run it through intellij. 
+
+
 ### Building
 
 ***
