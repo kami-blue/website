@@ -10,12 +10,13 @@ description: A list of modules this mod has
     <summary>Chat</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
-        <li>AutoQMain<p><i>Automatically does /queue main on 2b2t.org</i></p></li>
+        <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
         <li>AutoReply<p><i>Automatically replies to messages</i></p></li>
         <li>AutoTPA<p><i>Automatically decline or accept TPA requests</i></p></li>
         <li>ChatEncryption<p><i>Encrypts and decrypts chat messages (Delimiter %)</i></p></li>
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
         <li>CustomChat<p><i>Add a custom suffix to the end of your message!</i></p></li>
+        <li>DiscordNotifs<p><i>Sends your chat to a set Discord channel</i></p></li>
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
     </ul></p>
@@ -23,49 +24,47 @@ description: A list of modules this mod has
 <details>
     <summary>Combat</summary>
     <p><ul>
+        <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
         <li>AntiDeathScreen<p><i>Fixes random death screen glitches</i></p></li>
         <li>AntiFriendHit<p><i>Don't hit your friends</i></p></li>
         <li>Aura<p><i>Hits entities around you</i></p></li>
+        <li>AutoEZ<p><i>Sends an insult in chat after killing someone</i></p></li>
         <li>AutoExp<p><i>Automatically mends armour</i></p></li>
         <li>AutoFeetPlace<p><i>Continually places obsidian around your feet</i></p></li>
         <li>AutoLog<p><i>Automatically log when in danger or on low health</i></p></li>
         <li>AutoReplenish<p><i>Refills items in your hotbar</i></p></li>
-        <li>AutoTotem<p><i>Refills your offhand with totems</i></p></li>
+        <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
-        <li>BowSpam<p><i>Makes you spam arrows</i></p></li>
-        <li>Criticals<p><i>Always do critical attacks</i></p></li>
         <li>CrystalAura<p><i>Places End Crystals to kill enemies</i></p></li>
-        <li>FastUse<p><i>Changes delay when using items</i></p></li>
+        <li>FastUse<p><i>Use items faster</i></p></li>
         <li>OffhandGap<p><i>Holds a God apple when right clicking your sword!</i></p></li>
-        <li>Pull32k<p><i>Pulls 32ks out of hoppers automatically</i></p></li>
         <li>Surround<p><i>Surrounds you with obsidian to take less damage</i></p></li>
+        <li>TotemPopCounter<p><i>Counts how many times players pop</i></p></li>
         <li>VisualRange<p><i>Shows players who enter and leave range in chat</i></p></li>
     </ul></p>
 </details>
 <details>
     <summary>Gui</summary>
     <p><ul>
-        <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
-        <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
+        <li>ActiveModules<p><i>Configures ActiveModules Colour</i></p></li>
         <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
-        <li>CleanGUI<p><i>Modifies parts of the GUI to be transparent</i></p></li>
+        <li>CommandConfig<p><i>Configures options related to commands</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
         <li>InventoryViewer<p><i>View your inventory on screen</i></p></li>
-        <li>PrefixChat<p><i>Opens chat with prefix inside when prefix is pressed.</i></p></li>
-        <li>TabFriends<p><i>Highlights friends in the tab menu</i></p></li>
-        <li>Zoom<p><i>Configures FOV</i></p></li>
     </ul></p>
 </details>
 <details>
     <summary>Misc</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
+        <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
         <li>AntiWeather<p><i>Removes rain from your world</i></p></li>
         <li>AutoFish<p><i>Automatically catch fish</i></p></li>
         <li>AutoReconnect<p><i>Automatically reconnects after being disconnected</i></p></li>
         <li>AutoRespawn<p><i>Automatically respawn after dying</i></p></li>
         <li>AutoSpawner<p><i>Automatically spawns Withers, Iron Golems and Snowmen</i></p></li>
         <li>AutoTool<p><i>Automatically switch to the best tools when mining or attacking</i></p></li>
+        <li>BeaconSelector<p><i>Choose any of the 5 beacon effects regardless of beacon base height</i></p></li>
         <li>BookCrash<p><i>Crashes servers by sending large packets</i></p></li>
         <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
         <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
@@ -105,6 +104,7 @@ description: A list of modules this mod has
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
         <li>AutoEat<p><i>Automatically eat when hungry</i></p></li>
         <li>Blink<p><i>Cancels server side packets</i></p></li>
+        <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
         <li>Fastbreak<p><i>Nullifies block hit delay</i></p></li>
         <li>Freecam<p><i>Leave your body and trascend into the realm of the gods</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
@@ -125,20 +125,33 @@ description: A list of modules this mod has
     <summary>Render</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
+        <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
+        <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
+        <li>BoxESP<p><i>Draws a box around small entities</i></p></li>
+        <li>FullBright<p><i>Makes everything brighter!</i></p></li>
         <li>Chams<p><i>See entities through walls</i></p></li>
         <li>ChunkFinder<p><i>Highlights newly generated chunks</i></p></li>
+        <li>CleanGUI<p><i>Modifies parts of the GUI to be transparent</i></p></li>
         <li>ESP<p><i>Highlights entities</i></p></li>
         <li>ExtraTab<p><i>Expands the player tab menu</i></p></li>
         <li>EyeFinder<p><i>Draw lines from entity's heads to where they are looking</i></p></li>
-        <li>FullBright<p><i>Makes everything brighter!</i></p></li>
         <li>HoleESP<p><i>Show safe holes for crystal pvp</i></p></li>
         <li>Nametags<p><i>Draws descriptive nametags above entities</i></p></li>
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
         <li>StorageESP<p><i>Draws nice little lines around storage items</i></p></li>
+        <li>TabFriends<p><i>Highlights friends in the tab menu</i></p></li>
         <li>Tracers<p><i>Draws lines to other living entities</i></p></li>
         <li>Trajectories<p><i>Draws lines to where trajectories are going to fall</i></p></li>
         <li>XRay<p><i>See through common blocks!</i></p></li>
+        <li>Zoom<p><i>Configures FOV</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>Utils</summary>
+    <p><ul>
+        <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
+        <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
     </ul></p>
 </details>
