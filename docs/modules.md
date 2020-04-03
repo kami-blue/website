@@ -3,7 +3,7 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (110)
+## Modules (111)
 
 <details>
     <summary>Chat (10)</summary>
@@ -21,7 +21,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Combat (18)</summary>
+    <summary>Combat (19)</summary>
     <p><ul>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
         <li>AntiDeathScreen<p><i>Fixes random death screen glitches</i></p></li>
@@ -35,6 +35,7 @@ description: A list of modules and commands this mod has
         <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
         <li>BreakingWarning<p><i>Notifies you when someone is breaking a block near you.</i></p></li>
+        <li>Criticals<p><i>Always do critical attacks</i></p></li>
         <li>CrystalAura<p><i>Places End Crystals to kill enemies</i></p></li>
         <li>FastUse<p><i>Use items faster</i></p></li>
         <li>OffhandGap<p><i>Holds a God apple when right clicking your sword!</i></p></li>
@@ -245,7 +246,7 @@ description: A list of modules and commands this mod has
 <details>
     <summary>help</summary>
     <p><ul>
-        <li>Delivers help on certain subjects. Use &f.help subjects&7 for a list.<p><i>Aliases: [?]</i></p></li>
+        <li>Delivers help on certain subjects. Use &f;help subjects&7 for a list.<p><i>Aliases: [?]</i></p></li>
     </ul></p>
 </details>
 <details>
