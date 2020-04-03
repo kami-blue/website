@@ -1,13 +1,12 @@
 ---
 layout: default
 title: Modules
-description: A list of modules this mod has
+description: A list of modules and commands this mod has
 ---
-
-## KAMI Blue Modules
+## Modules (110)
 
 <details>
-    <summary>Chat</summary>
+    <summary>Chat (10)</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
         <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
@@ -22,7 +21,7 @@ description: A list of modules this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Combat</summary>
+    <summary>Combat (18)</summary>
     <p><ul>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
         <li>AntiDeathScreen<p><i>Fixes random death screen glitches</i></p></li>
@@ -35,6 +34,7 @@ description: A list of modules this mod has
         <li>AutoReplenish<p><i>Refills items in your hotbar</i></p></li>
         <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
+        <li>BreakingWarning<p><i>Notifies you when someone is breaking a block near you.</i></p></li>
         <li>CrystalAura<p><i>Places End Crystals to kill enemies</i></p></li>
         <li>FastUse<p><i>Use items faster</i></p></li>
         <li>OffhandGap<p><i>Holds a God apple when right clicking your sword!</i></p></li>
@@ -44,17 +44,17 @@ description: A list of modules this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Gui</summary>
+    <summary>Client (5)</summary>
     <p><ul>
-        <li>ActiveModules<p><i>Configures ActiveModules Colour</i></p></li>
+        <li>ActiveModules<p><i>Configures ActiveModules colours and modes</i></p></li>
         <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
-        <li>CommandConfig<p><i>Configures options related to commands</i></p></li>
+        <li>CommandConfig<p><i>Configures PrefixChat and Alias options</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
-        <li>InventoryViewer<p><i>View your inventory on screen</i></p></li>
+        <li>InventoryViewer<p><i>Configures Inventory Viewer's options</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Misc</summary>
+    <summary>Misc (21)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
@@ -80,7 +80,7 @@ description: A list of modules this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Movement</summary>
+    <summary>Movement (13)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AutoJump<p><i>Automatically jumps if possible</i></p></li>
@@ -98,7 +98,7 @@ description: A list of modules this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Player</summary>
+    <summary>Player (19)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
@@ -122,7 +122,7 @@ description: A list of modules this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render</summary>
+    <summary>Render (22)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
@@ -149,9 +149,186 @@ description: A list of modules this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Utils</summary>
+    <summary>Utils (2)</summary>
     <p><ul>
         <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
         <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
+    </ul></p>
+</details>
+
+## Commands (29)
+
+<details>
+    <summary>autoreply</summary>
+    <p><ul>
+        <li>Allows you to customize AutoReply's settings<p><i>Aliases: [reply]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>bind</summary>
+    <p><ul>
+        <li>Binds a module to a key, or allows you to change modifier options<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>commands</summary>
+    <p><ul>
+        <li>Gives you this list of commands<p><i>Aliases: [cmds]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>config</summary>
+    <p><ul>
+        <li>Change where your config is saved or manually save and reload your config<p><i>Aliases: [cfg]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>credits</summary>
+    <p><ul>
+        <li>Prints KAMI Blue's authors and contributors<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>customchat</summary>
+    <p><ul>
+        <li>Allows you to customize CustomChat's custom setting<p><i>Aliases: [chat]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>description</summary>
+    <p><ul>
+        <li>Prints a module's description into the chat<p><i>Aliases: [tooltip]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>discordnotifs</summary>
+    <p><ul>
+        <li>Descriptionless<p><i>Aliases: [webhook]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>dupebook</summary>
+    <p><ul>
+        <li>Generates books used for chunk savestate dupe.<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>enabled</summary>
+    <p><ul>
+        <li>Prints enabled modules<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>entitystats</summary>
+    <p><ul>
+        <li>Print the statistics of the entity you're currently riding<p><i>Aliases: [estats]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>fixgui</summary>
+    <p><ul>
+        <li>Allows you to disable the automatic gui positioning<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>friend</summary>
+    <p><ul>
+        <li>Add someone as your friend!<p><i>Aliases: [f]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>genwebsite</summary>
+    <p><ul>
+        <li>Generates the module page for the website<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>help</summary>
+    <p><ul>
+        <li>Delivers help on certain subjects. Use &f.help subjects&7 for a list.<p><i>Aliases: [?]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>license</summary>
+    <p><ul>
+        <li>Prints KAMI Blue's license<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>nbt</summary>
+    <p><ul>
+        <li>Does NBT related stuff (&fget&7, &fcopy&7, &fset&7)<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>path</summary>
+    <p><ul>
+        <li>Pathfinding for AutoWalk<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>peek</summary>
+    <p><ul>
+        <li>Look inside the contents of a shulker box without opening it<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>prefix</summary>
+    <p><ul>
+        <li>Changes the prefix to your new key<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>renamemodule</summary>
+    <p><ul>
+        <li>Rename a module to something else<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>say</summary>
+    <p><ul>
+        <li>Allows you to send any message, even with a prefix in it<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>set</summary>
+    <p><ul>
+        <li>Change the setting of a certain module<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>settings</summary>
+    <p><ul>
+        <li>List the possible settings of a command<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>signbook</summary>
+    <p><ul>
+        <li>Colored book names. &f#n&7 for a new line and &f&&7 for colour codes<p><i>Aliases: [sign]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>teleport</summary>
+    <p><ul>
+        <li>Potentia teleport exploit<p><i>Aliases: [tp, clip]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>toggle</summary>
+    <p><ul>
+        <li>Quickly toggle a module on and off<p><i>Aliases: [t]</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>vanish</summary>
+    <p><ul>
+        <li>Allows you to vanish using an entity<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>xray</summary>
+    <p><ul>
+        <li>Allows you to add or remove blocks from the &fxray &7module<p><i>Aliases: []</i></p></li>
     </ul></p>
 </details>

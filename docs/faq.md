@@ -34,7 +34,7 @@ To use baritone, download the latest standalone forge mod from <a href="{{ site.
 Press Y.
 
 ##### Use commands
-The default prefix is `.`. Commands are used through chat, use `.commands` for a list of commands.
+The default prefix is `;`. Commands are used through chat, use `.commands` for a list of commands.
 
 ##### Bind modules
 Run `.bind <module> <key>`.
