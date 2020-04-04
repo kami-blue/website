@@ -47,8 +47,8 @@ You can unbind modules with backspace in the GUI or by running `.bind <module> n
 By using the command `prefix <prefix>` or after having ran KAMI Blue (make sure it's closed), editing your configuration file (find it using `config path` in-game) and changing the value of `commandPrefix` to change the prefix.
 
 ##### Missing menus
-Make your GUI Scale smaller through the Minecraft settings and move your stuff back on screen. 
-[Issue #68](https://github.com/s-b99/kamiblue/issues/68)
+Run `;fixgui` and if that doesn't help, make your GUI Scale smaller through the Minecraft settings and move your stuff back on screen. 
+[Issue #68](https://github.com/kami-blue/client/issues/68)
 
 ##### Show modules on screen
 In order to show modules on screen when the GUI is closed, hit the magnifying glass in the top left of it.

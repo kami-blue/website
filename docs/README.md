@@ -1,6 +1,6 @@
-<img src="https://github.com/S-B99/kamiblue/blob/assets/assets/icons/kami.svg" align="left" width="120"/>
+<img src="https://github.com/kami-blue/assets/blob/assets/assets/icons/kami.svg" align="left" width="120"/>
 
-# Website for S-B99/kamiblue
+# Website for kami-blue/client
 
 ### A minecraft utility mod for anarchy servers.
 

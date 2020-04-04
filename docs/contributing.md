@@ -26,7 +26,7 @@ To set up your development environment, make use of the following commands:
 
 Of-course you can also use a Gradle installation if you for some reason want another version of gradle
 ```
-git clone https://github.com/S-B99/kamiblue/
+git clone https://github.com/kami-blue/client/
 ```
 Import KAMI Blue into your IDE of choice. 
 ```
@@ -65,7 +65,7 @@ If you get build errors see this (although 99% of the time it's going to be code
 
 You can build by running these commands (without the <>) in a terminal.
 ```
-git clone https://github.com/S-B99/kamiblue/ && cd kamiblue
+git clone https://github.com/kami-blue/client/ && cd kamiblue
 
 chmod +x gradlew
 ./gradlew build

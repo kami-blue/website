@@ -37,29 +37,29 @@ To use baritone, download the latest standalone forge mod from <a href="{{ site.
 
 <p>Elytra and Cape</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/elytra.gif" width="500" alt="Elytra and Cape"/>
+<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/elytra.gif" width="500" alt="Elytra and Cape"/>
 
 <p>Capes in game</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/capes.png" width="500" alt="Capes in game"/>
+<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/capes.png" width="500" alt="Capes in game"/>
 
 <p>Rich presence on discord</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/rpc.png" width="500" alt="Rich presence on discord"/>
+<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/rpc.png" width="500" alt="Rich presence on discord"/>
 
 <p>Shulker preview being used in chat</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/shulkerChat.png" width="500" alt="Shulker preview being used in chat"/>
+<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/shulkerChat.png" width="500" alt="Shulker preview being used in chat"/>
 
 <p>CrystalAura targeting</p>
 
-<img src="https://raw.githubusercontent.com/S-B99/kamiblue/assets/assets/readme/crystalAura.png" width="500" alt="CrystalAura targeting"/>
+<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/crystalAura.png" width="500" alt="CrystalAura targeting"/>
 
 </details>
 
 ### Status 
 
-Please see the [issues](https://github.com/S-B99/kamiblue/issues/) page for planned features and bugs.
+Please see the [issues](https://github.com/kami-blue/client/issues/) page for planned features and bugs.
 
 This is currently in active development. When issues are being closed is by milestone, and bugs are higher priority, though there aren't any bugs that break something completely.
 
@@ -74,13 +74,13 @@ See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent.
 </details>
 </p>
 
-|              | S-B99 (feature/master)| 086 (upstream) |
+|              | kami-blue | 086 |
 |:------------:|:-------------:|:--------------:|
-| Build Status | [![Build Status features-master](https://img.shields.io/travis/com/S-B99/kamiblue/feature/master?logo=gradle&label=build)](https://travis-ci.com/S-B99/kamiblue/) | [![Build Status 086](https://img.shields.io/travis/com/zeroeightysix/KAMI/master?logo=gradle)](https://travis-ci.com/zeroeightysix/KAMI) |
+| Build Status | [![Build Status features-master](https://img.shields.io/travis/com/kami-blue/client/feature/master?logo=gradle&label=build)](https://travis-ci.com/kami-blue/client/) | [![Build Status 086](https://img.shields.io/travis/com/zeroeightysix/KAMI/master?logo=gradle)](https://travis-ci.com/zeroeightysix/KAMI) |
 | Media        | [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) | [![Discord 086](https://img.shields.io/discord/496724196542513174?label=discord&logo=discord&logoColor=white)](http://discord.gg/9hvwgeg) |
-| Downloads    | [![Dl discord](https://img.shields.io/badge/discord-47k-brightgreen?logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) [![Dl Github](https://img.shields.io/github/downloads/S-B99/kamiblue/total?label=github&logo=github)](https://github.com/S-B99/kamiblue/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github)](https://github.com/zeroeightysix/KAMI/releases) |
-| Version      | [![Version master](https://img.shields.io/github/v/release/S-B99/kamiblue?color=dark-green&label=latest&logo=java)](https://github.com/S-B99/kamiblue/releases) | [![Version 086](https://img.shields.io/github/v/tag/zeroeightysix/kami?color=bright-green&label=latest%20%28pre%20v1.0.0%29&logo=java)](https://github.com/zeroeightysix/KAMI/releases) |
-| Commits     | [![Commits Mine](https://img.shields.io/github/commits-since/S-B99/kamiblue/v1.0.1/feature/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/S-B99/kamiblue/releases) | [![Commits 086](https://img.shields.io/github/commits-since/zeroeightysix/KAMI/9/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/zeroeightysix/KAMI/releases) |
+| Downloads    | [![Dl discord](https://img.shields.io/badge/discord-47k-brightgreen?logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) [![Dl Github](https://img.shields.io/github/downloads/kami-blue/client/total?label=github&logo=github)](https://github.com/kami-blue/client/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github)](https://github.com/zeroeightysix/KAMI/releases) |
+| Version      | [![Version master](https://img.shields.io/github/v/release/kami-blue/client?color=dark-green&label=latest&logo=java)](https://github.com/kami-blue/client/releases) | [![Version 086](https://img.shields.io/github/v/tag/zeroeightysix/kami?color=bright-green&label=latest%20%28pre%20v1.0.0%29&logo=java)](https://github.com/zeroeightysix/KAMI/releases) |
+| Commits     | [![Commits Mine](https://img.shields.io/github/commits-since/kami-blue/client/v1.0.1/feature/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/kami-blue/client/releases) | [![Commits 086](https://img.shields.io/github/commits-since/zeroeightysix/KAMI/9/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/zeroeightysix/KAMI/releases) |
 
 ## Thank you
 
@@ -92,4 +92,4 @@ See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent.
 
 The [Minecraft Forge team](https://github.com/MinecraftForge) for [forge](https://files.minecraftforge.net/)
 
-All the [contributors](https://github.com/S-B99/kamiblue/graphs/contributors), including the ones who will be remembered in comments and in our hearts. This has been a huge community effort and I couldn't have done it without them.
+All the [contributors](https://github.com/kami-blue/client/graphs/contributors), including the ones who will be remembered in comments and in our hearts. This has been a huge community effort and I couldn't have done it without them.
