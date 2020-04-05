@@ -3,7 +3,7 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (111)
+## Modules (115)
 
 <details>
     <summary>Chat (10)</summary>
@@ -55,12 +55,13 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Misc (21)</summary>
+    <summary>Misc (22)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
         <li>AntiWeather<p><i>Removes rain from your world</i></p></li>
         <li>AutoFish<p><i>Automatically catch fish</i></p></li>
+        <li>AutoNametag<p><i>Automatically nametags entities</i></p></li>
         <li>AutoReconnect<p><i>Automatically reconnects after being disconnected</i></p></li>
         <li>AutoRespawn<p><i>Automatically respawn after dying</i></p></li>
         <li>AutoSpawner<p><i>Automatically spawns Withers, Iron Golems and Snowmen</i></p></li>
@@ -81,10 +82,11 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Movement (13)</summary>
+    <summary>Movement (14)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AutoJump<p><i>Automatically jumps if possible</i></p></li>
+        <li>AutoRemount<p><i>Automatically remounts your horse</i></p></li>
         <li>AutoWalk<p><i>Automatically walks forward</i></p></li>
         <li>ElytraFlight<p><i>Modifies elytras to fly at custom velocities and fall speeds</i></p></li>
         <li>EntitySpeed<p><i>Abuse client-sided movement to shape sound barrier breaking rideables</i></p></li>
@@ -123,7 +125,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render (22)</summary>
+    <summary>Render (23)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
@@ -137,6 +139,7 @@ description: A list of modules and commands this mod has
         <li>ExtraTab<p><i>Expands the player tab menu</i></p></li>
         <li>EyeFinder<p><i>Draw lines from entity's heads to where they are looking</i></p></li>
         <li>HoleESP<p><i>Show safe holes for crystal pvp</i></p></li>
+        <li>MobOwner<p><i>Displays the owner of tamed mobs</i></p></li>
         <li>Nametags<p><i>Draws descriptive nametags above entities</i></p></li>
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
@@ -150,15 +153,22 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Utils (2)</summary>
+    <summary>Utils (3)</summary>
     <p><ul>
         <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
         <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
+        <li>ServerNotRespond<p><i>Displays a warning when the server is lagging</i></p></li>
     </ul></p>
 </details>
 
-## Commands (29)
+## Commands (30)
 
+<details>
+    <summary>activemodules</summary>
+    <p><ul>
+        <li>Allows you to customize ActiveModule's category colours<p><i>Aliases: [activemods, modules]</i></p></li>
+    </ul></p>
+</details>
 <details>
     <summary>autoreply</summary>
     <p><ul>
