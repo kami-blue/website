@@ -55,7 +55,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Misc (22)</summary>
+    <summary>Misc (24)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
@@ -67,12 +67,14 @@ description: A list of modules and commands this mod has
         <li>AutoSpawner<p><i>Automatically spawns Withers, Iron Golems and Snowmen</i></p></li>
         <li>AutoTool<p><i>Automatically switch to the best tools when mining or attacking</i></p></li>
         <li>BeaconSelector<p><i>Choose any of the 5 beacon effects regardless of beacon base height</i></p></li>
+        <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
         <li>BookCrash<p><i>Crashes servers by sending large packets</i></p></li>
         <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
         <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
         <li>ColourSign<p><i>Allows ingame colouring of text on signs</i></p></li>
         <li>ConsoleSpam<p><i>Spams Spigot consoles by sending invalid UpdateSign packets</i></p></li>
         <li>DiscordSettings<p><i>Discord Rich Presence</i></p></li>
+        <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
         <li>FakeGamemode<p><i>Fakes your current gamemode client side</i></p></li>
         <li>FakeVanillaClient<p><i>Fakes a modless client when connecting</i></p></li>
         <li>MidClickFriends<p><i>Middle click players to friend or unfriend them</i></p></li>
@@ -102,7 +104,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Player (19)</summary>
+    <summary>Player (20)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
@@ -119,6 +121,7 @@ description: A list of modules and commands this mod has
         <li>PitchLock<p><i>Locks your camera pitch</i></p></li>
         <li>PortalGodMode<p><i>Don't take damage in portals</i></p></li>
         <li>Scaffold<p><i>Places blocks under you</i></p></li>
+        <li>ServerNotRespond<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>Timer<p><i>Changes your client tick speed</i></p></li>
         <li>TpsSync<p><i>Synchronizes some actions with the server TPS</i></p></li>
         <li>XCarry<p><i>Store items in crafting slots</i></p></li>
@@ -151,14 +154,6 @@ description: A list of modules and commands this mod has
         <li>Trajectories<p><i>Draws lines to where trajectories are going to fall</i></p></li>
         <li>XRay<p><i>See through common blocks!</i></p></li>
         <li>Zoom<p><i>Configures FOV</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>Utils (3)</summary>
-    <p><ul>
-        <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
-        <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
-        <li>ServerNotRespond<p><i>Displays a warning when the server is lagging</i></p></li>
     </ul></p>
 </details>
 
