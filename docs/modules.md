@@ -3,7 +3,7 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (115)
+## Modules (116)
 
 <details>
     <summary>Chat (10)</summary>
@@ -82,7 +82,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Movement (14)</summary>
+    <summary>Movement (15)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AutoJump<p><i>Automatically jumps if possible</i></p></li>
@@ -92,6 +92,7 @@ description: A list of modules and commands this mod has
         <li>EntitySpeed<p><i>Abuse client-sided movement to shape sound barrier breaking rideables</i></p></li>
         <li>Flight<p><i>Makes the player fly</i></p></li>
         <li>IceSpeed<p><i>Changes how slippery ice is</i></p></li>
+        <li>InventoryMove<p><i>Allows you to walk around with GUIs opened</i></p></li>
         <li>Jesus<p><i>Allows you to walk on water</i></p></li>
         <li>NoSlowDown<p><i>Prevents being slowed down when using an item or going through cobwebs</i></p></li>
         <li>SafeWalk<p><i>Keeps you from walking off edges</i></p></li>
