@@ -67,9 +67,10 @@ This is currently in active development. When issues are being closed is by mile
 <details>
 	<summary>< Click to view disclaimers ></summary>
 
-<p>This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a <i>utility</i> mod.
-
-See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.</p>
+<p>
+    This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a <i>utility</i> mod.
+    See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
+</p>
 
 </details>
 </p>
@@ -80,7 +81,7 @@ See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent.
 | Media        | [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) | [![Discord 086](https://img.shields.io/discord/496724196542513174?label=discord&logo=discord&logoColor=white)](http://discord.gg/9hvwgeg) |
 | Downloads    | [![Dl discord](https://img.shields.io/badge/discord-47k-brightgreen?logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) [![Dl Github](https://img.shields.io/github/downloads/kami-blue/client/total?label=github&logo=github)](https://github.com/kami-blue/client/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github)](https://github.com/zeroeightysix/KAMI/releases) |
 | Version      | [![Version master](https://img.shields.io/github/v/release/kami-blue/client?color=dark-green&label=latest&logo=java)](https://github.com/kami-blue/client/releases) | [![Version 086](https://img.shields.io/github/v/tag/zeroeightysix/kami?color=bright-green&label=latest%20%28pre%20v1.0.0%29&logo=java)](https://github.com/zeroeightysix/KAMI/releases) |
-| Commits     | [![Commits Mine](https://img.shields.io/github/commits-since/kami-blue/client/v1.0.1/feature/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/kami-blue/client/releases) | [![Commits 086](https://img.shields.io/github/commits-since/zeroeightysix/KAMI/9/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/zeroeightysix/KAMI/releases) |
+| Commits     | [![Commits Mine](https://img.shields.io/github/commits-since/kami-blue/client/v1.0.1/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/kami-blue/client/releases) | [![Commits 086](https://img.shields.io/github/commits-since/zeroeightysix/KAMI/9/master?color=light-green&label=commits&logo=git&logoColor=white)](https://github.com/zeroeightysix/KAMI/releases) |
 
 ## Thank you
 
