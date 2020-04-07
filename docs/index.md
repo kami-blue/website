@@ -39,13 +39,13 @@ To use baritone, download the latest standalone forge mod from <a href="{{ site.
 
 <img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/elytra.gif" width="500" alt="Elytra and Cape"/>
 
+<p>The GUI</p>
+
+<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/gui.png" width="500" alt="The GUI"/>
+
 <p>Capes in game</p>
 
 <img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/capes.png" width="500" alt="Capes in game"/>
-
-<p>Rich presence on discord</p>
-
-<img src="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/readme/rpc.png" width="500" alt="Rich presence on discord"/>
 
 <p>Shulker preview being used in chat</p>
 
