@@ -3,10 +3,10 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (116)
+## Modules (121)
 
 <details>
-    <summary>Chat (10)</summary>
+    <summary>Chat (12)</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
         <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
@@ -16,8 +16,10 @@ description: A list of modules and commands this mod has
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
         <li>CustomChat<p><i>Add a custom suffix to the end of your message!</i></p></li>
         <li>DiscordNotifs<p><i>Sends your chat to a set Discord channel</i></p></li>
+        <li>FancyChat<p><i>Makes messages you send fancy</i></p></li>
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
+        <li>Spammer<p><i>Spams text from a file on a set delay into the chat</i></p></li>
     </ul></p>
 </details>
 <details>
@@ -28,9 +30,9 @@ description: A list of modules and commands this mod has
         <li>AntiFriendHit<p><i>Don't hit your friends</i></p></li>
         <li>Aura<p><i>Hits entities around you</i></p></li>
         <li>AutoEZ<p><i>Sends an insult in chat after killing someone</i></p></li>
-        <li>AutoExp<p><i>Automatically mends armour</i></p></li>
         <li>AutoFeetPlace<p><i>Continually places obsidian around your feet</i></p></li>
         <li>AutoLog<p><i>Automatically log when in danger or on low health</i></p></li>
+        <li>AutoMend<p><i>Automatically mends armour</i></p></li>
         <li>AutoReplenish<p><i>Refills items in your hotbar</i></p></li>
         <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
@@ -84,9 +86,10 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Movement (15)</summary>
+    <summary>Movement (16)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
+        <li>AntiLevitation<p><i>Removes levitation potion effect</i></p></li>
         <li>AutoJump<p><i>Automatically jumps if possible</i></p></li>
         <li>AutoRemount<p><i>Automatically remounts your horse</i></p></li>
         <li>AutoWalk<p><i>Automatically walks forward</i></p></li>
@@ -104,7 +107,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Player (20)</summary>
+    <summary>Player (22)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
@@ -113,15 +116,17 @@ description: A list of modules and commands this mod has
         <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
         <li>Fastbreak<p><i>Nullifies block hit delay</i></p></li>
         <li>Freecam<p><i>Leave your body and trascend into the realm of the gods</i></p></li>
+        <li>LagNotifier<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
         <li>NoBreakAnimation<p><i>Prevents block break animation server side</i></p></li>
         <li>NoEntityTrace<p><i>Blocks entities from stopping you from mining</i></p></li>
         <li>NoFall<p><i>Prevents fall damage</i></p></li>
+        <li>NoPacketKick<p><i>Suppress network exceptions and prevent getting kicked</i></p></li>
         <li>NoSwing<p><i>Cancels server and client swinging packets</i></p></li>
+        <li>PacketCancel<p><i>Cancels specific packets used for various actions</i></p></li>
         <li>PitchLock<p><i>Locks your camera pitch</i></p></li>
         <li>PortalGodMode<p><i>Don't take damage in portals</i></p></li>
         <li>Scaffold<p><i>Places blocks under you</i></p></li>
-        <li>ServerNotRespond<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>Timer<p><i>Changes your client tick speed</i></p></li>
         <li>TpsSync<p><i>Synchronizes some actions with the server TPS</i></p></li>
         <li>XCarry<p><i>Store items in crafting slots</i></p></li>
