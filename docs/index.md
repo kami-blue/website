@@ -68,8 +68,9 @@ This is currently in active development. When issues are being closed is by mile
 	<summary>< Click to view disclaimers ></summary>
 
 <p>
-    This is by no means a finished project, nor is it a "cheat" or "hack" for anything, it is a <i>utility</i> mod.
     See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
+
+    If you get banned for breaking a servers rules using KAMI Blue, it is not any of the developers fault. It is meant to be used on *anarchy* servers, which do not have rules.  
 </p>
 
 </details>
