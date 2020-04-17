@@ -3,7 +3,7 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (121)
+## Modules (124)
 
 <details>
     <summary>Chat (12)</summary>
@@ -23,8 +23,9 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Combat (19)</summary>
+    <summary>Combat (20)</summary>
     <p><ul>
+        <li>AimBot<p><i>Automatically aims at entities for you.</i></p></li>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
         <li>AntiDeathScreen<p><i>Fixes random death screen glitches</i></p></li>
         <li>AntiFriendHit<p><i>Don't hit your friends</i></p></li>
@@ -47,13 +48,14 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Client (5)</summary>
+    <summary>Client (6)</summary>
     <p><ul>
         <li>ActiveModules<p><i>Configures ActiveModules colours and modes</i></p></li>
         <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
         <li>CommandConfig<p><i>Configures PrefixChat and Alias options</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
         <li>InventoryViewer<p><i>Configures Inventory Viewer's options</i></p></li>
+        <li>Tooltips<p><i>Displays handy module descriptions in the GUI</i></p></li>
     </ul></p>
 </details>
 <details>
@@ -75,7 +77,7 @@ description: A list of modules and commands this mod has
         <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
         <li>ColourSign<p><i>Allows ingame colouring of text on signs</i></p></li>
         <li>ConsoleSpam<p><i>Spams Spigot consoles by sending invalid UpdateSign packets</i></p></li>
-        <li>DiscordSettings<p><i>Discord Rich Presence</i></p></li>
+        <li>DiscordRPC<p><i>Discord Rich Presence</i></p></li>
         <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
         <li>FakeGamemode<p><i>Fakes your current gamemode client side</i></p></li>
         <li>FakeVanillaClient<p><i>Fakes a modless client when connecting</i></p></li>
@@ -86,7 +88,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Movement (16)</summary>
+    <summary>Movement (17)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AntiLevitation<p><i>Removes levitation potion effect</i></p></li>
@@ -94,6 +96,7 @@ description: A list of modules and commands this mod has
         <li>AutoRemount<p><i>Automatically remounts your horse</i></p></li>
         <li>AutoWalk<p><i>Automatically walks forward</i></p></li>
         <li>ElytraFlight<p><i>Modifies elytras to fly at custom velocities and fall speeds</i></p></li>
+        <li>ElytraReplace<p><i>Automatically swap and replace your chestplate and elytra. Not an AFK tool, be warned.</i></p></li>
         <li>EntitySpeed<p><i>Abuse client-sided movement to shape sound barrier breaking rideables</i></p></li>
         <li>Flight<p><i>Makes the player fly</i></p></li>
         <li>IceSpeed<p><i>Changes how slippery ice is</i></p></li>
@@ -171,6 +174,12 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
+    <summary>autoez</summary>
+    <p><ul>
+        <li>Allows you to customize AutoEZ's custom setting<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
     <summary>autoreply</summary>
     <p><ul>
         <li>Allows you to customize AutoReply's settings<p><i>Aliases: [reply]</i></p></li>
@@ -204,12 +213,6 @@ description: A list of modules and commands this mod has
     <summary>customchat</summary>
     <p><ul>
         <li>Allows you to customize CustomChat's custom setting<p><i>Aliases: [chat]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>description</summary>
-    <p><ul>
-        <li>Prints a module's description into the chat<p><i>Aliases: [tooltip]</i></p></li>
     </ul></p>
 </details>
 <details>
