@@ -1,0 +1,172 @@
+---
+layout: default
+title: Changelog
+description: A list of changes in the latest version
+---
+
+## Changelog
+
+Download the latest version at the [download](/download) page!
+
+### Notes
+
+ - Added GUI Tooltips
+ - Added Control mode to ElytraFlight
+ - Capes now support Elytras!
+ - Added AimBot
+ - Antihunger and elytraflight compatibility
+ - Added sneak option to inventory move
+ - Added no skylight updates to NoRender
+ - Made coordLog force log on player death.
+ - Added coordinate logger module
+ - Added Beacon Beams to NoRender
+ - Update CreditsCommand.java to include It is the end's github account and jamie27's github account
+ - Update CreditsCommand.java with the new getContributors() function in WebUtils.java
+ - Added getContributors() to WebUtils.java and a GithubUser class
+ - Added friends check to autotpa
+ - Added AutoEZ custom option
+ - Added ElytraReplace
+ - Fix NoPacketKick for all situations
+ - Fixed Offhandgap crash
+ - Added health option for AutoEat
+ - AutoEat no longer interacts with blocks
+ - Added AntiLevitation
+ - Added an Update Checker for major versions
+ - Added DM detection for AntiSpam
+ - Added Spammer 
+ - Added PacketCancel
+ - Added players to Radar
+ - Added AutoMend
+ - Added InventoryMove
+ - Rewrote Aura and added eat while attacking
+ - Added AutoRemount
+ - Made scroll bars always visible to avoid confusion.
+ - Added AutoNameTag
+ - Fix impact compatibility
+ - Added method for setting custom colors for ActiveModules categories
+ - Fixed FakeGamemode
+ - Fixed getNameFromUUID
+ - Added MobOwner
+ - Added LagNotifier
+ - Delete auto32k and pull32k as they're patched
+ - Added proper isProduction filtering to module parser
+ - Added packet cancel to freecam
+ - Added Discord RPC Disconnect
+ - Rewrote Criticals entirely
+ - Changed default prefix to `;`
+ - Added FancyChat
+ - Optimize getModule return type
+ - Made AntiHunger compatible with elytraflight
+ - Added BreakingWarning
+ - Made AutoFish work through disconnects 
+ - Added BoxESP
+ - Added easy takeoff for ElytraFlight
+ - Added filtering to enabled command
+ - Made AntiHunger way better
+ - Added RunConfig
+ - Added DiscordNotifs
+ - Added ExplodeAttempts to CrystalAura
+ - Added TotemPopCounter
+ - Added AntiChainPop
+ - Made entity frame easier to move when minimized
+ - Added option to hide invisibles in ESP and Tracers
+ - Made friends frame easy to drag around if it's minimized
+ - Fixed GUI offscreen bugs
+ - Autoeat no longer eats poisonous potatoes
+ - Added BlockData and EntityTools
+ - Added a bunch of options to NoSlow including slime and cobwebs 
+ - Added more options to FastUse and merged BowSpam into it
+ - Added colors and modes to ActiveModules
+ - Autoeat don't eat pufferfish
+ - Added BeaconSelector
+ - Added end teleport
+ - Added overloads for Vec3d <-> BlockPos methods for accepting lists
+ - Added nametag to autosummon
+ - Update combat improvements  (#570)
+ - Added liquid interact
+ - mine code cleanup in velocity and nobreakanim
+ - Update combat improvements  (#569)
+ - Fixed infooverlay speed
+ - Added max health check to autototem
+ - Added optional crystalcheck for offhandgap
+ - Added sneakTosurround in CrystalAura
+ - Made AntiSpam way more efficient and rewrite it  (#566)
+ - Made direction 1 letter and cleanup code for coords
+ - when you forget minecraft syntax
+ - Added uwuAura
+ - Completely fix AntiSpam this time
+ - Added FancyChat
+ - Fix AntiSpam filtering your own messages no matter what
+ - Added direction to coords
+ - Added say command
+ - Added dupe book command
+ - Added Vector Utils
+ - Added automatic beta builds for Discord
+ - Added minDmg for CA :flushed:
+ - Hit delay for CrystalAura
+ - Added a ton of options to AntiSpam and make detection better
+ - ToolCheck for CrystalAura
+ - Tracer custom colors
+ - Added hunger options to autoeat and don't eat bad food
+ - Fix TimerSpeed, XRay, AutoFish and Customchat not saving
+ - Made ElytraFlight compatible with Sprint
+ - Added an option to prioritize manually placed crystals
+ - Made autofish faster
+ - Added pvp info
+ - Added custom colors to CrystalAura
+ - Updated bunch of stuff and deps in gradle
+ - Added AntiSuicide to CrystalAura
+ - Added Autoreply
+ - Added weakness to textradar and clean up modes
+ - Added XCarry (#485)
+ - Added MidClickFriends
+ - Finish gui colors for #36
+ - Added slow mode to timer
+ - Hide holeesp settings when unused
+ - Strafe > Sprint
+ - Added NoPush to Velocity
+ - Added Hypixel to AntiSpam 
+ - Fixed Surround
+ - Added Offhandgap
+ - Fix ;set command bug with Enums
+ - Added default button to crystalaura
+ - CrystalAura check for absorption
+ - Collapse infooverlay options
+ - Fix AutoTotem bugs
+ - Hide prefixchat by default
+ - Added color options to Inventory Preview and clean up modes (#473)
+ - Fix For CrystalAura tracer messing up HoleESP
+ - Freecam fix distance bugs
+ - Optimize cape and RPC loading
+ - Improve capes and add elytra support
+ - Fixed Enum Setting Crashes (#458)
+ - Added a coord logger file util
+ - Added a Chat category
+ - Feature/chatprefixtoggle#440 (#456)
+ - Added in overrides to getValueAsString/setValueFromString so string settings make sense (#448)
+ - Finish the XRay interface
+ - Made XRay configurable & keep an "API" for possible commands
+ - Merge strengthdetect into text radar
+ - Textradar StrengthDetect
+ - Added an XRay module
+ - Fix issue with previous commit where I forgot to add 'refresh everything & set flags' to Freecam, so it didn't work
+ - Prevent rendering issues with Freecam in walls (Should fix KAMI#168)
+ - Reset antichatspam duplicates every 10 minutes for preformance 
+ - Made nobreakanimation compatible
+ - Don't run prefixchat when sneaking
+ - Optimized active modules
+ - Added enabled command
+ - Fixed friends GUI
+ - Added ChatTimestamp
+ - Made highway mode in ElytraFlight a real mode
+ - Added animation to surround
+ - Added TimerSpeed uwu ty tbm
+ - Added Timer
+ - Added time to InfoOverlay
+ - Customchat Custom Modes
+ - Fixed freecam
+ - Fixed a ton of crash bugs with configs and the such
+ - Removed PearlDupe
+ - Added colors to InfoOverlay
+ - Refactor InfoOverlay and make code cleaner
+ - Fix custom RPC icons for donators and contributors 
