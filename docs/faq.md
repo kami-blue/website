@@ -41,7 +41,7 @@ Run `.bind <module> <key>`.
 
 You can also use `.bind modifiers on` to allow modules to be bound to keybinds with modifiers, e.g <kbd>ctrl</kbd><kbd>shift</kbd><kbd>w</kbd> or <kbd>ctrl</kbd><kbd>c</kbd>.
 
-You can unbind modules with backspace in the GUI or by running `.bind <module> none`
+You can unbind modules with <kbd>backspace</kbd>, <kbd>delete</kbd> or <kbd>esc</kbd> in the GUI or by running `.bind <module> none`
 
 ##### Change command prefix
 By using the command `prefix <prefix>` or after having ran KAMI Blue (make sure it's closed), editing your configuration file (find it using `config path` in-game) and changing the value of `commandPrefix` to change the prefix.
