@@ -4,27 +4,25 @@ title: KAMI Blue
 description: A Minecraft utility mod for anarchy servers
 ---
 
-#### Join the beta!
-
 Join our [Discord]({{ site.discord_url }}) for beta releases!
 
 ### A Minecraft utility mod for anarchy servers
 
-This is an open source project written primarily by 086 and S-B99. It has many useful combat and general utilities to assist the player. 
+This is an open source project written primarily by 086, dominikaaaa and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 100 unique modules this has.
+See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 120+ unique modules this mod has.
 
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
-In late 2019 S-B99 picked up the project as 086 does not intend to actively maintain 1.12.2, instead focusing on making a fabric 1.14.4 version.
+In late 2019 dominikaaaa picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by dominikaaaa. 
 
-Due to the tidy codebase and how easy it is to create your own modules, many forks and private skids based on KAMI and KAMI Blue, more recently, have been created. 
-The community as a whole appreciates everyone who has contributed to the open source KAMI and KAMI Blue. 
+
+086 ported the original project to the Fabric mod system, in early 2020, with dominikaaaa making plans to port Blue to the new plugin system for it. 
 
 [![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal)](https://paypal.me/bellawhotwo) 
 [![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
 [![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
-Please consider donating to help continue this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
+Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
 
 ##### Baritone is not included
 
