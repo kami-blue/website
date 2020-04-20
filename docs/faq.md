@@ -18,8 +18,8 @@ KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 for
    * **OS X**: `~/Library/Application Support/minecraft`
 3. Navigate to the `mods` directory. If it doesn't exist, create it.
 4. Get the KAMI Blue `.jar` file.
-   * By **downloading** it: click [here](/download)
-   * By **building** it: see [building](/contributing).
+   * By **downloading** it: click [<kbd>here</kbd>](/download)
+   * By **building** it: see [<kbd>building</kbd>](/contributing).
 5. Drag the `-release.jar` file into your mods directory.
 
 ## FAQ
@@ -31,15 +31,15 @@ KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 for
 To use baritone, download the latest standalone forge mod from <a href="{{ site.baritone_url }}">here</a>.
 
 ##### Open the GUI
-Press Y.
+Press <kbd>Y</kbd>.
 
 ##### Use commands
-The default prefix is `;`. Commands are used through chat, use `.commands` for a list of commands.
+The default prefix is <kbd>;</kbd>. Commands are used through chat, use `.commands` for a list of commands.
 
 ##### Bind modules
 Run `.bind <module> <key>`.
 
-You can also use `.bind modifiers on` to allow modules to be bound to keybinds with modifiers, e.g `ctrl + shift + w` or `ctrl + c`.
+You can also use `.bind modifiers on` to allow modules to be bound to keybinds with modifiers, e.g <kbd>ctrl</kbd><kbd>shift</kbd><kbd>w</kbd> or <kbd>ctrl</kbd><kbd>c</kbd>.
 
 You can unbind modules with backspace in the GUI or by running `.bind <module> none`
 
