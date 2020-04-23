@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KAMI Blue | A Minecraft utility mod for anarchy servers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        KAMI Blue
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#"><i class="far fa-question-circle"></i> FAQ / Installing</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-archive"></i> Modules</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-github-square"></i> Contributing</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fas fa-info-circle"></i> Troubleshooting</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-discord"></i> Support</a>
+                </li>
+                <li>
+                    <a href="download.html"><i class="fas fa-download"></i> Download</a>
+                </li>
+                <li>
+                    <a href="changelog.html"><i class="fas fa-file-alt"></i> Changelog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <h2>description: This page is meant to explain how to solve common issues when installing or using KAMI Blue. </h2>
+                    <h2>Troubleshooting</h2>
+                    <h4>If you experience an issue and it&#39;s not listed here, please <a href="https://github.com/kami-blue/client/issues/new/choose">open a new issue</a> and a contributor will help you further.</h4>
+                    <h2>Setup</h2>
+                    <h6>Could not find tools.jar</h6>
+                    <p>If you encounter this error when building, you most likely don&#39;t have the Java Development Kit (JDK) installed.
+                        Head over to <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">here</a> to download the oracle JDK. Install it and try again.</p>
+                    <h6>Minecraft not loading at all</h6>
+                    <p>Note: only applicable if running through Forge and not an IDE. </p>
+                    <p>What <code>.jar</code> are you using in your <code>mods</code> folder? Make sure to use the one that ends with <code>-release</code> (<code>VERSION-release.jar</code>)</p>
+                    <h6>Just doesn&#39;t work when using runClient</h6>
+                    <p>Don&#39;t use that, try running it through your IDE or building and running forge normally</p>
+                    <h6>Crashes before game starts with SpongePowered error</h6>
+                    <p>Make sure your workspace is clean and run
+                        ./gradlew clean
+                        ./gradlew setupDecompWorkspace
+                        ./gradlew build</p>
+                    <h6>Crashes before game starts with some obscure Java error</h6>
+                    <p>Set your application configuration&#39;s JRE in Intellij to a manual path to a downloaded and extracted <em>Oracle</em> Java 8 JRE</p>
+                    <h2>Crashes in-game</h2>
+                    <p><strong>Please make sure you&#39;re on the latest version of forge before proceeding!</strong></p>
+                    <p>Look for where it crashed and go to the line it crashed at. Make sure you&#39;re not referencing <code>mc.player</code> or <code>mc.world</code> when either of those are null, ie have a <code>if (mc.player == null) return;</code> before you reference those.</p>
+                    <h2>When using Intellij / Eclipse</h2>
+                    <h6>Crashes in game but it worked fine / errors link to files you haven&#39;t changed</h6>
+                    <p>Delete your <code>.gradle</code> cache</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="https://kit.fontawesome.com/449a676d85.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

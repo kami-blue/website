@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KAMI Blue | A Minecraft utility mod for anarchy servers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        KAMI Blue
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="faq.html"><i class="far fa-question-circle"></i> FAQ / Installing</a>
+                </li>
+                <li>
+                    <a href="modules.html"><i class="fas fa-archive"></i> Modules</a>
+                </li>
+                <li>
+                    <a href="contribute.html"><i class="fab fa-github-square"></i> Contributing</a>
+                </li>
+                <li>
+                    <a href="troubleshoot.html"><i class="fas fa-info-circle"></i> Troubleshooting</a>
+                </li>
+                <li>
+                    <a href="support.html"><i class="fab fa-discord"></i> Support</a>
+                </li>
+                <li>
+                    <a href="download.html"><i class="fas fa-download"></i> Download</a>
+                </li>
+                <li>
+                    <a href="changelog.html"><i class="fas fa-file-alt"></i> Changelog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <h2>A list of changes in the latest version</h2>
+                    <h2>Changelog</h2>
+                    <p>Download the latest version at the <a href="download.html">download</a> page!</p>
+                    <h3>Notes</h3>
+                    <ul>
+                        <li>Added GUI Tooltips</li>
+                        <li>Added Control mode to ElytraFlight</li>
+                        <li>Capes now support Elytras!</li>
+                        <li>Added AimBot</li>
+                        <li>Antihunger and elytraflight compatibility</li>
+                        <li>Added sneak option to inventory move</li>
+                        <li>Added no skylight updates to NoRender</li>
+                        <li>Made coordLog force log on player death.</li>
+                        <li>Added coordinate logger module</li>
+                        <li>Added Beacon Beams to NoRender</li>
+                        <li>Update CreditsCommand.java to include It is the end&#39;s github account and jamie27&#39;s github account</li>
+                        <li>Update CreditsCommand.java with the new getContributors() function in WebUtils.java</li>
+                        <li>Added getContributors() to WebUtils.java and a GithubUser class</li>
+                        <li>Added friends check to autotpa</li>
+                        <li>Added AutoEZ custom option</li>
+                        <li>Added ElytraReplace</li>
+                        <li>Fix NoPacketKick for all situations</li>
+                        <li>Fixed Offhandgap crash</li>
+                        <li>Added health option for AutoEat</li>
+                        <li>AutoEat no longer interacts with blocks</li>
+                        <li>Added AntiLevitation</li>
+                        <li>Added an Update Checker for major versions</li>
+                        <li>Added DM detection for AntiSpam</li>
+                        <li>Added Spammer </li>
+                        <li>Added PacketCancel</li>
+                        <li>Added players to Radar</li>
+                        <li>Added AutoMend</li>
+                        <li>Added InventoryMove</li>
+                        <li>Rewrote Aura and added eat while attacking</li>
+                        <li>Added AutoRemount</li>
+                        <li>Made scroll bars always visible to avoid confusion.</li>
+                        <li>Added AutoNameTag</li>
+                        <li>Fix impact compatibility</li>
+                        <li>Added method for setting custom colors for ActiveModules categories</li>
+                        <li>Fixed FakeGamemode</li>
+                        <li>Fixed getNameFromUUID</li>
+                        <li>Added MobOwner</li>
+                        <li>Added LagNotifier</li>
+                        <li>Delete auto32k and pull32k as they&#39;re patched</li>
+                        <li>Added proper isProduction filtering to module parser</li>
+                        <li>Added packet cancel to freecam</li>
+                        <li>Added Discord RPC Disconnect</li>
+                        <li>Rewrote Criticals entirely</li>
+                        <li>Changed default prefix to <code>;</code></li>
+                        <li>Added FancyChat</li>
+                        <li>Optimize getModule return type</li>
+                        <li>Made AntiHunger compatible with elytraflight</li>
+                        <li>Added BreakingWarning</li>
+                        <li>Made AutoFish work through disconnects </li>
+                        <li>Added BoxESP</li>
+                        <li>Added easy takeoff for ElytraFlight</li>
+                        <li>Added filtering to enabled command</li>
+                        <li>Made AntiHunger way better</li>
+                        <li>Added RunConfig</li>
+                        <li>Added DiscordNotifs</li>
+                        <li>Added ExplodeAttempts to CrystalAura</li>
+                        <li>Added TotemPopCounter</li>
+                        <li>Added AntiChainPop</li>
+                        <li>Made entity frame easier to move when minimized</li>
+                        <li>Added option to hide invisibles in ESP and Tracers</li>
+                        <li>Made friends frame easy to drag around if it&#39;s minimized</li>
+                        <li>Fixed GUI offscreen bugs</li>
+                        <li>Autoeat no longer eats poisonous potatoes</li>
+                        <li>Added BlockData and EntityTools</li>
+                        <li>Added a bunch of options to NoSlow including slime and cobwebs </li>
+                        <li>Added more options to FastUse and merged BowSpam into it</li>
+                        <li>Added colors and modes to ActiveModules</li>
+                        <li>Autoeat don&#39;t eat pufferfish</li>
+                        <li>Added BeaconSelector</li>
+                        <li>Added end teleport</li>
+                        <li>Added overloads for Vec3d &lt;-&gt; BlockPos methods for accepting lists</li>
+                        <li>Added nametag to autosummon</li>
+                        <li>Update combat improvements (#570)</li>
+                        <li>Added liquid interact</li>
+                        <li>mine code cleanup in velocity and nobreakanim</li>
+                        <li>Update combat improvements (#569)</li>
+                        <li>Fixed infooverlay speed</li>
+                        <li>Added max health check to autototem</li>
+                        <li>Added optional crystalcheck for offhandgap</li>
+                        <li>Added sneakTosurround in CrystalAura</li>
+                        <li>Made AntiSpam way more efficient and rewrite it (#566)</li>
+                        <li>Made direction 1 letter and cleanup code for coords</li>
+                        <li>when you forget minecraft syntax</li>
+                        <li>Added uwuAura</li>
+                        <li>Completely fix AntiSpam this time</li>
+                        <li>Added FancyChat</li>
+                        <li>Fix AntiSpam filtering your own messages no matter what</li>
+                        <li>Added direction to coords</li>
+                        <li>Added say command</li>
+                        <li>Added dupe book command</li>
+                        <li>Added Vector Utils</li>
+                        <li>Added automatic beta builds for Discord</li>
+                        <li>Added minDmg for CA :flushed:</li>
+                        <li>Hit delay for CrystalAura</li>
+                        <li>Added a ton of options to AntiSpam and make detection better</li>
+                        <li>ToolCheck for CrystalAura</li>
+                        <li>Tracer custom colors</li>
+                        <li>Added hunger options to autoeat and don&#39;t eat bad food</li>
+                        <li>Fix TimerSpeed, XRay, AutoFish and Customchat not saving</li>
+                        <li>Made ElytraFlight compatible with Sprint</li>
+                        <li>Added an option to prioritize manually placed crystals</li>
+                        <li>Made autofish faster</li>
+                        <li>Added pvp info</li>
+                        <li>Added custom colors to CrystalAura</li>
+                        <li>Updated bunch of stuff and deps in gradle</li>
+                        <li>Added AntiSuicide to CrystalAura</li>
+                        <li>Added Autoreply</li>
+                        <li>Added weakness to textradar and clean up modes</li>
+                        <li>Added XCarry (#485)</li>
+                        <li>Added MidClickFriends</li>
+                        <li>Finish gui colors for #36</li>
+                        <li>Added slow mode to timer</li>
+                        <li>Hide holeesp settings when unused</li>
+                        <li>Strafe &gt; Sprint</li>
+                        <li>Added NoPush to Velocity</li>
+                        <li>Added Hypixel to AntiSpam </li>
+                        <li>Fixed Surround</li>
+                        <li>Added Offhandgap</li>
+                        <li>Fix ;set command bug with Enums</li>
+                        <li>Added default button to crystalaura</li>
+                        <li>CrystalAura check for absorption</li>
+                        <li>Collapse infooverlay options</li>
+                        <li>Fix AutoTotem bugs</li>
+                        <li>Hide prefixchat by default</li>
+                        <li>Added color options to Inventory Preview and clean up modes (#473)</li>
+                        <li>Fix For CrystalAura tracer messing up HoleESP</li>
+                        <li>Freecam fix distance bugs</li>
+                        <li>Optimize cape and RPC loading</li>
+                        <li>Improve capes and add elytra support</li>
+                        <li>Fixed Enum Setting Crashes (#458)</li>
+                        <li>Added a coord logger file util</li>
+                        <li>Added a Chat category</li>
+                        <li>Feature/chatprefixtoggle#440 (#456)</li>
+                        <li>Added in overrides to getValueAsString/setValueFromString so string settings make sense (#448)</li>
+                        <li>Finish the XRay interface</li>
+                        <li>Made XRay configurable &amp; keep an &quot;API&quot; for possible commands</li>
+                        <li>Merge strengthdetect into text radar</li>
+                        <li>Textradar StrengthDetect</li>
+                        <li>Added an XRay module</li>
+                        <li>Fix issue with previous commit where I forgot to add &#39;refresh everything &amp; set flags&#39; to Freecam, so it didn&#39;t work</li>
+                        <li>Prevent rendering issues with Freecam in walls (Should fix KAMI#168)</li>
+                        <li>Reset antichatspam duplicates every 10 minutes for preformance </li>
+                        <li>Made nobreakanimation compatible</li>
+                        <li>Don&#39;t run prefixchat when sneaking</li>
+                        <li>Optimized active modules</li>
+                        <li>Added enabled command</li>
+                        <li>Fixed friends GUI</li>
+                        <li>Added ChatTimestamp</li>
+                        <li>Made highway mode in ElytraFlight a real mode</li>
+                        <li>Added animation to surround</li>
+                        <li>Added TimerSpeed uwu ty tbm</li>
+                        <li>Added Timer</li>
+                        <li>Added time to InfoOverlay</li>
+                        <li>Customchat Custom Modes</li>
+                        <li>Fixed freecam</li>
+                        <li>Fixed a ton of crash bugs with configs and the such</li>
+                        <li>Removed PearlDupe</li>
+                        <li>Added colors to InfoOverlay</li>
+                        <li>Refactor InfoOverlay and make code cleaner</li>
+                        <li>Fix custom RPC icons for donators and contributors </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="https://kit.fontawesome.com/449a676d85.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

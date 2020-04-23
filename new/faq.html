@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>KAMI Blue | A Minecraft utility mod for anarchy servers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        KAMI Blue
+                    </a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="faq.html"><i class="far fa-question-circle"></i> FAQ / Installing</a>
+                </li>
+                <li>
+                    <a href="modules.html"><i class="fas fa-archive"></i> Modules</a>
+                </li>
+                <li>
+                    <a href="contribute.html"><i class="fab fa-github-square"></i> Contributing</a>
+                </li>
+                <li>
+                    <a href="troubleshoot.html"><i class="fas fa-info-circle"></i> Troubleshooting</a>
+                </li>
+                <li>
+                    <a href="support.html"><i class="fab fa-discord"></i> Support</a>
+                </li>
+                <li>
+                    <a href="download.html"><i class="fas fa-download"></i> Download</a>
+                </li>
+                <li>
+                    <a href="changelog.html"><i class="fas fa-file-alt"></i> Changelog</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                <div class="row">
+                    <h2>Quick information about KAMI Blue</h2>
+                    <h2>Installing</h2>
+                    <hr>
+                    <p>To install drag the <code>VERSION-release.jar</code> to your <code>mods/1.12.2</code> folder</p>
+                    <p>KAMI Blue is a forge mod. Start by downloading the latest version of <a href="https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html">1.12.2 forge</a>.</p>
+                    <ol>
+                        <li>Install forge</li>
+                        <li>Go to your <code>.minecraft</code> directory.<ul>
+                                <li><strong>Linux</strong>: <code>~/.minecraft</code></li>
+                                <li><strong>Windows</strong>: <code>%appdata%/.minecraft</code></li>
+                                <li><strong>OS X</strong>: <code>~/Library/Application Support/minecraft</code></li>
+                            </ul>
+                        </li>
+                        <li>Navigate to the <code>mods</code> directory. If it doesn&#39;t exist, create it.</li>
+                        <li>Get the KAMI Blue <code>.jar</code> file.<ul>
+                                <li>By <strong>downloading</strong> it: click <a href="download.html"><kbd>here</kbd></a></li>
+                                <li>By <strong>building</strong> it: see <a href="contribute.html"><kbd>building</kbd></a>.</li>
+                            </ul>
+                        </li>
+                        <li>Drag the <code>-release.jar</code> file into your mods directory.</li>
+                    </ol>
+                    <h2>FAQ</h2>
+                    <hr>
+                    <h5>Baritone</h5>
+                    <p>To use baritone, download the latest standalone forge mod from <a href="https://github.com/cabaletta/baritone">here</a>.</p>
+                    <h5>Open the GUI</h5>
+                    <p>Press <kbd>Y</kbd>.</p>
+                    <h5>Use commands</h5>
+                    <p>The default prefix is <kbd>;</kbd>. Commands are used through chat, use <code>;commands</code> for a list of commands.</p>
+                    <h5 id="bind-modules">Bind modules</h5>
+                    <p>Run <code>;bind &lt;module&gt; &lt;key&gt;</code>.</p>
+                    <p>You can also use <code>;bind modifiers on</code> to allow modules to be bound to keybinds with modifiers, e.g <kbd>ctrl</kbd><kbd>shift</kbd><kbd>w</kbd> or <kbd>ctrl</kbd><kbd>c</kbd>.</p>
+                    <p>You can unbind modules with <kbd>backspace</kbd>, <kbd>delete</kbd> or <kbd>esc</kbd> in the GUI or by running <code>;bind &lt;module&gt; none</code></p>
+                    <h5>Change command prefix</h5>
+                    <p>By using the command <code>;prefix &lt;prefix&gt;</code> or after having ran KAMI Blue (make sure it&#39;s closed), editing your configuration file (find it using <code>config path</code> in-game) and changing the value of <code>commandPrefix</code> to change the prefix.</p>
+                    <h5>Missing menus</h5>
+                    <p>Run <code>;fixgui</code> and if that doesn&#39;t help, make your GUI Scale smaller through the Minecraft settings and move your stuff back on screen.
+                        <a href="https://github.com/kami-blue/client/issues/68">Issue #68</a></p>
+                    <h5>Show modules on screen</h5>
+                    <p>In order to show modules on screen when the GUI is closed, hit the magnifying glass in the top left of it.</p>
+                    <h5>More</h5>
+                    <p>Run <code>i help</code> in #bot-commands channel in the <a href="https://discord.gg/KfpqwZB">discord server</a>.</p>
+                    <hr>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+    <script src="https://kit.fontawesome.com/449a676d85.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
