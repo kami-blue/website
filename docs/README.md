@@ -2,7 +2,7 @@
 
 # Website for kami-blue/client
 
-### A minecraft utility mod for anarchy servers.
+### A Minecraft utility mod for anarchy servers.
 
 https://blue.bella.wtf
 
