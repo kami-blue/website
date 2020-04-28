@@ -3,21 +3,24 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (124)
+## Modules (133)
 
 <details>
-    <summary>Chat (12)</summary>
+    <summary>Chat (15)</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
         <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
         <li>AutoReply<p><i>Automatically replies to messages</i></p></li>
         <li>AutoTPA<p><i>Automatically decline or accept TPA requests</i></p></li>
-        <li>ChatEncryption<p><i>Encrypts and decrypts chat messages (Delimiter %)</i></p></li>
+        <li>ChatEncryption<p><i>Encrypts and decrypts chat messages</i></p></li>
+        <li>ChatFilter<p><i>Filters custom words or phrases from the chat</i></p></li>
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
         <li>CustomChat<p><i>Add a custom suffix to the end of your message!</i></p></li>
         <li>DiscordNotifs<p><i>Sends your chat to a set Discord channel</i></p></li>
         <li>FancyChat<p><i>Makes messages you send fancy</i></p></li>
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
+        <li>FriendHighlight<p><i>Highlights your friends names in chat</i></p></li>
+        <li>LoginMessage<p><i>Sends a given message to public chat on login.</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
         <li>Spammer<p><i>Spams text from a file on a set delay into the chat</i></p></li>
     </ul></p>
@@ -59,10 +62,11 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Misc (24)</summary>
+    <summary>Misc (26)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
+        <li>AntiDisconnect<p><i>Are you sure you want to disconnect?</i></p></li>
         <li>AntiWeather<p><i>Removes rain from your world</i></p></li>
         <li>AutoFish<p><i>Automatically catch fish</i></p></li>
         <li>AutoNametag<p><i>Automatically nametags entities</i></p></li>
@@ -85,6 +89,7 @@ description: A list of modules and commands this mod has
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
         <li>Pathfind<p><i>A path finder for AutoWalk</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
+        <li>StashFinder<p><i>Logs chests and shulkers around you.</i></p></li>
     </ul></p>
 </details>
 <details>
@@ -110,7 +115,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Player (22)</summary>
+    <summary>Player (24)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
@@ -119,11 +124,13 @@ description: A list of modules and commands this mod has
         <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
         <li>Fastbreak<p><i>Nullifies block hit delay</i></p></li>
         <li>Freecam<p><i>Leave your body and trascend into the realm of the gods</i></p></li>
+        <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
         <li>LagNotifier<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
         <li>NoBreakAnimation<p><i>Prevents block break animation server side</i></p></li>
         <li>NoEntityTrace<p><i>Blocks entities from stopping you from mining</i></p></li>
         <li>NoFall<p><i>Prevents fall damage</i></p></li>
+        <li>NoGlitchBlocks<p><i>Prevents blocks desyncing and creating ghost blocks</i></p></li>
         <li>NoPacketKick<p><i>Suppress network exceptions and prevent getting kicked</i></p></li>
         <li>NoSwing<p><i>Cancels server and client swinging packets</i></p></li>
         <li>PacketCancel<p><i>Cancels specific packets used for various actions</i></p></li>
@@ -131,15 +138,16 @@ description: A list of modules and commands this mod has
         <li>PortalGodMode<p><i>Don't take damage in portals</i></p></li>
         <li>Scaffold<p><i>Places blocks under you</i></p></li>
         <li>Timer<p><i>Changes your client tick speed</i></p></li>
-        <li>TpsSync<p><i>Synchronizes some actions with the server TPS</i></p></li>
+        <li>TpsSync<p><i>Synchronizes block states with the server TPS</i></p></li>
         <li>XCarry<p><i>Store items in crafting slots</i></p></li>
         <li>YawLock<p><i>Locks your camera yaw</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Render (23)</summary>
+    <summary>Render (25)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
+        <li>AntiOverlay<p><i>Prevents rendering of fire, water and block texture overlays.</i></p></li>
         <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
         <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
         <li>BoxESP<p><i>Draws a box around small entities</i></p></li>
@@ -155,6 +163,7 @@ description: A list of modules and commands this mod has
         <li>Nametags<p><i>Draws descriptive nametags above entities</i></p></li>
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
+        <li>Search<p><i>Highlights blocks in the world</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
         <li>StorageESP<p><i>Draws nice little lines around storage items</i></p></li>
         <li>TabFriends<p><i>Highlights friends in the tab menu</i></p></li>
@@ -165,7 +174,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 
-## Commands (30)
+## Commands (32)
 
 <details>
     <summary>activemodules</summary>
@@ -189,6 +198,12 @@ description: A list of modules and commands this mod has
     <summary>bind</summary>
     <p><ul>
         <li>Binds a module to a key, or allows you to change modifier options<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>chatencryption</summary>
+    <p><ul>
+        <li>Allows you to customize ChatEncryption's delimiter<p><i>Aliases: [delimiter]</i></p></li>
     </ul></p>
 </details>
 <details>
@@ -303,6 +318,12 @@ description: A list of modules and commands this mod has
     <summary>say</summary>
     <p><ul>
         <li>Allows you to send any message, even with a prefix in it<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>search</summary>
+    <p><ul>
+        <li>Allows you to add or remove blocks from the &fSearch &7module<p><i>Aliases: []</i></p></li>
     </ul></p>
 </details>
 <details>
