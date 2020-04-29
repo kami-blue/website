@@ -77,7 +77,7 @@ This is currently in active development. When issues are being closed is by mile
 | Build Status | [![Build Status features-master](https://img.shields.io/travis/com/kami-blue/client/master?logo=gradle&label=build)](https://travis-ci.com/kami-blue/client/) | [![Build Status 086](https://img.shields.io/travis/com/zeroeightysix/KAMI/master?logo=gradle)](https://travis-ci.com/zeroeightysix/KAMI) |
 | Discord        | [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) | [![Discord 086](https://img.shields.io/badge/chat-unknown-lightgrey?logo=discord&logoColor=white)](http://discord.gg/9hvwgeg) |
 | Downloads    | [![Dl discord](https://img.shields.io/badge/discord-50k+-brightgreen?logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) [![Dl Github](https://img.shields.io/github/downloads/kami-blue/client/total?label=github&logo=github)](https://github.com/kami-blue/client/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github)](https://github.com/zeroeightysix/KAMI/releases) |
-| Version      | [![Version master](https://img.shields.io/github/v/release/kami-blue/client?color=dark-green&label=latest&logo=java)](https://github.com/kami-blue/client/releases) | [![Version 086](https://img.shields.io/github/v/tag/zeroeightysix/kami?color=bright-green&label=latest%20%28pre%20v1.0.0%29&logo=java)](https://github.com/zeroeightysix/KAMI/releases) |
+| Hits      | [![HitCount1](http://hits.dwyl.com/kami-blue/client.svg)](http://hits.dwyl.com/kami-blue/client) | [![HitCount0](http://hits.dwyl.com/zeroeightysix/KAMI.svg)](http://hits.dwyl.com/zeroeightysix/KAMI) |
 
 ## Thank you
 
