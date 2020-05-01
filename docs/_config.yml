@@ -6,9 +6,9 @@ github:
   repository_url: https://github.com/kami-blue/client
   website_url: https://github.com/kami-blue/website
   jar_url: https://github.com/kami-blue/client/releases/download/v1.1.3/KAMI-Blue-v1.1.3-release.jar
-  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.4-fcfb27a6/kamiblue-1.1.4-fcfb27a6-release.jar
+  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.4-5a12e71e/kamiblue-1.1.4-5a12e71e-release.jar
 cur_ver: v1.1.3
-beta_ver: v1.1.4-fcfb27a6
+beta_ver: v1.1.4-5a12e71e
 discord_url: https://discord.gg/KfpqwZB
 baritone_url: https://github.com/cabaletta/baritone/releases/tag/v1.2.14
 theme: jekyll-theme-cayman
