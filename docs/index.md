@@ -16,9 +16,9 @@ In late 2019 dominikaaaa picked up the project, noticing the lack of modules, wi
 
 086 ported the original project to the Fabric mod system, in early 2020, with dominikaaaa making plans to port Blue to the new plugin system for it. 
 
-[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal)](https://paypal.me/bellawhotwo) 
-[![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
-[![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
+[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://paypal.me/bellawhotwo) 
+[![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin&style=flat-square)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
+[![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app&style=flat-square)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
 Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
 
@@ -74,10 +74,10 @@ This is currently in active development. When issues are being closed is by mile
 
 |              | kami-blue | 086 |
 |:------------:|:-------------:|:--------------:|
-| Build Status | [![Build Status features-master](https://img.shields.io/travis/com/kami-blue/client/master?logo=gradle&label=build)](https://travis-ci.com/kami-blue/client/) | [![Build Status 086](https://img.shields.io/travis/com/zeroeightysix/KAMI/master?logo=gradle)](https://travis-ci.com/zeroeightysix/KAMI) |
-| Discord        | [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) | [![Discord 086](https://img.shields.io/badge/chat-unknown-lightgrey?logo=discord&logoColor=white)](http://discord.gg/9hvwgeg) |
-| Downloads    | [![Dl discord](https://img.shields.io/badge/discord-50k+-brightgreen?logo=discord&logoColor=white)](https://discord.gg/KfpqwZB) [![Dl Github](https://img.shields.io/github/downloads/kami-blue/client/total?label=github&logo=github)](https://github.com/kami-blue/client/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github)](https://github.com/zeroeightysix/KAMI/releases) |
-| Version      | [![Version master](https://img.shields.io/github/v/release/kami-blue/client?color=dark-green&label=latest&logo=java)](https://github.com/kami-blue/client/releases) | [![Version 086](https://img.shields.io/github/v/tag/zeroeightysix/kami?color=bright-green&label=latest%20%28pre%20v1.0.0%29&logo=java)](https://github.com/zeroeightysix/KAMI/releases) |
+| Build Status | [![Build Status features-master](https://img.shields.io/travis/com/kami-blue/client/master?logo=gradle&label=build&style=flat-square)](https://travis-ci.com/kami-blue/client/) | [![Build Status 086](https://img.shields.io/travis/com/zeroeightysix/KAMI/master?logo=gradle&style=flat-square)](https://travis-ci.com/zeroeightysix/KAMI) |
+| Discord | [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/KfpqwZB) | [![Discord 086](https://img.shields.io/badge/chat-unknown-lightgrey?logo=discord&logoColor=white&style=flat-square)](http://discord.gg/9hvwgeg) |
+| Downloads    | [![Dl n](https://img.shields.io/github/downloads/kami-blue/nightly-releases/total?label=nightly&logo=github&style=flat-square)](https://github.com/kami-blue/nightly-releases/releases) [![Dl Github](https://img.shields.io/github/downloads/kami-blue/client/total?label=stable&logo=github&style=flat-square)](https://github.com/kami-blue/client/releases) | [![Dl github 086](https://img.shields.io/github/downloads/zeroeightysix/KAMI/total?label=github&logo=github&style=flat-square)](https://github.com/zeroeightysix/KAMI/releases) |
+| Hits      | [![HitCount1](https://camo.githubusercontent.com/8065fb7bb117c1f3d62b5c4e2d8bd8caed4ccb03/687474703a2f2f686974732e6477796c2e636f6d2f6b616d692d626c75652f636c69656e742e737667)](https://github.com/kami-blue/client) | [![HitCount0](https://img.shields.io/badge/hits-unknown-lightgrey?style=flat-square)](https://github.com/zeroeightysix/KAMI/) |
 
 ## Thank you
 
