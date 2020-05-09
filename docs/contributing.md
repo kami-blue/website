@@ -12,7 +12,7 @@ Please make sure to restart your IDE and reimport gradle in after running all se
 
 ***
 
-You are free to clone, modify KAMI and KAMI Blue and make pull requests as you wish. 
+You are free to clone, modify KAMI Blue and make pull requests as you wish. 
 
 Before contributing please see the [Code of Conduct](codeofconduct)
 
@@ -71,7 +71,7 @@ chmod +x gradlew
 ./gradlew build
 ```
 
-To use the built jar, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods/1.12.2` folder of a minecraft instance that has forge installed.
+To use the built jar, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods` folder of a minecraft instance that has forge installed.
 
 ***
 
@@ -82,4 +82,4 @@ You can build by running these commands in a terminal with the current directory
 gradlew.bat build
 ```
 
-To use the built jar, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods/1.12.2` folder of a minecraft instance that has forge installed.
+To use the built jar, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods` folder of a minecraft instance that has forge installed.
