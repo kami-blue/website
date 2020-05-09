@@ -8,7 +8,7 @@ description: Quick information about KAMI Blue
 
 ***
 
-To install drag the `VERSION-release.jar` to your `mods/1.12.2` folder
+To install drag the `VERSION-release.jar` to your `.minecraft/mods` folder
 
 KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html).
 1. Install forge
