@@ -10,12 +10,12 @@ description: A list of modules and commands this mod has
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
         <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
-        <li>AutoReply<p><i>Automatically replies to messages</i></p></li>
-        <li>AutoTPA<p><i>Automatically decline or accept TPA requests</i></p></li>
+        <li>AutoReply<p><i>Automatically reply to direct messages</i></p></li>
+        <li>AutoTPA<p><i>Automatically accept or decline /TPAs</i></p></li>
         <li>ChatEncryption<p><i>Encrypts and decrypts chat messages</i></p></li>
         <li>ChatFilter<p><i>Filters custom words or phrases from the chat</i></p></li>
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
-        <li>CustomChat<p><i>Add a custom suffix to the end of your message!</i></p></li>
+        <li>CustomChat<p><i>Add a custom ending to your message!</i></p></li>
         <li>DiscordNotifs<p><i>Sends your chat to a set Discord channel</i></p></li>
         <li>FancyChat<p><i>Makes messages you send fancy</i></p></li>
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
@@ -26,7 +26,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Combat (20)</summary>
+    <summary>Combat (19)</summary>
     <p><ul>
         <li>AimBot<p><i>Automatically aims at entities for you.</i></p></li>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
@@ -43,7 +43,6 @@ description: A list of modules and commands this mod has
         <li>BreakingWarning<p><i>Notifies you when someone is breaking a block near you.</i></p></li>
         <li>Criticals<p><i>Always do critical attacks</i></p></li>
         <li>CrystalAura<p><i>Places End Crystals to kill enemies</i></p></li>
-        <li>FastUse<p><i>Use items faster</i></p></li>
         <li>OffhandGap<p><i>Holds a God apple when right clicking your sword!</i></p></li>
         <li>Surround<p><i>Surrounds you with obsidian to take less damage</i></p></li>
         <li>TotemPopCounter<p><i>Counts how many times players pop</i></p></li>
@@ -55,14 +54,14 @@ description: A list of modules and commands this mod has
     <p><ul>
         <li>ActiveModules<p><i>Configures ActiveModules colours and modes</i></p></li>
         <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
-        <li>CommandConfig<p><i>Configures PrefixChat and Alias options</i></p></li>
+        <li>CommandConfig<p><i>Configures client chat related stuff</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
         <li>InventoryViewer<p><i>Configures Inventory Viewer's options</i></p></li>
         <li>Tooltips<p><i>Displays handy module descriptions in the GUI</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Misc (26)</summary>
+    <summary>Misc (27)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
@@ -86,6 +85,7 @@ description: A list of modules and commands this mod has
         <li>FakeGamemode<p><i>Fakes your current gamemode client side</i></p></li>
         <li>FakeVanillaClient<p><i>Fakes a modless client when connecting</i></p></li>
         <li>MidClickFriends<p><i>Middle click players to friend or unfriend them</i></p></li>
+        <li>MountBypass<p><i>Might allow you to mount chested animals on servers that block it</i></p></li>
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
         <li>Pathfind<p><i>A path finder for AutoWalk</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
@@ -123,14 +123,14 @@ description: A list of modules and commands this mod has
         <li>Blink<p><i>Cancels server side packets</i></p></li>
         <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
         <li>Fastbreak<p><i>Nullifies block hit delay</i></p></li>
-        <li>Freecam<p><i>Leave your body and trascend into the realm of the gods</i></p></li>
+        <li>FastUse<p><i>Use items faster</i></p></li>
+        <li>Freecam<p><i>Leave your body and transcend into the realm of the gods</i></p></li>
         <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
         <li>LagNotifier<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
         <li>NoBreakAnimation<p><i>Prevents block break animation server side</i></p></li>
         <li>NoEntityTrace<p><i>Blocks entities from stopping you from mining</i></p></li>
         <li>NoFall<p><i>Prevents fall damage</i></p></li>
-        <li>NoGlitchBlocks<p><i>Prevents blocks desyncing and creating ghost blocks</i></p></li>
         <li>NoPacketKick<p><i>Suppress network exceptions and prevent getting kicked</i></p></li>
         <li>NoSwing<p><i>Cancels server and client swinging packets</i></p></li>
         <li>PacketCancel<p><i>Cancels specific packets used for various actions</i></p></li>
@@ -174,7 +174,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 
-## Commands (32)
+## Commands (34)
 
 <details>
     <summary>activemodules</summary>
@@ -255,6 +255,12 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
+    <summary>fakemsg</summary>
+    <p><ul>
+        <li>Descriptionless<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
     <summary>fixgui</summary>
     <p><ul>
         <li>Allows you to disable the automatic gui positioning<p><i>Aliases: []</i></p></li>
@@ -282,6 +288,12 @@ description: A list of modules and commands this mod has
     <summary>license</summary>
     <p><ul>
         <li>Prints KAMI Blue's license<p><i>Aliases: []</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>macro</summary>
+    <p><ul>
+        <li>Descriptionless<p><i>Aliases: [m]</i></p></li>
     </ul></p>
 </details>
 <details>
