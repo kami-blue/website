@@ -3,7 +3,7 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (133)
+## Modules (136)
 
 <details>
     <summary>Chat (15)</summary>
@@ -50,9 +50,10 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Client (6)</summary>
+    <summary>Client (7)</summary>
     <p><ul>
         <li>ActiveModules<p><i>Configures ActiveModules colours and modes</i></p></li>
+        <li>Baritone<p><i>Configures Baritone settings</i></p></li>
         <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
         <li>CommandConfig<p><i>Configures client chat related stuff</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
@@ -77,9 +78,9 @@ description: A list of modules and commands this mod has
         <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
         <li>BookCrash<p><i>Crashes servers by sending large packets</i></p></li>
         <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
-        <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
         <li>ColourSign<p><i>Allows ingame colouring of text on signs</i></p></li>
         <li>ConsoleSpam<p><i>Spams Spigot consoles by sending invalid UpdateSign packets</i></p></li>
+        <li>CoordsLog<p><i>Automatically writes the coordinates of the player to a file with a user defined delay between logs.</i></p></li>
         <li>DiscordRPC<p><i>Discord Rich Presence</i></p></li>
         <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
         <li>FakeGamemode<p><i>Fakes your current gamemode client side</i></p></li>
@@ -87,9 +88,9 @@ description: A list of modules and commands this mod has
         <li>MidClickFriends<p><i>Middle click players to friend or unfriend them</i></p></li>
         <li>MountBypass<p><i>Might allow you to mount chested animals on servers that block it</i></p></li>
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
-        <li>Pathfind<p><i>A path finder for AutoWalk</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
-        <li>StashFinder<p><i>Logs chests and shulkers around you.</i></p></li>
+        <li>StashFinder<p><i>Logs storage units in render distance.</i></p></li>
+        <li>WorldDownloader<p><i>Downloads loaded chunks to load later!</i></p></li>
     </ul></p>
 </details>
 <details>
@@ -99,9 +100,9 @@ description: A list of modules and commands this mod has
         <li>AntiLevitation<p><i>Removes levitation potion effect</i></p></li>
         <li>AutoJump<p><i>Automatically jumps if possible</i></p></li>
         <li>AutoRemount<p><i>Automatically remounts your horse</i></p></li>
-        <li>AutoWalk<p><i>Automatically walks forward</i></p></li>
+        <li>AutoWalk<p><i>Automatically walks somewhere</i></p></li>
         <li>ElytraFlight<p><i>Modifies elytras to fly at custom velocities and fall speeds</i></p></li>
-        <li>ElytraReplace<p><i>Automatically swap and replace your chestplate and elytra. Not an AFK tool, be warned.</i></p></li>
+        <li>ElytraReplace<p><i>Automatically swap and replace your chestplate and elytra.</i></p></li>
         <li>EntitySpeed<p><i>Abuse client-sided movement to shape sound barrier breaking rideables</i></p></li>
         <li>Flight<p><i>Makes the player fly</i></p></li>
         <li>IceSpeed<p><i>Changes how slippery ice is</i></p></li>
@@ -115,7 +116,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Player (24)</summary>
+    <summary>Player (25)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
@@ -134,6 +135,7 @@ description: A list of modules and commands this mod has
         <li>NoPacketKick<p><i>Suppress network exceptions and prevent getting kicked</i></p></li>
         <li>NoSwing<p><i>Cancels server and client swinging packets</i></p></li>
         <li>PacketCancel<p><i>Cancels specific packets used for various actions</i></p></li>
+        <li>PacketLogger<p><i>Logs sent packets to a file</i></p></li>
         <li>PitchLock<p><i>Locks your camera pitch</i></p></li>
         <li>PortalGodMode<p><i>Don't take damage in portals</i></p></li>
         <li>Scaffold<p><i>Places blocks under you</i></p></li>
@@ -144,7 +146,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render (25)</summary>
+    <summary>Render (26)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>AntiOverlay<p><i>Prevents rendering of fire, water and block texture overlays.</i></p></li>
@@ -152,6 +154,7 @@ description: A list of modules and commands this mod has
         <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
         <li>BoxESP<p><i>Draws a box around small entities</i></p></li>
         <li>FullBright<p><i>Makes everything brighter!</i></p></li>
+        <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
         <li>Chams<p><i>See entities through walls</i></p></li>
         <li>ChunkFinder<p><i>Highlights newly generated chunks</i></p></li>
         <li>CleanGUI<p><i>Modifies parts of the GUI to be transparent</i></p></li>
@@ -165,218 +168,11 @@ description: A list of modules and commands this mod has
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
         <li>Search<p><i>Highlights blocks in the world</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
-        <li>StorageESP<p><i>Draws nice little lines around storage items</i></p></li>
+        <li>StorageESP<p><i>Draws an ESP on top of storage units</i></p></li>
         <li>TabFriends<p><i>Highlights friends in the tab menu</i></p></li>
         <li>Tracers<p><i>Draws lines to other living entities</i></p></li>
         <li>Trajectories<p><i>Draws lines to where trajectories are going to fall</i></p></li>
         <li>XRay<p><i>See through common blocks!</i></p></li>
         <li>Zoom<p><i>Configures FOV</i></p></li>
-    </ul></p>
-</details>
-
-## Commands (34)
-
-<details>
-    <summary>activemodules</summary>
-    <p><ul>
-        <li>Allows you to customize ActiveModule's category colours<p><i>Aliases: [activemods, modules]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>autoez</summary>
-    <p><ul>
-        <li>Allows you to customize AutoEZ's custom setting<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>autoreply</summary>
-    <p><ul>
-        <li>Allows you to customize AutoReply's settings<p><i>Aliases: [reply]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>bind</summary>
-    <p><ul>
-        <li>Binds a module to a key, or allows you to change modifier options<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>chatencryption</summary>
-    <p><ul>
-        <li>Allows you to customize ChatEncryption's delimiter<p><i>Aliases: [delimiter]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>commands</summary>
-    <p><ul>
-        <li>Gives you this list of commands<p><i>Aliases: [cmds]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>config</summary>
-    <p><ul>
-        <li>Change where your config is saved or manually save and reload your config<p><i>Aliases: [cfg]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>credits</summary>
-    <p><ul>
-        <li>Prints KAMI Blue's authors and contributors<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>customchat</summary>
-    <p><ul>
-        <li>Allows you to customize CustomChat's custom setting<p><i>Aliases: [chat]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>discordnotifs</summary>
-    <p><ul>
-        <li>Descriptionless<p><i>Aliases: [webhook]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>dupebook</summary>
-    <p><ul>
-        <li>Generates books used for chunk savestate dupe.<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>enabled</summary>
-    <p><ul>
-        <li>Prints enabled modules<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>entitystats</summary>
-    <p><ul>
-        <li>Print the statistics of the entity you're currently riding<p><i>Aliases: [estats]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>fakemsg</summary>
-    <p><ul>
-        <li>Descriptionless<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>fixgui</summary>
-    <p><ul>
-        <li>Allows you to disable the automatic gui positioning<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>friend</summary>
-    <p><ul>
-        <li>Add someone as your friend!<p><i>Aliases: [f]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>genwebsite</summary>
-    <p><ul>
-        <li>Generates the module page for the website<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>help</summary>
-    <p><ul>
-        <li>Delivers help on certain subjects. Use &f;help subjects&7 for a list.<p><i>Aliases: [?]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>license</summary>
-    <p><ul>
-        <li>Prints KAMI Blue's license<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>macro</summary>
-    <p><ul>
-        <li>Descriptionless<p><i>Aliases: [m]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>nbt</summary>
-    <p><ul>
-        <li>Does NBT related stuff (&fget&7, &fcopy&7, &fset&7)<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>path</summary>
-    <p><ul>
-        <li>Pathfinding for AutoWalk<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>peek</summary>
-    <p><ul>
-        <li>Look inside the contents of a shulker box without opening it<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>prefix</summary>
-    <p><ul>
-        <li>Changes the prefix to your new key<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>renamemodule</summary>
-    <p><ul>
-        <li>Rename a module to something else<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>say</summary>
-    <p><ul>
-        <li>Allows you to send any message, even with a prefix in it<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>search</summary>
-    <p><ul>
-        <li>Allows you to add or remove blocks from the &fSearch &7module<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>set</summary>
-    <p><ul>
-        <li>Change the setting of a certain module<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>settings</summary>
-    <p><ul>
-        <li>List the possible settings of a command<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>signbook</summary>
-    <p><ul>
-        <li>Colored book names. &f#n&7 for a new line and &f&&7 for colour codes<p><i>Aliases: [sign]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>teleport</summary>
-    <p><ul>
-        <li>Potentia teleport exploit<p><i>Aliases: [tp, clip]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>toggle</summary>
-    <p><ul>
-        <li>Quickly toggle a module on and off<p><i>Aliases: [t]</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>vanish</summary>
-    <p><ul>
-        <li>Allows you to vanish using an entity<p><i>Aliases: []</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>xray</summary>
-    <p><ul>
-        <li>Allows you to add or remove blocks from the &fxray &7module<p><i>Aliases: []</i></p></li>
     </ul></p>
 </details>
