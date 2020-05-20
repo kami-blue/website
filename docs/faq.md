@@ -28,20 +28,20 @@ KAMI Blue is a forge mod. Start by downloading the latest version of [1.12.2 for
 
 ##### Baritone
 
-To use baritone, download the latest standalone forge mod from <a href="{{ site.baritone_url }}">here</a>.
+To use Baritone, use the `;b` command
 
 ##### Open the GUI
 Press <kbd>Y</kbd>.
 
 ##### Use commands
-The default prefix is <kbd>;</kbd>. Commands are used through chat, use `.commands` for a list of commands.
+The default prefix is <kbd>;</kbd>. Commands are used through chat, use `;commands` for a list of commands.
 
 ##### Bind modules
-Run `.bind <module> <key>`.
+Run `;bind <module> <key>`.
 
-You can also use `.bind modifiers on` to allow modules to be bound to keybinds with modifiers, e.g <kbd>ctrl</kbd><kbd>shift</kbd><kbd>w</kbd> or <kbd>ctrl</kbd><kbd>c</kbd>.
+You can also use `;bind modifiers on` to allow modules to be bound to keybinds with modifiers, e.g <kbd>ctrl</kbd><kbd>shift</kbd><kbd>w</kbd> or <kbd>ctrl</kbd><kbd>c</kbd>.
 
-You can unbind modules with <kbd>backspace</kbd>, <kbd>delete</kbd> or <kbd>esc</kbd> in the GUI or by running `.bind <module> none`
+You can unbind modules with <kbd>backspace</kbd>, <kbd>delete</kbd> or <kbd>esc</kbd> in the GUI or by running `;bind <module> none`
 
 ##### Change command prefix
 By using the command `prefix <prefix>` or after having ran KAMI Blue (make sure it's closed), editing your configuration file (find it using `config path` in-game) and changing the value of `commandPrefix` to change the prefix.

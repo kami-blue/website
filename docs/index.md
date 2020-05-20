@@ -22,9 +22,9 @@ In late 2019 dominikaaaa picked up the project, noticing the lack of modules, wi
 
 Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
 
-##### Baritone is not included
+##### Baritone now included!
 
-To use baritone, download the latest standalone forge mod from <a href="{{ site.baritone_url }}">here</a>.
+Use the `;b` command, or test out Aura and other modules which now have Baritone compatibility!
 
 ## Images
 
