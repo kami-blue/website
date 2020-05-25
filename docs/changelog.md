@@ -10,163 +10,89 @@ Download the latest version at the [download](/download) page!
 
 ### Notes
 
- - Added GUI Tooltips
- - Added Control mode to ElytraFlight
- - Capes now support Elytras!
- - Added AimBot
- - Antihunger and elytraflight compatibility
- - Added sneak option to inventory move
- - Added no skylight updates to NoRender
- - Made coordLog force log on player death.
- - Added coordinate logger module
- - Added Beacon Beams to NoRender
- - Update CreditsCommand.java to include It is the end's github account and jamie27's github account
- - Update CreditsCommand.java with the new getContributors() function in WebUtils.java
- - Added getContributors() to WebUtils.java and a GithubUser class
- - Added friends check to autotpa
- - Added AutoEZ custom option
- - Added ElytraReplace
- - Fix NoPacketKick for all situations
- - Fixed Offhandgap crash
- - Added health option for AutoEat
- - AutoEat no longer interacts with blocks
- - Added AntiLevitation
- - Added an Update Checker for major versions
- - Added DM detection for AntiSpam
- - Added Spammer 
- - Added PacketCancel
- - Added players to Radar
- - Added AutoMend
- - Added InventoryMove
- - Rewrote Aura and added eat while attacking
- - Added AutoRemount
- - Made scroll bars always visible to avoid confusion.
- - Added AutoNameTag
- - Fix impact compatibility
- - Added method for setting custom colors for ActiveModules categories
- - Fixed FakeGamemode
- - Fixed getNameFromUUID
- - Added MobOwner
- - Added LagNotifier
- - Delete auto32k and pull32k as they're patched
- - Added proper isProduction filtering to module parser
- - Added packet cancel to freecam
- - Added Discord RPC Disconnect
- - Rewrote Criticals entirely
- - Changed default prefix to `;`
- - Added FancyChat
- - Optimize getModule return type
- - Made AntiHunger compatible with elytraflight
- - Added BreakingWarning
- - Made AutoFish work through disconnects 
- - Added BoxESP
- - Added easy takeoff for ElytraFlight
- - Added filtering to enabled command
- - Made AntiHunger way better
- - Added RunConfig
- - Added DiscordNotifs
- - Added ExplodeAttempts to CrystalAura
- - Added TotemPopCounter
- - Added AntiChainPop
- - Made entity frame easier to move when minimized
- - Added option to hide invisibles in ESP and Tracers
- - Made friends frame easy to drag around if it's minimized
- - Fixed GUI offscreen bugs
- - Autoeat no longer eats poisonous potatoes
- - Added BlockData and EntityTools
- - Added a bunch of options to NoSlow including slime and cobwebs 
- - Added more options to FastUse and merged BowSpam into it
- - Added colors and modes to ActiveModules
- - Autoeat don't eat pufferfish
- - Added BeaconSelector
- - Added end teleport
- - Added overloads for Vec3d <-> BlockPos methods for accepting lists
- - Added nametag to autosummon
- - Update combat improvements  (#570)
- - Added liquid interact
- - mine code cleanup in velocity and nobreakanim
- - Update combat improvements  (#569)
- - Fixed infooverlay speed
- - Added max health check to autototem
- - Added optional crystalcheck for offhandgap
- - Added sneakTosurround in CrystalAura
- - Made AntiSpam way more efficient and rewrite it  (#566)
- - Made direction 1 letter and cleanup code for coords
- - when you forget minecraft syntax
- - Added uwuAura
- - Completely fix AntiSpam this time
- - Added FancyChat
- - Fix AntiSpam filtering your own messages no matter what
- - Added direction to coords
- - Added say command
- - Added dupe book command
- - Added Vector Utils
- - Added automatic beta builds for Discord
- - Added minDmg for CA :flushed:
- - Hit delay for CrystalAura
- - Added a ton of options to AntiSpam and make detection better
- - ToolCheck for CrystalAura
- - Tracer custom colors
- - Added hunger options to autoeat and don't eat bad food
- - Fix TimerSpeed, XRay, AutoFish and Customchat not saving
- - Made ElytraFlight compatible with Sprint
- - Added an option to prioritize manually placed crystals
- - Made autofish faster
- - Added pvp info
- - Added custom colors to CrystalAura
- - Updated bunch of stuff and deps in gradle
- - Added AntiSuicide to CrystalAura
- - Added Autoreply
- - Added weakness to textradar and clean up modes
- - Added XCarry (#485)
- - Added MidClickFriends
- - Finish gui colors for #36
- - Added slow mode to timer
- - Hide holeesp settings when unused
- - Strafe > Sprint
- - Added NoPush to Velocity
- - Added Hypixel to AntiSpam 
- - Fixed Surround
- - Added Offhandgap
- - Fix ;set command bug with Enums
- - Added default button to crystalaura
- - CrystalAura check for absorption
- - Collapse infooverlay options
- - Fix AutoTotem bugs
- - Hide prefixchat by default
- - Added color options to Inventory Preview and clean up modes (#473)
- - Fix For CrystalAura tracer messing up HoleESP
- - Freecam fix distance bugs
- - Optimize cape and RPC loading
- - Improve capes and add elytra support
- - Fixed Enum Setting Crashes (#458)
- - Added a coord logger file util
- - Added a Chat category
- - Feature/chatprefixtoggle#440 (#456)
- - Added in overrides to getValueAsString/setValueFromString so string settings make sense (#448)
- - Finish the XRay interface
- - Made XRay configurable & keep an "API" for possible commands
- - Merge strengthdetect into text radar
- - Textradar StrengthDetect
- - Added an XRay module
- - Fix issue with previous commit where I forgot to add 'refresh everything & set flags' to Freecam, so it didn't work
- - Prevent rendering issues with Freecam in walls (Should fix KAMI#168)
- - Reset antichatspam duplicates every 10 minutes for preformance 
- - Made nobreakanimation compatible
- - Don't run prefixchat when sneaking
- - Optimized active modules
- - Added enabled command
- - Fixed friends GUI
- - Added ChatTimestamp
- - Made highway mode in ElytraFlight a real mode
- - Added animation to surround
- - Added TimerSpeed uwu ty tbm
- - Added Timer
- - Added time to InfoOverlay
- - Customchat Custom Modes
- - Fixed freecam
- - Fixed a ton of crash bugs with configs and the such
- - Removed PearlDupe
- - Added colors to InfoOverlay
- - Refactor InfoOverlay and make code cleaner
- - Fix custom RPC icons for donators and contributors 
+ - Added Macros
+ - Updated ElytraFlight for 2b2t
+ - Added Baritone Integration
+ - Autoeat, Aura, Autowalk, Jesus and Baritone compatibility
+ - Added auto ping delay for CrystalAura
+ - Added AutoTunnel
+ - Added Stashfinder
+ - Added Search
+ - Added Look Boost to ElytraFlight
+ - Made ElytraReplace MUCH more reliable
+ - Added NoSlowDown NCP bypass
+ - Made InventoryMove compatible with Future
+ - Made ElytraFlight compatible with InventoryMove
+ - Optimized a bunch of modules and core code
+ - Fixed rendering bugs with Fullbright
+ - Fixed ChunkFinder rendering bugs and close #474
+ - Added durability option to ElytraReplace
+ - Fixed fullbright only working if transition is on. (#857)
+ - Added color to nametag health and close #648
+ - Added PacketLogger and close #818
+ - Fix build & add alpha option to StorageESP to close #814
+ - Added Biome to InfoOverlay (#847)
+ - Added order mode to Spammer and close #820
+ - Fix huge performance drops from misusing width and height
+ - Made FriendHighLight case insensitive
+ - FastUse bow bugfix and feature implementation. (#817)
+ - Fix Spammer doesn't support cyrillic symbols (#825)
+ - Remove greentext from special beginning in AntiSpam
+ - Change info to default in EntityTools
+ - Remove TabFriends from first run
+ - Fixed a java.lang.IllegalArgumentException being raised in 'all' fastuse mode while the player is a spectator. (#815)
+ - Fixed only the last friend in your friends list being highlighted in chat.
+ - The NoFall module in bucket mode will no longer use the bucket when the player is in creative mode or in the nether.
+ - Fix AutoTPA not splitting name from String correctly & close #798
+ - Added a 'Log To File' to the VisualRange module. (#804)
+ - Fix AutoMend bugs and close #786
+ - Added custom decimal points for speedometer and TPS in InfoOverlay
+ - AutoRemount now works with other mountable entities
+ - InventoryMove: Fix AAC kick from pitch overflows
+ - Moved NoGlitchBlocks to experimental
+ - Add MountBypass
+ - Fixed AutoTotem bug causing Item enum to show when it's not supposed to
+ - Added toggle to SetCommand for booleans
+ - Fix bug with SetCommand not showing the proper value in chat
+ - Fixed the color of AutoTotem text in active modules.
+ - Made hudInfo and forgehax arrows respect alignment in active modules
+ - Made potion effects moving active modules down *optional*
+ - Fix default fall speed in elytraflight control mode
+ - Shut down RPC after a crash
+ - Config now properly saves on crash
+ - MixinMinecraft: Don't redirect the crash report handler, inject instead
+ - Added documentation to releaseNightly
+ - Added confirmation that spammer found the file instead of just no output
+ - Pptimize inventory viewer and remove automatic docking
+ - Added fakemsg command to close #758
+ - Fix xray outlines and close #760
+ - Added automatic builds to website and discord
+ - Fix being unable to close the gui sometimes and close #751
+ - Don't enable customchat by default
+ - Add scaffold towering
+ - Added noglitchblocks to close #725
+ - Added items to NoRender
+ - Added AutoReply to AntiAFK
+ - Fix config not saving bugs
+ - Add custom delimiter to chatencryption for #723
+ - Added self decrypt option & made decrypt messages more visible for #723
+ - Added antioverlay
+ - Bindbutton support pressing esc or delete to reset bind
+ - Add a width setting to glow mode
+ - Fix glow not going away when switching esp modes and fix #187
+ - FancyChat don't affect encrypted messages as mentioned in #723
+ - Fixed aimbot bug
+ - Added friend highlight to close #573
+ - Added HungerOverlayUtils (appleskin)
+ - Added webhelper and added offline check to close #722
+ - Added LoginMessage module
+ - Fix DiscordNotifs + ChatTimestamp incompatibility
+ - Slight antispam efficiency improvement
+ - Fix autoremount modes just flat out not working :p
+ - Add more info to mobowner and close #668
+ - Rewrite chattimestamp core method and fix it not working with antispam, closing #477
+ - update antidisconnect to update disconnect button on click
+ - Added AntiDisconnect
+ - Change formatting of @Module.Info annotations to use multiple lines
+ - Fix blast reduction calculation in crystalaura
+ - Finally fix antihunger elytraflight compatibility
