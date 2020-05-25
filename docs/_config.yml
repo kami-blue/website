@@ -5,7 +5,7 @@ google_analytics: UA-157505961-1
 github:
   repository_url: https://github.com/kami-blue/client
   website_url: https://github.com/kami-blue/website
-  jar_url: https://github.com/kami-blue/client/releases/download/v1.1.3/KAMI-Blue-v1.1.4-release.jar
+  jar_url: https://github.com/kami-blue/client/releases/download/v1.1.4/KAMI-Blue-v1.1.4-release.jar
   beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.4-3012e976/kamiblue-1.1.4-3012e976-release.jar
 cur_ver: v1.1.4
 beta_ver: v1.1.4-3012e976
