@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Signing
-description: Releases for KAMI Blue
+description: Ensuring the security of KAMI Blue
 ---
 
 ## Signing
