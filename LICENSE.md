@@ -1,4 +1,4 @@
-### The website https://blue.bella.wtf is licensed under the following license
+### The website https://kamiblue.org is licensed under the following license
 
 MIT License
 
