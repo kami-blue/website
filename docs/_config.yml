@@ -7,9 +7,9 @@ github:
   website_url: https://github.com/kami-blue/website
   jar_url: https://github.com/kami-blue/client/releases/download/v1.1.5/KAMI-Blue-v1.1.5-release.jar
   jar_sig_url: https://github.com/kami-blue/client/releases/download/v1.1.5/KAMI-Blue-v1.1.5-release.jar.sig
-  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.6-abea4e93/kamiblue-1.1.6-abea4e93-release.jar
+  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.6-022e64d8/kamiblue-1.1.6-022e64d8-release.jar
 cur_ver: v1.1.5
-beta_ver: v1.1.6-abea4e93
+beta_ver: v1.1.6-022e64d8
 discord_url: https://discord.gg/KfpqwZB
 theme: jekyll-theme-cayman
 gems:
