@@ -10,26 +10,20 @@ Download the latest version at the [download](/download) page!
 
 ### Notes
 
-- Added tab completion to commands
-- Added MapPreview module
-- Completely fixed Passive / Neutral / Hostile options in all modules related to them
-- Fixed AutoTunnel bug
-- Made AutoTool switch back to the original tool when done
-- Added Sneak option to NoSlowDown
-- Fixed Major crash with StashFinder and Waypoint system
-- AutoEat no longer eats Pufferfish or Clownfish
-- Fixed bugs and lag with LagNotifier
-- Added custom pitch options to bypass Hover on 2b2t (ElytraFlight)
-- Added Creeper and Totem options to Autolog
-- Autofish automatically moves your head and casts again if you got disconnected
-- Optimized renderPlayerlist and greatly reduced lag
-- Added a bunch of options to NoFall, namely Catch
-- Made Safewalk compatible with Baritone
-- AutoRespawn saves death coords as a waypoint now
-- AutoEat doesn't each Chorus fruit anymore
-- Added ;tsc for troubleshooting
-- Added custom coordinates option for ;pos add
-- Scaffold now prefers using the held item if it's valid
-- Fixed a ton of bugs with Zoom
-- Added Packet mode to ElytraFlight
-- Made ElytraFlight options more clear and fixed defaults
+- Greatly improved ElytraFlight and added Space trigger (#974)
+- Kotlinized Player modules and fixed issues #983, #971 (#984)
+- Added delay mode to Criticals (#982)
+- Adding packet mode to fastbreak, issue #796 (#985)
+- Added elytra check, issue #881 (#961)
+- Added option for tracers for StorageESP and Search #619 (#939)
+- fixed credit again
+- Delete githubUpload.sh
+- Update to new domain
+- Added ;bind list option
+- Fixed minor tab-complete bug
+- Fix formatting error
+- Update unknown key instructions to be more user friendly
+- Include clickGUI in isProduction
+- Added Failure Timeout and Reach settings to Baritone
+- 33% GUI performance optimization
+- Added Mules to AutoRemount
