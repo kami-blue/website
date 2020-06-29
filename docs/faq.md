@@ -53,8 +53,4 @@ Run `;fixgui` and if that doesn't help, make your GUI Scale smaller through the 
 ##### Show modules on screen
 In order to show modules on screen when the GUI is closed, hit the magnifying glass in the top left of it.
 
-##### More
-
-Run `i help` in #bot-commands channel in the [discord server](https://discord.gg/KfpqwZB).
-
 ***
