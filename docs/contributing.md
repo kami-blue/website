@@ -8,7 +8,7 @@ description: Instructions for contributing and building
 
 ***
 
-Please make sure to restart your IDE and reimport gradle in after running all setup commands
+Please make sure to restart your IDE and reimport 🔄 gradle after running all the setup
 
 ***
 
@@ -22,36 +22,33 @@ See [Support](support.html) for help.
 
 ### Contributing 
 
-To set up your development environment, make use of the following commands:
+To set up your development environment, make use of the following instructions:
 
-Of-course you can also use a Gradle installation if you for some reason want another version of gradle
 ```
-git clone https://github.com/kami-blue/client/
+git clone {{ site.github.repository_url }}
 ```
 Import KAMI Blue into your IDE of choice. 
-```
-./gradlew setupDecompWorkspace
-./gradlew genIntellijRuns #for intellij
-./gradlew eclipse #for eclipse
-```
-If you use IntelliJ, import `build.gradle`
+
+If you use Intellij, import the `build.gradle` file
 
 If you use Eclipse, import a new gradle project and select the `kamiblue` folder. 
 
-If you have gradle related issues with either of these force your gradle version to `4.8.1`
+If you have gradle related issues with either of these force your gradle version to `4.10.3`
 
-If you do not wish to run from an IDE, use `./gradlew runClient` to run KAMI Blue.
+If you do not wish to run from an IDE, use `./gradlew runClient` to run KAMI Blue 
+(not recommended due to random issues. run `./gradlew clean` if you experience any with it)
 
-Note: I don't recommend using runClient as sometimes it's wonky. If you have issues then do `./gradlew clean`
+#### Running in Intellij IDEA
 
-#### Running in Intellij Idea
-
-Make sure your workspace is setup as per above, and then hit reimport inside gradle
-
-![](https://cdn.discordapp.com/attachments/634010567107149824/692375743472205885/2020-03-25-101300_278x143_scrot.png)
-
-Then go to your Minecraft Client in the run tab, and change the classpath to `kamiblue.main`, as it will give an error if you don't. Then you can run it through intellij. 
-
+1. Wait for the Gradle import to finish. 
+2. In the Gradle tab, hit the reimport 🔄 button. If you don't see the Gradle tab on the very right of Intellij, go to File -> Close Project, and then reopen the project. 
+Make sure your workspace is setup as per above, and then hit reimport 🔄 inside Gradle.
+3. Expand the tab -> expand `Forgegradle`
+4. Run `genIntellijRuns` in the tab you just expanded
+5. Restart Intellij
+6. You'll see a `Minecraft Client`. Select it, and hit edit.
+7. Change the classpath to `folderName.main`
+8. You can now just hit the green play button to open Minecraft with your current changes
 
 ### Building
 
@@ -64,22 +61,27 @@ If you get build errors see this (although 99% of the time it's going to be code
 #### Linux
 
 You can build by running these commands (without the <>) in a terminal.
-```
-git clone https://github.com/kami-blue/client/ && cd kamiblue
 
-chmod +x gradlew
+```
+git clone {{ site.github.repository_url }} kamiblue && cd kamiblue
 ./gradlew build
 ```
 
-To use the built jar, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods` folder of a minecraft instance that has forge installed.
+To use the built jar, find a file in `build/libs` called `<folderName>-<kamiVersion>-release.jar` which you can copy to the `mods` folder of a Minecraft instance that has Forge 1.12.2 installed.
 
 ***
 
 #### Windows
 
-You can build by running these commands in a terminal with the current directory being the previously downloaded KAMI Blue. (EG. `cd C:\Users\%username%\Downloads\kamiblue`)
+0. Make sure you have [Oracle JDK 8](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) installed first. 
+1. Navigate to where you downloaded KAMI Blue, open the folder, and in the file path, double click to open the full file path. 
+2. Type `cmd` and hit enter.
+3. This will open `cmd` with the current directory (`cd`) being the KAMI Blue folder. Now type this
+
 ```
 gradlew.bat build
 ```
 
-To use the built jar, find a file in `build/libs` called `kamiblue-<kamiVersion>-**release**.jar` which you can copy to the `mods` folder of a minecraft instance that has forge installed.
+4. and hit enter. 
+
+To use the built jar, find a file in `build/libs` called `<folderName>-<kamiVersion>-release.jar` which you can copy to the `mods` folder of a Minecraft instance that has Forge 1.12.2 installed.

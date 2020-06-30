@@ -8,7 +8,7 @@ description: A Minecraft utility mod for anarchy servers
 
 This is an open source project written primarily by 086, dominikaaaa and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 120+ unique modules this mod has.
+See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 140+ unique modules this mod has.
 
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
 In late 2019 dominikaaaa picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by dominikaaaa. 
@@ -55,7 +55,7 @@ Use the `;b` command, or test out Aura and other modules which now have Baritone
 
 ### Status 
 
-Please see the [issues](https://github.com/kami-blue/client/issues/) page for planned features and bugs.
+Please see the [issues]({{ site.github.repository_url }}/issues/) page for planned features and bugs.
 
 This is currently in active development. When issues are being closed is by milestone, and bugs are higher priority, though there aren't any bugs that break something completely.
 
@@ -89,4 +89,4 @@ This is currently in active development. When issues are being closed is by mile
 
 The [Minecraft Forge team](https://github.com/MinecraftForge) for [forge](https://files.minecraftforge.net/)
 
-All the [contributors](https://github.com/kami-blue/client/graphs/contributors), including the ones who will be remembered in comments and in our hearts. This has been a huge community effort and I couldn't have done it without them.
+All the [contributors]({{ site.github.repository_url }}/graphs/contributors), including the ones who will be remembered in comments and in our hearts. This has been a huge community effort and I couldn't have done it without them.

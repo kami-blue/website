@@ -11,7 +11,7 @@ description: This page is meant to explain how to solve common issues when insta
 ## Setup
 ###### Could not find tools.jar
 If you encounter this error when building, you most likely don't have the Java Development Kit (JDK) installed.
-Head over to [here](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to download the oracle JDK. Install it and try again.
+Head over to [here](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) to download the Oracle JDK. Install it and try again.
 
 ###### Minecraft not loading at all
 
@@ -20,7 +20,7 @@ Note: only applicable if running through Forge and not an IDE.
 What `.jar` are you using in your `mods` folder? Make sure to use the one that ends with `-release` (`VERSION-release.jar`)
 
 ###### Just doesn't work when using runClient
-Don't use that, try running it through your IDE or building and running forge normally
+Don't use that, try running it through your IDE or building and running Forge normally
 
 ###### Crashes before game starts with SpongePowered error
 Make sure your workspace is clean and run
@@ -34,7 +34,7 @@ Set your application configuration's JRE in Intellij to a manual path to a downl
 
 ## Crashes in-game
 
-**Please make sure you're on the latest version of forge before proceeding!**
+**Please make sure you're on the latest version of Forge before proceeding!**
 
 Look for where it crashed and go to the line it crashed at. Make sure you're not referencing `mc.player` or `mc.world` when either of those are null, ie have a `if (mc.player == null) return;` before you reference those.
 

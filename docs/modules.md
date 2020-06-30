@@ -3,15 +3,16 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (136)
+## Modules (141)
 
 <details>
-    <summary>Chat (15)</summary>
+    <summary>Chat (16)</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
         <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
         <li>AutoReply<p><i>Automatically reply to direct messages</i></p></li>
         <li>AutoTPA<p><i>Automatically accept or decline /TPAs</i></p></li>
+        <li>BaritoneRemote<p><i>Remotely control Baritone with /msg</i></p></li>
         <li>ChatEncryption<p><i>Encrypts and decrypts chat messages</i></p></li>
         <li>ChatFilter<p><i>Filters custom words or phrases from the chat</i></p></li>
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
@@ -62,18 +63,20 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Misc (27)</summary>
+    <summary>Misc (28)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
         <li>AntiDisconnect<p><i>Are you sure you want to disconnect?</i></p></li>
         <li>AntiWeather<p><i>Removes rain from your world</i></p></li>
         <li>AutoFish<p><i>Automatically catch fish</i></p></li>
+        <li>AutoMine<p><i>Automatically mines chosen ores</i></p></li>
         <li>AutoNametag<p><i>Automatically nametags entities</i></p></li>
         <li>AutoReconnect<p><i>Automatically reconnects after being disconnected</i></p></li>
         <li>AutoRespawn<p><i>Automatically respawn after dying</i></p></li>
         <li>AutoSpawner<p><i>Automatically spawns Withers, Iron Golems and Snowmen</i></p></li>
         <li>AutoTool<p><i>Automatically switch to the best tools when mining or attacking</i></p></li>
+        <li>AutoTunnel<p><i>Automatically tunnels forward, at a given size</i></p></li>
         <li>BeaconSelector<p><i>Choose any of the 5 beacon effects regardless of beacon base height</i></p></li>
         <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
         <li>BookCrash<p><i>Crashes servers by sending large packets</i></p></li>
@@ -90,7 +93,6 @@ description: A list of modules and commands this mod has
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
         <li>StashFinder<p><i>Logs storage units in render distance.</i></p></li>
-        <li>WorldDownloader<p><i>Downloads loaded chunks to load later!</i></p></li>
     </ul></p>
 </details>
 <details>
@@ -101,7 +103,7 @@ description: A list of modules and commands this mod has
         <li>AutoJump<p><i>Automatically jumps if possible</i></p></li>
         <li>AutoRemount<p><i>Automatically remounts your horse</i></p></li>
         <li>AutoWalk<p><i>Automatically walks somewhere</i></p></li>
-        <li>ElytraFlight<p><i>Modifies elytras to fly at custom velocities and fall speeds</i></p></li>
+        <li>ElytraFlight<p><i>Allows infinite and way easier Elytra flying</i></p></li>
         <li>ElytraReplace<p><i>Automatically swap and replace your chestplate and elytra.</i></p></li>
         <li>EntitySpeed<p><i>Abuse client-sided movement to shape sound barrier breaking rideables</i></p></li>
         <li>Flight<p><i>Makes the player fly</i></p></li>
@@ -123,7 +125,7 @@ description: A list of modules and commands this mod has
         <li>AutoEat<p><i>Automatically eat when hungry</i></p></li>
         <li>Blink<p><i>Cancels server side packets</i></p></li>
         <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
-        <li>Fastbreak<p><i>Nullifies block hit delay</i></p></li>
+        <li>Fastbreak<p><i>Breaks block faster and nullifies the break delay</i></p></li>
         <li>FastUse<p><i>Use items faster</i></p></li>
         <li>Freecam<p><i>Leave your body and transcend into the realm of the gods</i></p></li>
         <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
@@ -146,7 +148,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render (26)</summary>
+    <summary>Render (28)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>AntiOverlay<p><i>Prevents rendering of fire, water and block texture overlays.</i></p></li>
@@ -162,10 +164,12 @@ description: A list of modules and commands this mod has
         <li>ExtraTab<p><i>Expands the player tab menu</i></p></li>
         <li>EyeFinder<p><i>Draw lines from entity's heads to where they are looking</i></p></li>
         <li>HoleESP<p><i>Show safe holes for crystal pvp</i></p></li>
+        <li>MapPreview<p><i>Previews maps when hovering over them</i></p></li>
         <li>MobOwner<p><i>Displays the owner of tamed mobs</i></p></li>
         <li>Nametags<p><i>Draws descriptive nametags above entities</i></p></li>
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
+        <li>PlayerModel<p><i>Renders a model of you, or someone you're attacking</i></p></li>
         <li>Search<p><i>Highlights blocks in the world</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
         <li>StorageESP<p><i>Draws an ESP on top of storage units</i></p></li>

@@ -6,7 +6,7 @@ description: Ensuring the security of KAMI Blue
 
 ## Signing
 
-KAMI Blue is open source and publically auditable. You can view the full source code here: <https://github.com/kami-blue/client>
+KAMI Blue is open source and publically auditable. You can view the full source code here: <{{ site.github.repository_url }}>
 
 Commits are signed by both dominikaaaa and iBuyMountainDew, with releases being published by dominikaaaa. Both members have full write access to the organization, with both members having **2fa** protection on their Github Account. Nobody else has push access to any kami-blue repository. 
 
