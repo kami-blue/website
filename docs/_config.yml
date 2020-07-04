@@ -10,7 +10,7 @@ github:
   beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.7-eca19025/kamiblue-1.1.7-eca19025-release.jar
 cur_ver: v1.1.6
 beta_ver: v1.1.7-eca19025
-discord_url: https://discord.gg/KfpqwZB
+discord_url: https://kamiblue.org/discord
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
