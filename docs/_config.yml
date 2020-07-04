@@ -14,3 +14,4 @@ discord_url: https://discord.gg/KfpqwZB
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
+  - jekyll-redirect-from
