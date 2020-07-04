@@ -1,3 +1,3 @@
 ---
-redirect_to: "{{ site.discord_url }}"
+redirect_to: "https://discord.gg/KfpqwZB"
 ---
