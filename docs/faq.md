@@ -29,6 +29,8 @@ KAMI Blue is a 1.12.2 Forge mod. Start by downloading the latest version of [1.1
 ##### Open the GUI
 Press <kbd>Y</kbd>.
 
+You can change this with `;bind clickgui rshift`
+
 ##### Bind modules
 Run `;bind <module> <key>`.
 
