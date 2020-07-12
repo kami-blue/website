@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code of Conduct
-description: Please follow this when contributing
+description: Please follow the code of conduct when contributing
 ---
 
 # Contributor Covenant Code of Conduct
