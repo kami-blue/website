@@ -1,0 +1,10 @@
+---
+permalink: /latest
+---
+
+{
+  "stable-name": "{{ site.cur_ver }}",
+  "stable-url": "{{ site.beta_ver }}",
+  "beta-name": "{{ site.github.jar_url }}",
+  "beta-url": "{{ site.github.beta_jar_url }}"
+}
