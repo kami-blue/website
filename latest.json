@@ -3,8 +3,12 @@ permalink: /latest
 ---
 
 {
-  "stable-name": "{{ site.cur_ver }}",
-  "stable-url": "{{ site.github.jar_url }}",
-  "beta-name": "{{ site.beta_ver }}",
-  "beta-url": "{{ site.github.beta_jar_url }}"
+  "stable": {
+    "name": "{{ site.cur_ver }}",
+    "url": "{{ site.github.jar_url }}"
+  },
+  "beta": {
+  	"name": "{{ site.beta_ver }}",
+  	"url": "{{ site.github.beta_jar_url }}"
+  }
 }
