@@ -8,7 +8,7 @@ permalink: /latest
     "url": "{{ site.github.jar_url }}"
   },
   "beta": {
-  	"name": "{{ site.beta_ver }}",
-  	"url": "{{ site.github.beta_jar_url }}"
+    "name": "{{ site.beta_ver }}",
+    "url": "{{ site.github.beta_jar_url }}"
   }
 }
