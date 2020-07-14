@@ -17,4 +17,5 @@ description: Releases for KAMI Blue
 
 Signed releases are now available, read [signing](/signing)!
 
-There is also now a Download API, [https://kamiblue.org/latest.json](https://kamiblue.org/latest.json)
+There is also now a Download API, [https://kamiblue.org/api/{{ site.downloads_api_ver }}/downloads.json](https://kamiblue.org/api/{{ site.downloads_api_ver}}/downloads.json)
+

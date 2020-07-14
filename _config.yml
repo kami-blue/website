@@ -11,6 +11,7 @@ github:
 cur_ver: v1.1.6
 beta_ver: v1.1.7-eca19025
 discord_url: https://kamiblue.org/discord
+downloads_api_ver: v1
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
