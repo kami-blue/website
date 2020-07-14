@@ -8,4 +8,6 @@ https://kamiblue.org
 
 ### API
 
+Be sure to check https://kamiblue.org/download for the latest API version, in case this is out of date 
+
 https://kamiblue.org/api/v1/downloads.json
