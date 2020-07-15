@@ -13,6 +13,8 @@ description: Quick information about KAMI Blue
 3. Select the version that you want to install (latest or beta)
 4. Open Forge through the Minecraft launcher
 
+If you are on Mac then to open the jar you *must* hold <kbd>control</kbd> and right click and select `Open` in order to open the jar. This is because we don't want to pay for Apple's $$$ developer license so it gives you a warning.
+
 If you want to manually install the jar to a MultiMC instance or something, you can still drag the jar file to the mods folder and it works just fine, as the jar is both a Forge mod and installer.
 
 ## FAQ
