@@ -8,19 +8,12 @@ description: Quick information about KAMI Blue
 
 ***
 
-To install drag the jar file to your `.minecraft/mods` folder
+1. Install [1.12.2 Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html).
+2. Open the KAMI Blue installer
+3. Select the version that you want to install (latest or beta)
+4. Open Forge through the Minecraft launcher
 
-KAMI Blue is a 1.12.2 Forge mod. Start by downloading the latest version of [1.12.2 Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html).
-1. Install Forge
-2. Go to your `.minecraft` folder.
-   * **Linux**: `~/.minecraft`
-   * **Windows**: `%appdata%/.minecraft`
-   * **OS X**: `~/Library/Application Support/minecraft`
-3. Navigate to the `mods` folder. If it doesn't exist, create it.
-4. Get the KAMI Blue `.jar` file.
-   * By **downloading** it: click [<kbd>here</kbd>](/download)
-   * By **building** it: see [<kbd>building</kbd>](/contributing).
-5. Drag the jar file into your mods folder.
+If you want to manually install the jar to a MultiMC instance or something, you can still drag the jar file to the mods folder and it works just fine, as the jar is both a Forge mod and installer.
 
 ## FAQ
 
