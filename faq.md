@@ -8,7 +8,7 @@ description: Quick information about KAMI Blue
 
 ***
 
-1. Install [1.12.2 Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html).
+1. First you need to install [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html) for Minecraft 1.12.2.
 2. Open the KAMI Blue installer
 3. Select the version that you want to install (latest or beta)
 4. Open Forge through the Minecraft launcher

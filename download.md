@@ -4,10 +4,19 @@ title: Download
 description: Releases for KAMI Blue
 ---
 
-## Download
+# Download
+<a href="{{ site.github.beta_jar_url }}" class="btnc">**Download latest!**</a>
 
-<a href="{{ site.github.jar_url }}" class="btnc">Download {{  site.cur_ver  }} release</a>
-<a href="{{ site.github.beta_jar_url }}" class="btnc">Download {{  site.beta_ver  }} beta!</a>
+<details>
+	<summary>More info</summary>
+
+This downloads the <code class="language-plaintext highlighter-rouge">{{ site.beta_ver }}</code> jar which can be manually installed by dragging it to the mods folder. 
+<br>
+You can also open the jar to open the <b>installer</b> which allows you to choose between <code class="language-plaintext highlighter-rouge">{{ site.cur_ver }}</code> and <code class="language-plaintext highlighter-rouge">{{ site.beta_ver }}</code> and automatically installs it for you. 
+<br><br>
+If you want the {{ site.cur_ver }} stable jar to manually install, click <a href="{{ site.github.jar_url }}">here</a>.
+
+</details>
 
 #### Changelog
 <a href="changelog" class="btnc">Changelog for {{ site.cur_ver }}</a>
