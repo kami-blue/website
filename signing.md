@@ -16,9 +16,15 @@ Keep in mind, the likelyhood of having a Github account with **2fa** and proper 
 
 ## Verifying 
 
-Download both the release and signature files. 
+First import Dominika's public key with this command
 
-Then you run this command in a directory with both files. 
+```
+curl https://keybase.io/sb99/pgp_keys.asc | gpg --import
+````
+
+Then download both the release and signature files (below). 
+
+Then you run this command in a directory with both of the downloaded files. 
 
 ```
 gpg --verify KAMI-Blue-{{  site.cur_ver  }}-release.jar.sig
