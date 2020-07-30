@@ -29,7 +29,7 @@ You can change this with `;bind clickgui rshift`
 ##### Bind modules
 Run `;bind <module> <key>`.
 
-You can unbind modules with <kbd>backspace</kbd>, <kbd>delete</kbd> or <kbd>esc</kbd> in the GUI or by running `;bind <module> none`
+You can unbind modules with <kbd>backspace</kbd> or <kbd>delete</kbd> in the GUI or by running `;bind <module> none`
 
 You can also use `;bind modifiers on` to allow modules to be bound to keybinds with modifiers, e.g <kbd>ctrl</kbd><kbd>shift</kbd><kbd>w</kbd> or <kbd>ctrl</kbd><kbd>c</kbd>.
 
