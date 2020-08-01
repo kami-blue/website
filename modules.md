@@ -3,12 +3,13 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (141)
+## Modules (146)
 
 <details>
-    <summary>Chat (16)</summary>
+    <summary>Chat (17)</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
+        <li>AutoExcuse<p><i>Makes an excuse for you when you die</i></p></li>
         <li>AutoQMain<p><i>Automatically does '/queue main' on servers</i></p></li>
         <li>AutoReply<p><i>Automatically reply to direct messages</i></p></li>
         <li>AutoTPA<p><i>Automatically accept or decline /TPAs</i></p></li>
@@ -27,7 +28,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Combat (19)</summary>
+    <summary>Combat (18)</summary>
     <p><ul>
         <li>AimBot<p><i>Automatically aims at entities for you.</i></p></li>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
@@ -38,7 +39,6 @@ description: A list of modules and commands this mod has
         <li>AutoFeetPlace<p><i>Continually places obsidian around your feet</i></p></li>
         <li>AutoLog<p><i>Automatically log when in danger or on low health</i></p></li>
         <li>AutoMend<p><i>Automatically mends armour</i></p></li>
-        <li>AutoReplenish<p><i>Refills items in your hotbar</i></p></li>
         <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
         <li>BreakingWarning<p><i>Notifies you when someone is breaking a block near you.</i></p></li>
@@ -63,7 +63,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Misc (28)</summary>
+    <summary>Misc (31)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
@@ -72,6 +72,7 @@ description: A list of modules and commands this mod has
         <li>AutoFish<p><i>Automatically catch fish</i></p></li>
         <li>AutoMine<p><i>Automatically mines chosen ores</i></p></li>
         <li>AutoNametag<p><i>Automatically nametags entities</i></p></li>
+        <li>AutoObsidian<p><i>Mines ender chest automatically to fill inventory with obsidian</i></p></li>
         <li>AutoReconnect<p><i>Automatically reconnects after being disconnected</i></p></li>
         <li>AutoRespawn<p><i>Automatically respawn after dying</i></p></li>
         <li>AutoSpawner<p><i>Automatically spawns Withers, Iron Golems and Snowmen</i></p></li>
@@ -83,20 +84,22 @@ description: A list of modules and commands this mod has
         <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
         <li>ColourSign<p><i>Allows ingame colouring of text on signs</i></p></li>
         <li>ConsoleSpam<p><i>Spams Spigot consoles by sending invalid UpdateSign packets</i></p></li>
-        <li>CoordsLog<p><i>Automatically writes the coordinates of the player to a file with a user defined delay between logs.</i></p></li>
+        <li>CoordsLog<p><i>Automatically logs your coords, based on actions</i></p></li>
         <li>DiscordRPC<p><i>Discord Rich Presence</i></p></li>
         <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
         <li>FakeGamemode<p><i>Fakes your current gamemode client side</i></p></li>
         <li>FakeVanillaClient<p><i>Fakes a modless client when connecting</i></p></li>
+        <li>LogoutLogger<p><i>Logs when a player leaves the game</i></p></li>
         <li>MidClickFriends<p><i>Middle click players to friend or unfriend them</i></p></li>
         <li>MountBypass<p><i>Might allow you to mount chested animals on servers that block it</i></p></li>
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
         <li>StashFinder<p><i>Logs storage units in render distance.</i></p></li>
+        <li>TeleportLogger<p><i>Logs when a player teleports somewhere</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Movement (17)</summary>
+    <summary>Movement (18)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AntiLevitation<p><i>Removes levitation potion effect</i></p></li>
@@ -113,12 +116,13 @@ description: A list of modules and commands this mod has
         <li>NoSlowDown<p><i>Prevents being slowed down when using an item or going through cobwebs</i></p></li>
         <li>SafeWalk<p><i>Keeps you from walking off edges</i></p></li>
         <li>Sprint<p><i>Automatically makes the player sprint</i></p></li>
+        <li>Step<p><i>Changes the vanilla behavior for stepping up blocks</i></p></li>
         <li>TimerSpeed<p><i>Automatically change your timer to go fast</i></p></li>
         <li>Velocity<p><i>Modify knockback impact</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Player (25)</summary>
+    <summary>Player (26)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
@@ -129,6 +133,7 @@ description: A list of modules and commands this mod has
         <li>FastUse<p><i>Use items faster</i></p></li>
         <li>Freecam<p><i>Leave your body and transcend into the realm of the gods</i></p></li>
         <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
+        <li>InventoryManager<p><i>Manages your inventory automatically</i></p></li>
         <li>LagNotifier<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
         <li>NoBreakAnimation<p><i>Prevents block break animation server side</i></p></li>
