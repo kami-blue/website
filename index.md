@@ -16,7 +16,7 @@ In late 2019 dominikaaaa picked up the project, noticing the lack of modules, wi
 
 086 ported the original project to the Fabric mod system, in early 2020, with dominikaaaa making plans to port Blue to the new plugin system for it. 
 
-[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://paypal.me/mik4a) 
+[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://paypal.me/mik4a/5USD) 
 [![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin&style=flat-square)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
 [![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app&style=flat-square)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
