@@ -18,15 +18,15 @@ Keep in mind, the likelyhood of having a Github account with **2fa** and proper 
 
 First import Dominika's public key with this command
 
-```
-curl https://keybase.io/sb99/pgp_keys.asc | gpg --import
+```bash
+curl https://kamiblue.org/gpg.asc | gpg --import
 ````
 
 Then download both the release and signature files (below). 
 
 Then you run this command in a directory with both of the downloaded files. 
 
-```
+```bash
 gpg --verify KAMI-Blue-{{  site.cur_ver  }}-release.jar.sig
 ```
 
@@ -34,7 +34,7 @@ Keep in mind this requires you have gnupg or an alternative installed.
 
 You should get an output similar to this 
 
-```
+```bash
 gpg: assuming signed data in 'KAMI-Blue-{{  site.cur_ver  }}-release.jar'
 gpg: Signature made Sat Jun  6 04:20:00 2020 EDT
 gpg:                using RSA key F0BC7BF440E30845DFCC4BC5B4A5A6DCA70F861F
