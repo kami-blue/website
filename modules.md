@@ -3,10 +3,10 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (146)
+## Modules (150)
 
 <details>
-    <summary>Chat (17)</summary>
+    <summary>Chat (18)</summary>
     <p><ul>
         <li>AntiSpam<p><i>Removes spam and advertising from the chat</i></p></li>
         <li>AutoExcuse<p><i>Makes an excuse for you when you die</i></p></li>
@@ -22,13 +22,14 @@ description: A list of modules and commands this mod has
         <li>FancyChat<p><i>Makes messages you send fancy</i></p></li>
         <li>FormatChat<p><i>Add colour and linebreak support to upstream chat packets</i></p></li>
         <li>FriendHighlight<p><i>Highlights your friends names in chat</i></p></li>
+        <li>KamiMoji<p><i>Add emojis to chat using KamiMoji, courtesy of the EmojiAPI.</i></p></li>
         <li>LoginMessage<p><i>Sends a given message to public chat on login.</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
         <li>Spammer<p><i>Spams text from a file on a set delay into the chat</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Combat (18)</summary>
+    <summary>Combat (17)</summary>
     <p><ul>
         <li>AimBot<p><i>Automatically aims at entities for you.</i></p></li>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
@@ -41,7 +42,6 @@ description: A list of modules and commands this mod has
         <li>AutoMend<p><i>Automatically mends armour</i></p></li>
         <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
-        <li>BreakingWarning<p><i>Notifies you when someone is breaking a block near you.</i></p></li>
         <li>Criticals<p><i>Always do critical attacks</i></p></li>
         <li>CrystalAura<p><i>Places End Crystals to kill enemies</i></p></li>
         <li>OffhandGap<p><i>Holds a God apple when right clicking your sword!</i></p></li>
@@ -99,7 +99,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Movement (18)</summary>
+    <summary>Movement (19)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AntiLevitation<p><i>Removes levitation potion effect</i></p></li>
@@ -117,6 +117,7 @@ description: A list of modules and commands this mod has
         <li>SafeWalk<p><i>Keeps you from walking off edges</i></p></li>
         <li>Sprint<p><i>Automatically makes the player sprint</i></p></li>
         <li>Step<p><i>Changes the vanilla behavior for stepping up blocks</i></p></li>
+        <li>Strafe<p><i>Improves control in air</i></p></li>
         <li>TimerSpeed<p><i>Automatically change your timer to go fast</i></p></li>
         <li>Velocity<p><i>Modify knockback impact</i></p></li>
     </ul></p>
@@ -153,13 +154,14 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render (28)</summary>
+    <summary>Render (31)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>AntiOverlay<p><i>Prevents rendering of fire, water and block texture overlays.</i></p></li>
         <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
         <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
-        <li>BoxESP<p><i>Draws a box around small entities</i></p></li>
+        <li>Breadcrumbs<p><i>Draws a tail behind as you move</i></p></li>
+        <li>BreakingESP<p><i>Highlights blocks being breaking near you</i></p></li>
         <li>FullBright<p><i>Makes everything brighter!</i></p></li>
         <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
         <li>Chams<p><i>See entities through walls</i></p></li>
@@ -176,11 +178,13 @@ description: A list of modules and commands this mod has
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
         <li>PlayerModel<p><i>Renders a model of you, or someone you're attacking</i></p></li>
         <li>Search<p><i>Highlights blocks in the world</i></p></li>
+        <li>SelectionHighlight<p><i>Highlights object you are looking at</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
         <li>StorageESP<p><i>Draws an ESP on top of storage units</i></p></li>
         <li>TabFriends<p><i>Highlights friends in the tab menu</i></p></li>
         <li>Tracers<p><i>Draws lines to other living entities</i></p></li>
         <li>Trajectories<p><i>Draws lines to where trajectories are going to fall</i></p></li>
+        <li>WaypointRender<p><i>Render saved waypoints</i></p></li>
         <li>XRay<p><i>See through common blocks!</i></p></li>
         <li>Zoom<p><i>Configures FOV</i></p></li>
     </ul></p>
