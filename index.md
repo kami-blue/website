@@ -8,7 +8,7 @@ description: A Minecraft utility mod for anarchy servers
 
 This is an open source project written primarily by 086, dominikaaaa and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 140+ unique modules this mod has.
+See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 150+ unique modules this mod has.
 
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
 In late 2019 dominikaaaa picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by dominikaaaa. 
