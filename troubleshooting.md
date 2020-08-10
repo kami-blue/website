@@ -11,7 +11,7 @@ description: This page is meant to explain how to solve common issues when insta
 ## Setup
 #### Could not find tools.jar
 If you encounter this error when building, you most likely don't have the Java Development Kit (JDK) installed.
-Head over to [here](https://www.oracle.com/java/technologies/javase-jdk8-downloads.html) to download the Oracle JDK. Install it and try again.
+Head over to [here](https://www.oracle.com/ca-en/java/technologies/javase-jdk8-downloads.html) to download the Oracle JDK. Install it and try again.
 
 #### Crashes before game starts with some obscure Java error
 Set your application configuration's JRE in Intellij to a manual path to a downloaded and extracted *Oracle* Java 8 JRE
