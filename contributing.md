@@ -72,7 +72,7 @@ To use the built jar, find a file in `build/libs` called `<folderName>-<kamiVers
 
 #### Windows
 
-0. Make sure you have [Oracle JDK 8](https://www.oracle.com/ca-en/java/technologies/javase-jdk8-downloads.html) installed first. 
+0. Make sure you have [Oracle JDK 8](https://www.oracle.com/ca-en/java/technologies/javase/javase-jdk8-downloads.html) installed first. 
 1. Navigate to where you downloaded KAMI Blue, open the folder, and in the file path, double click to open the full file path. 
 2. Type `cmd` and hit enter.
 3. This will open `cmd` with the current directory (`cd`) being the KAMI Blue folder. Now type `gradlew.bat build`
