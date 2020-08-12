@@ -1,0 +1,7 @@
+---
+permalink: /api/v1/totalNightlies.json
+---
+
+{
+    "count": "{{  site.total_nightly_releases }}"
+}
