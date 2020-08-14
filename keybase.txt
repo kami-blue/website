@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sb99
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kamiblue.org
+  * I am sb99 (https://keybase.io/sb99) on keybase.
+  * I have a public key ASCBQDoz3GRy5Z6yc-ZeHLUbeeQy58Ogh7YL2nbrO3x5igo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012081403a33dc6472e59eb273e65e1cb51b79e432e7c3a087b60bda76eb3b7c798a0a",
+      "host": "keybase.io",
+      "kid": "012081403a33dc6472e59eb273e65e1cb51b79e432e7c3a087b60bda76eb3b7c798a0a",
+      "uid": "6b3d3619835c9c4527e9dc8c29142219",
+      "username": "sb99"
+    },
+    "merkle_root": {
+      "ctime": 1597447278,
+      "hash": "7c5aa8756703038295bcf55c2a1884585076d8f82902bbc6575d4db0bcc03e6332e86e49f17c645f9103efa2c19d3dbfb05fe1f82e82f0be86a4c476121ea1d1",
+      "hash_meta": "c567a96dd49728ff1442dd96467e69a42c00dfb165ae2d869326b387f829f001",
+      "seqno": 17283529
+    },
+    "service": {
+      "entropy": "A7OdB6jysQ+rVQQs58VVVIX/",
+      "hostname": "kamiblue.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1597447345,
+  "expire_in": 504576000,
+  "prev": "34c1ff4322b9626aa1667adefdc0e8530895b5e5bd5e1b22bdeebd3c994c3166",
+  "seqno": 63,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggUA6M9xkcuWesnPmXhy1G3nkMufDoIe2C9p26zt8eYoKp3BheWxvYWTESpcCP8QgNMH/QyK5YmqhZnre/cDoUwiVteW9Xhsive69PJlMMWbEIJLsZJJ3kYk4A5DP+djMhYBduRI5eo9myO+kFfuRrdw9AgHCo3NpZ8RAN2cZbVGI2fJU6K4kKoReQaMIBxFarkdunbKw58ueYe1vCCKC0rSDA51IlrGjNTubB0BxuTe0Yq+V4Yzh02FQC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMnLgYfpxFKp5lNwaJiWmjg4iiS4hqEqAHTilYBLmREfo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sb99
+
+==================================================================
