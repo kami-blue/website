@@ -1,32 +1,32 @@
 ==================================================================
-https://keybase.io/sb99
+https://keybase.io/l1ving
 --------------------------------------------------------------------
 
 I hereby claim:
 
   * I am an admin of https://kamiblue.org
-  * I am sb99 (https://keybase.io/sb99) on keybase.
-  * I have a public key ASCBQDoz3GRy5Z6yc-ZeHLUbeeQy58Ogh7YL2nbrO3x5igo
+  * I am l1ving (https://keybase.io/l1ving) on keybase.
+  * I have a public key ASBdJKO7_9XfQslFxIfjeNc7HwLF05xJP2XPFISl4jG28go
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "012081403a33dc6472e59eb273e65e1cb51b79e432e7c3a087b60bda76eb3b7c798a0a",
+      "eldest_kid": "01205d24a3bbffd5df42c945c487e378d73b1f02c5d39c493f65cf1484a5e231b6f20a",
       "host": "keybase.io",
-      "kid": "012081403a33dc6472e59eb273e65e1cb51b79e432e7c3a087b60bda76eb3b7c798a0a",
-      "uid": "6b3d3619835c9c4527e9dc8c29142219",
-      "username": "sb99"
+      "kid": "01205d24a3bbffd5df42c945c487e378d73b1f02c5d39c493f65cf1484a5e231b6f20a",
+      "uid": "4cf5a316c008b6c263a0118402ee7819",
+      "username": "l1ving"
     },
     "merkle_root": {
-      "ctime": 1597447278,
-      "hash": "7c5aa8756703038295bcf55c2a1884585076d8f82902bbc6575d4db0bcc03e6332e86e49f17c645f9103efa2c19d3dbfb05fe1f82e82f0be86a4c476121ea1d1",
-      "hash_meta": "c567a96dd49728ff1442dd96467e69a42c00dfb165ae2d869326b387f829f001",
-      "seqno": 17283529
+      "ctime": 1600351384,
+      "hash": "112d3a933fe8b45a3244ae257cd034a5d026dcf3edb00a17d7557170aa9eeff5390ea904497b731ed53818bb254c5e1e878e3221af8036d7308d578f368bec35",
+      "hash_meta": "0d3d3942cf04d1e3c6f275fde6c25d4de08b090d1940b27c5703e9b002452176",
+      "seqno": 17595683
     },
     "service": {
-      "entropy": "A7OdB6jysQ+rVQQs58VVVIX/",
+      "entropy": "MSJZjJcPayeN7uPtMHa2CGG4",
       "hostname": "kamiblue.org",
       "protocol": "https:"
     },
@@ -35,22 +35,22 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "5.5.0"
+    "version": "5.5.1"
   },
-  "ctime": 1597447345,
+  "ctime": 1600351391,
   "expire_in": 504576000,
-  "prev": "34c1ff4322b9626aa1667adefdc0e8530895b5e5bd5e1b22bdeebd3c994c3166",
-  "seqno": 63,
+  "prev": "e6f55fdd01d6aa4be60c8995867a158304dd73446bd04d8cec184a40f4219d4f",
+  "seqno": 9,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEggUA6M9xkcuWesnPmXhy1G3nkMufDoIe2C9p26zt8eYoKp3BheWxvYWTESpcCP8QgNMH/QyK5YmqhZnre/cDoUwiVteW9Xhsive69PJlMMWbEIJLsZJJ3kYk4A5DP+djMhYBduRI5eo9myO+kFfuRrdw9AgHCo3NpZ8RAN2cZbVGI2fJU6K4kKoReQaMIBxFarkdunbKw58ueYe1vCCKC0rSDA51IlrGjNTubB0BxuTe0Yq+V4Yzh02FQC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMnLgYfpxFKp5lNwaJiWmjg4iiS4hqEqAHTilYBLmREfo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXSSju//V30LJRcSH43jXOx8CxdOcST9lzxSEpeIxtvIKp3BheWxvYWTESpcCCcQg5vVf3QHWqkvmDImVhnoVgwTdc0Rr0E2M7BhKQPQhnU/EIECqIprQcuKcbcK395DMe1J83LuhHDSrf0yUIq2GADC7AgHCo3NpZ8RALATgq/2Q+Uy9nXZeyvCi1YGJskKnLh9X2scUFcf0j2Fym46oHky3bcZhLAE0lk9FS+GY/oOzGo2qCeo0sUN2AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGyHOFmFIk8BXlh42kLSwMWM7fG09rIhQBuZms5S5Hlfo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
-View my publicly-auditable identity here: https://keybase.io/sb99
+View my publicly-auditable identity here: https://keybase.io/l1ving
 
 ==================================================================
