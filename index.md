@@ -17,18 +17,20 @@ See the [FAQ](/faq) pages for information about using the mod itself, and the [m
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
 In late 2019 dominikaaaa picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by dominikaaaa. 
 
-
 086 ported the original project to the Fabric mod system, in early 2020, with dominikaaaa making plans to port Blue to the new plugin system for it. 
 
 [![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://paypal.me/mik4a/5USD) 
-[![BTC](https://img.shields.io/badge/btc-clickme-red?color=f08b16&logo=bitcoin&style=flat-square)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
-[![BCH](https://img.shields.io/badge/bch-clickme-red?color=2db300&logo=cash-app&style=flat-square)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
+[![BTC](https://img.shields.io/badge/btc-donate-red?color=f08b16&logo=bitcoin&style=flat-square)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
+[![BCH](https://img.shields.io/badge/bch-donate-red?color=2db300&logo=cash-app&style=flat-square)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 
 Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
 
-##### Baritone now included!
+### Now sponsored by Green Bull!
 
-Use the `;b` command, or test out Aura and other modules which now have Baritone compatibility!
+Click [here](https://discord.gg/dEZwnRV) to get your own anarchy server today for as low as 0.06$/Day
+
+<img src="https://media.discordapp.net/attachments/707534396839690260/711077844553433129/logo.png" alt="Green Bull Logo" style="width:150px;height:150px;">
+
 
 ## Images
 

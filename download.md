@@ -18,6 +18,12 @@ If you want the {{ site.cur_ver }} stable jar to manually install, click <a href
 
 </details>
 
+### Now sponsored by Green Bull!
+
+Click [here](https://discord.gg/dEZwnRV) to get your own anarchy server today for as low as 0.06$/Day
+
+<img src="https://media.discordapp.net/attachments/707534396839690260/711077844553433129/logo.png" alt="Green Bull Logo" style="width:150px;height:150px;">
+
 #### Changelog
 <a href="changelog" class="btnc">Changelog for {{ site.cur_ver }}</a>
 <a href="https://github.com/kami-blue/nightly-releases/releases/latest" class="btnc">Changelog for {{ site.beta_ver }}</a>
