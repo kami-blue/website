@@ -3,7 +3,7 @@ layout: default
 title: Modules
 description: A list of modules and commands this mod has
 ---
-## Modules (150)
+## Modules (160)
 
 <details>
     <summary>Chat (18)</summary>
@@ -29,33 +29,39 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Combat (17)</summary>
+    <summary>Combat (22)</summary>
     <p><ul>
         <li>AimBot<p><i>Automatically aims at entities for you.</i></p></li>
+        <li>AntiBot<p><i>Avoid attacking fake players</i></p></li>
         <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
         <li>AntiDeathScreen<p><i>Fixes random death screen glitches</i></p></li>
         <li>AntiFriendHit<p><i>Don't hit your friends</i></p></li>
         <li>Aura<p><i>Hits entities around you</i></p></li>
+        <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
         <li>AutoEZ<p><i>Sends an insult in chat after killing someone</i></p></li>
-        <li>AutoFeetPlace<p><i>Continually places obsidian around your feet</i></p></li>
         <li>AutoLog<p><i>Automatically log when in danger or on low health</i></p></li>
         <li>AutoMend<p><i>Automatically mends armour</i></p></li>
-        <li>AutoTotem<p><i>Refills your offhand with totems or other items</i></p></li>
+        <li>AutoOffhand<p><i>Manages item in your offhand</i></p></li>
         <li>AutoTrap<p><i>Traps your enemies in obsidian</i></p></li>
+        <li>BedAura<p><i>Place bed and kills enemies</i></p></li>
+        <li>CombatSetting<p><i>Settings for combat module targeting</i></p></li>
         <li>Criticals<p><i>Always do critical attacks</i></p></li>
-        <li>CrystalAura<p><i>Places End Crystals to kill enemies</i></p></li>
-        <li>OffhandGap<p><i>Holds a God apple when right clicking your sword!</i></p></li>
+        <li>CrystalAuraRewrite<p><i>A reborn of the CrystalAura</i></p></li>
+        <li>CrystalESP<p><i>Renders ESP for End Crystals</i></p></li>
+        <li>HoleMiner<p><i>Mines your opponent's hole</i></p></li>
+        <li>MidClickPearl<p><i>Throws a pearl automatically when you middle click in air</i></p></li>
         <li>Surround<p><i>Surrounds you with obsidian to take less damage</i></p></li>
         <li>TotemPopCounter<p><i>Counts how many times players pop</i></p></li>
         <li>VisualRange<p><i>Shows players who enter and leave range in chat</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Client (7)</summary>
+    <summary>Client (8)</summary>
     <p><ul>
         <li>ActiveModules<p><i>Configures ActiveModules colours and modes</i></p></li>
         <li>Baritone<p><i>Configures Baritone settings</i></p></li>
         <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
+        <li>ClickGUI<p><i>Opens the Click GUI</i></p></li>
         <li>CommandConfig<p><i>Configures client chat related stuff</i></p></li>
         <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
         <li>InventoryViewer<p><i>Configures Inventory Viewer's options</i></p></li>
@@ -63,7 +69,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Misc (31)</summary>
+    <summary>Misc (32)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
@@ -81,25 +87,26 @@ description: A list of modules and commands this mod has
         <li>BeaconSelector<p><i>Choose any of the 5 beacon effects regardless of beacon base height</i></p></li>
         <li>BlockData<p><i>Right click blocks to display their data</i></p></li>
         <li>BookCrash<p><i>Crashes servers by sending large packets</i></p></li>
-        <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
-        <li>ColourSign<p><i>Allows ingame colouring of text on signs</i></p></li>
+        <li>ColorSign<p><i>Allows ingame coloring of text on signs</i></p></li>
         <li>ConsoleSpam<p><i>Spams Spigot consoles by sending invalid UpdateSign packets</i></p></li>
         <li>CoordsLog<p><i>Automatically logs your coords, based on actions</i></p></li>
         <li>DiscordRPC<p><i>Discord Rich Presence</i></p></li>
         <li>EntityTools<p><i>Right click entities to perform actions on them</i></p></li>
         <li>FakeGamemode<p><i>Fakes your current gamemode client side</i></p></li>
+        <li>FakePlayer<p><i>Spawns a client sided fake player</i></p></li>
         <li>FakeVanillaClient<p><i>Fakes a modless client when connecting</i></p></li>
         <li>LogoutLogger<p><i>Logs when a player leaves the game</i></p></li>
         <li>MidClickFriends<p><i>Middle click players to friend or unfriend them</i></p></li>
         <li>MountBypass<p><i>Might allow you to mount chested animals on servers that block it</i></p></li>
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
+        <li>PingSpoof<p><i>Cancels or adds delay to your ping packets</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
         <li>StashFinder<p><i>Logs storage units in render distance.</i></p></li>
         <li>TeleportLogger<p><i>Logs when a player teleports somewhere</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Movement (19)</summary>
+    <summary>Movement (21)</summary>
     <p><ul>
         <li>AntiHunger<p><i>Reduces hunger lost when moving around</i></p></li>
         <li>AntiLevitation<p><i>Removes levitation potion effect</i></p></li>
@@ -109,7 +116,9 @@ description: A list of modules and commands this mod has
         <li>ElytraFlight<p><i>Allows infinite and way easier Elytra flying</i></p></li>
         <li>ElytraReplace<p><i>Automatically swap and replace your chestplate and elytra.</i></p></li>
         <li>EntitySpeed<p><i>Abuse client-sided movement to shape sound barrier breaking rideables</i></p></li>
+        <li>FastFall<p><i>Makes you fall faster</i></p></li>
         <li>Flight<p><i>Makes the player fly</i></p></li>
+        <li>HoleSnap<p><i>Move you into the hole nearby</i></p></li>
         <li>IceSpeed<p><i>Changes how slippery ice is</i></p></li>
         <li>InventoryMove<p><i>Allows you to walk around with GUIs opened</i></p></li>
         <li>Jesus<p><i>Allows you to walk on water</i></p></li>
@@ -123,17 +132,16 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Player (26)</summary>
+    <summary>Player (25)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
-        <li>AutoArmour<p><i>Automatically equips armour</i></p></li>
         <li>AutoEat<p><i>Automatically eat when hungry</i></p></li>
         <li>Blink<p><i>Cancels server side packets</i></p></li>
+        <li>ChestStealer<p><i>Automatically steal items from containers</i></p></li>
         <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
         <li>Fastbreak<p><i>Breaks block faster and nullifies the break delay</i></p></li>
         <li>FastUse<p><i>Use items faster</i></p></li>
         <li>Freecam<p><i>Leave your body and transcend into the realm of the gods</i></p></li>
-        <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
         <li>InventoryManager<p><i>Manages your inventory automatically</i></p></li>
         <li>LagNotifier<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
@@ -154,26 +162,28 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render (31)</summary>
+    <summary>Render (33)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>AntiOverlay<p><i>Prevents rendering of fire, water and block texture overlays.</i></p></li>
         <li>ArmourHUD<p><i>Displays your armour and it's durability on screen</i></p></li>
         <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
+        <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
         <li>Breadcrumbs<p><i>Draws a tail behind as you move</i></p></li>
-        <li>BreakingESP<p><i>Highlights blocks being breaking near you</i></p></li>
-        <li>FullBright<p><i>Makes everything brighter!</i></p></li>
+        <li>BreakingESP<p><i>Highlights blocks being broken near you</i></p></li>
         <li>CameraClip<p><i>Allows your 3rd person camera to pass through blocks</i></p></li>
-        <li>Chams<p><i>See entities through walls</i></p></li>
-        <li>ChunkFinder<p><i>Highlights newly generated chunks</i></p></li>
+        <li>Chams<p><i>Modify entity rendering</i></p></li>
         <li>CleanGUI<p><i>Modifies parts of the GUI to be transparent</i></p></li>
         <li>ESP<p><i>Highlights entities</i></p></li>
         <li>ExtraTab<p><i>Expands the player tab menu</i></p></li>
         <li>EyeFinder<p><i>Draw lines from entity's heads to where they are looking</i></p></li>
+        <li>FullBright<p><i>Makes everything brighter!</i></p></li>
         <li>HoleESP<p><i>Show safe holes for crystal pvp</i></p></li>
+        <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
         <li>MapPreview<p><i>Previews maps when hovering over them</i></p></li>
         <li>MobOwner<p><i>Displays the owner of tamed mobs</i></p></li>
         <li>Nametags<p><i>Draws descriptive nametags above entities</i></p></li>
+        <li>NewChunks<p><i>Highlights newly generated chunks</i></p></li>
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
         <li>PlayerModel<p><i>Renders a model of you, or someone you're attacking</i></p></li>
