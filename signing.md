@@ -43,7 +43,7 @@ gpg: Good signature from "Dominika Sokolov <sokolov.dominika@gmail.com>" [ultima
 
 If you don't get "Good signature", or it isn't signed by `F0BC7BF440E30845DFCC4BC5B4A5A6DCA70F861F` then you should **NOT** use this release, it means it's been hijacked (or more likely, dominika forgot to sign it properly, but it's better to be safe then sorry)
 
-You will get a message saying "This key is not certified with a trusted signature!". This just means that not enough trusted people have publically signed my (dominika's) key to verify that I am a real person. As long as the key matches the https://keybase.io/sb99 profile, then it's mine. Feel free to help out by signing my key!
+You will get a message saying "This key is not certified with a trusted signature!". This just means that not enough trusted people have publically signed my (dominika's) key to verify that I am a real person. As long as the key matches the https://keybase.io/l1ving profile, then it's mine. Feel free to help out by signing my key!
 
 <a href="{{ site.github.jar_url }}" class="btnc">{{  site.cur_ver  }} release</a>
 <a href="{{ site.github.jar_sig_url }}" class="btnc">{{  site.cur_ver  }} release sig</a>
