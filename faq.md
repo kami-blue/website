@@ -47,7 +47,7 @@ In order to show HUD elements on screen when the GUI is closed, hit the pin in t
 By using the command `;prefix <new Prefix>` (eg `;prefix .`) or after having ran KAMI Blue (make sure it's closed), editing your configuration file (find it using `;config path` in-game) and changing the value of `commandPrefix` to change the prefix.
 
 ##### Will there ever be a version for newer Minecraft versions?
-No, KAMI Blue's codebase is too big and relies on Forge events way too much to port to a newer version. Instead, the developers will be working on a new client called [Vasya](https://vasya.dominikaaaa.org), which supports 1.12.2 to 1.16.1
+No, KAMI Blue's codebase is too big and relies on Forge events way too much to port to a newer version. Instead, the developers will be working on a new client called [Vasya](https://vasya.l1ving.org), which supports 1.12.2 to 1.16.1
 
 ##### Missing menus
 Run `;fixgui` and if that doesn't help, make your GUI Scale smaller through the Minecraft settings and move your stuff back on screen. 

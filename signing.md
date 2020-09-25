@@ -8,7 +8,7 @@ description: Ensuring the security of KAMI Blue
 
 KAMI Blue is open source and publically auditable. You can view the full source code here: <{{ site.github.repository_url }}>
 
-Commits are signed by both dominikaaaa and iBuyMountainDew, with releases being published by dominikaaaa. Both members have full write access to the organization, with both members having **2fa** protection on their Github Account. Nobody else has push access to any kami-blue repository. 
+Commits are signed by both l1ving and iBuyMountainDew, with releases being published by l1ving. Both members have full write access to the organization, with both members having **2fa** protection on their Github Account. Nobody else has push access to any kami-blue repository. 
 
 If a commit is not signed, it is **imperative** that you check the contents of the commit yourself, if you'd like to be sure it is safe (ie a pull request was merged without signed commits). 
 

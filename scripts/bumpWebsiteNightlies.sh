@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Created by dominikaaaa on 12/08/20 at 18:12
+# Created by l1ving on 12/08/20 at 18:12
 
 COUNTER="$(grep total_nightly_releases _config.yml)"
 COUNTER=${COUNTER:24} # remove beginning 'total_nightly_releases: ' from variable

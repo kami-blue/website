@@ -10,14 +10,14 @@ description: A Minecraft utility mod for anarchy servers
 [![Discord Mine](https://img.shields.io/discord/573954110454366214?label=chat&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/KfpqwZB)
 [![HitCount1](https://camo.githubusercontent.com/8065fb7bb117c1f3d62b5c4e2d8bd8caed4ccb03/687474703a2f2f686974732e6477796c2e636f6d2f6b616d692d626c75652f636c69656e742e737667)](https://github.com/kami-blue/client)
 
-This is an open source project written primarily by 086, dominikaaaa and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
+This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
 See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 160+ unique modules this mod has.
 
 This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
-In late 2019 dominikaaaa picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by dominikaaaa. 
+In late 2019 l1ving picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by l1ving. 
 
-086 ported the original project to the Fabric mod system, in early 2020, with dominikaaaa making plans to port Blue to the new plugin system for it. 
+086 ported the original project to the Fabric mod system, in early 2020, with l1ving making plans to port Blue to the new plugin system for it. 
 
 [![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://paypal.me/mik4a/5USD) 
 [![BTC](https://img.shields.io/badge/btc-donate-red?color=f08b16&logo=bitcoin&style=flat-square)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
