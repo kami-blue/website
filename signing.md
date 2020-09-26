@@ -19,7 +19,7 @@ Keep in mind, the likelyhood of having a Github account with **2fa** and proper 
 First import Dominika's public key with this command
 
 ```bash
-curl https://kamiblue.org/gpg.asc | gpg --import
+curl https://kamiblue.org/pgp.asc | gpg --import
 ````
 
 Then download both the release and signature files (below). 
