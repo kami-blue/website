@@ -25,13 +25,6 @@ In late 2019 l1ving picked up the project, noticing the lack of modules, with iB
 
 Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
 
-### Now sponsored by Green Bull!
-
-Click [here](https://discord.gg/dEZwnRV) to get your own anarchy server today for as low as 0.06$/Day
-
-<img src="https://media.discordapp.net/attachments/707534396839690260/711077844553433129/logo.png" alt="Green Bull Logo" style="width:150px;height:150px;">
-
-
 ## Images
 
 <details> 
