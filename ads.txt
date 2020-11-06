@@ -1,1 +1,7 @@
+---
+layout: default
+title: Error 403
+description: Forbidden
+permalink: /ads.txt
+---
 google.com, pub-7708188084469659, DIRECT, f08c47fec0942fa0
