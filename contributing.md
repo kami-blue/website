@@ -23,7 +23,7 @@ When making a pull request or issue, please follow the [Code of Conduct](codeofc
 To set up your development environment, make use of the following instructions:
 
 ```
-git clone {{ site.github.repository_url }}
+git clone --recurse-submodules {{ site.github.repository_url }}
 ```
 
 #### Import KAMI Blue into your IDE of choice. 
@@ -62,7 +62,7 @@ Then, restart Eclipse and run Minecraft Client.
 You can build by running these commands (without the <>) in a terminal.
 
 ```
-git clone {{ site.github.repository_url }} kamiblue && cd kamiblue
+git clone --recurse-submodules {{ site.github.repository_url }} kamiblue && cd kamiblue
 ./gradlew build
 ```
 
