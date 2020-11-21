@@ -13,7 +13,7 @@ beta_ver: v1.1.7-a4998774
 discord_url: https://kamiblue.org/discord
 downloads_api_ver: v1
 totalNightlies_api_ver: v1
-total_nightly_releases: 118
+build_number: 828
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
