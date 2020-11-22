@@ -5,11 +5,11 @@ google_analytics: UA-157505961-1
 github:
   repository_url: https://github.com/kami-blue/client
   website_url: https://github.com/kami-blue/website
-  jar_url: https://github.com/kami-blue/client/releases/download/v1.1.6/KAMI-Blue-v1.1.6-release.jar
-  jar_sig_url: https://github.com/kami-blue/client/releases/download/v1.1.6/KAMI-Blue-v1.1.6-release.jar.sig
-  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/1.1.7-a4998774/kamiblue-1.1.7-a4998774-release.jar
-cur_ver: v1.1.6
-beta_ver: v1.1.7-a4998774
+  jar_url: https://github.com/kami-blue/client/releases/download/1.11.22/kamiblue-1.11.22-f2992ac9.jar
+  jar_sig_url: https://github.com/kami-blue/client/releases/download/1.11.22/kamiblue-1.11.22-f2992ac9.jar.sig
+  beta_jar_url: https://github.com/kami-blue/client/releases/download/1.11.22/kamiblue-1.11.22-f2992ac9.jar
+cur_ver: 1.11.01
+beta_ver: 1.11.22-f2992ac9
 discord_url: https://kamiblue.org/discord
 downloads_api_ver: v1
 totalNightlies_api_ver: v1
