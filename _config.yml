@@ -12,7 +12,6 @@ cur_ver: 1.11.01
 beta_ver: 1.11.22-f2992ac9
 discord_url: https://kamiblue.org/discord
 downloads_api_ver: v1
-totalNightlies_api_ver: v1
 build_number: 828
 theme: jekyll-theme-cayman
 gems:

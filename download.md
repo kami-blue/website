@@ -26,6 +26,5 @@ If you want the {{ site.cur_ver }} stable jar to manually install, click <a href
 
 Signed releases are now available, read [signing](/signing)!
 
-There is also now a Download API, [https://kamiblue.org/api/{{ site.downloads_api_ver }}/downloads.json](https://kamiblue.org/api/{{ site.downloads_api_ver}}/downloads.json)
+There is also a Download API, [https://kamiblue.org/api/{{ site.downloads_api_ver }}/downloads.json](https://kamiblue.org/api/{{ site.downloads_api_ver}}/downloads.json)
 
-There is also an API for the total number of released nightlies, to bypass GitHub's restriction on it's release API. Note, this only provides information about how many nightlies have been released. [https://kamiblue.org/api/{{ site.totalNightlies_api_ver }}/totalNightlies.json](https://kamiblue.org/api/{{ site.totalNightlies_api_ver}}/totalNightlies.json)
