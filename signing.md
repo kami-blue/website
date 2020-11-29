@@ -12,11 +12,11 @@ Commits are signed by both l1ving and iBuyMountainDew, with releases being publi
 
 If a commit is not signed, it is **imperative** that you check the contents of the commit yourself, if you'd like to be sure it is safe (ie a pull request was merged without signed commits). 
 
-Keep in mind, the likelyhood of having a Github account with **2fa** and proper password security being hacked is extremely low. Dominika uses a 12 word + special characters standard, with a physical 2fa key, which is virtually uncrackable in the heat death of the universe, along with Github hashing the password, and the commits being signed by **4096 bit RSA**, with iBuyMountainDew using similar security
+Keep in mind, the likelyhood of having a Github account with **2fa** and proper password security being hacked is extremely low. L1ving uses a 12 word + special characters standard, with a physical 2fa key, which is virtually uncrackable in the heat death of the universe, along with Github hashing the password, and the commits being signed by **4096 bit RSA**, with iBuyMountainDew using similar security
 
 ## Verifying 
 
-First import Dominika's public key with this command
+First import L1ving's public key with this command
 
 ```bash
 curl https://kamiblue.org/pgp.asc | gpg --import
@@ -41,9 +41,9 @@ gpg:                using RSA key F0BC7BF440E30845DFCC4BC5B4A5A6DCA70F861F
 gpg: Good signature from "Dominika Sokolov <sokolov.dominika@gmail.com>" [ultimate]
 ```
 
-If you don't get "Good signature", or it isn't signed by `F0BC7BF440E30845DFCC4BC5B4A5A6DCA70F861F` then you should **NOT** use this release, it means it's been hijacked (or more likely, dominika forgot to sign it properly, but it's better to be safe then sorry)
+If you don't get "Good signature", or it isn't signed by `F0BC7BF440E30845DFCC4BC5B4A5A6DCA70F861F` then you should **NOT** use this release, it means it's been hijacked (or more likely, l1ving forgot to sign it properly, but it's better to be safe then sorry)
 
-You will get a message saying "This key is not certified with a trusted signature!". This just means that not enough trusted people have publically signed my (dominika's) key to verify that I am a real person. As long as the key matches the https://keybase.io/l1ving profile, then it's mine. Feel free to help out by signing my key!
+You will get a message saying "This key is not certified with a trusted signature!". This just means that not enough trusted people have publically signed my (l1ving's) key to verify that I am a real person. As long as the key matches the https://keybase.io/l1ving profile, then it's mine. Feel free to help out by signing my key!
 
 <a href="{{ site.github.jar_url }}" class="btnc">{{  site.cur_ver  }} release</a>
 <a href="{{ site.github.jar_sig_url }}" class="btnc">{{  site.cur_ver  }} release sig</a>
