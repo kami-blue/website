@@ -65,7 +65,7 @@ Windows:
 Linux / OSX:
 ```
 ~/.gradle/forge_gradle
-~/.gradle/caches\modules-2\files-2.1
+~/.gradle/caches/modules-2/files-2.1
 ```
 
 
