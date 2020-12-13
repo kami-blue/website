@@ -1,5 +1,5 @@
 ---
-permalink: /api/v1/builds
+permalink: /api/v1/builds.html
 ---
 
 {{ site.build_number }}
