@@ -6,76 +6,73 @@ description: Instructions for developers
 
 ## Building and Contributing
 
-***
+Read [Support](support) for help.
 
-Please make sure to restart your IDE and reimport 🔄 gradle after running all the setup
+### Contributing
 
-***
+When making a pull request or issue, please follow the [Code of Conduct](codeofconduct).
 
-Read [Support](support) for help and **[Troubleshooting](troubleshooting) for common errors**.
+Pull requests are accepted to all non-archived repositories on https://github.com/kami-blue/. Please name your branches and fill in the template (you'll see it when you make a pull request) to make reviewing easier.
 
-When making a pull request or issue, please follow the [Code of Conduct](codeofconduct)
+### Setup
 
-***
+**Currently only JDK 8 is supported. You can download it for free [here](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot).**
 
-### Contributing 
+All following steps will require `sh` or `bash` on Linux / OSX, and [Git Bash](https://gitforwindows.org/) for Windows users.
 
-To set up your development environment, make use of the following instructions:
+You will have to install Git Bash on Windows, and Git on Linux / OSX first, refer to Google or Stackoverflow if you're unsure how.
 
+Once you have that setup, run the following:
 ```
-git clone --recurse-submodules {{ site.github.repository_url }}
+git clone {{ site.github.repository_url }} kamiblue
+cd kamiblue
+./scripts/setupWorkspace.sh
 ```
 
-#### Import KAMI Blue into your IDE of choice. 
-
-If you use Intellij, import the `build.gradle` file
-
-If you use Eclipse, import a new gradle project and select the `kamiblue` folder. 
-
-If you do not wish to run from an IDE, use `./gradlew runClient` to run KAMI Blue 
-(not recommended due to random issues. run `./gradlew clean` if you experience any with it)
-
-#### Running in Intellij IDEA
-
-1. Wait for the Gradle import to finish. 
-2. In the Gradle tab, hit the reimport 🔄 button. If you don't see the Gradle tab on the very right of Intellij, go to File -> Close Project, and then reopen the project. 
-Make sure your workspace is setup as per above, and then hit reimport 🔄 inside Gradle.
-3. Expand the tab -> expand `Forgegradle`
-4. Run `setupDecompWorkspace` and wait for it to finish
-5. Run `genIntellijRuns`
-6. Reimport 🔄 Gradle and then restart Intellij
-7. You'll see a `Minecraft Client`. Select it, and hit edit.
-8. Change the classpath to `folderName.main`
-9. You can now just hit the green play button to open Minecraft with your current changes
-
-#### Running in Eclipse
-
-You'll have to execute the `./gradlew setupDecompWorkspace` and `./gradlew eclipse` commands before doing anything. 
-Then, restart Eclipse and run Minecraft Client.
+You will want to replace `{{ site.github.repository_url }}` with the URL of your own fork, which you can make by clicking [here]({{ site.github.repository_url }}/fork).
 
 ### Building
 
-***
+After setting up a workspace, you can run the `gradle build` task from within Intellij IDEA, or you can run `./gradlew build` inside the KAMI Blue folder.
 
-#### Linux
+### Running Minecraft 
 
-You can build by running these commands (without the <>) in a terminal.
+Only Intellij IDEA is supported, due to lack of features and proper Kotlin support in Eclipse. You're free to use another IDE, but will not get support setting up the environment.
 
+Once you have setup a workspace as per above, import the `build.gradle` file
+
+1. File -> New -> Project from Existing Sources.
+2. Select `kamiblue`, then the `build.gradle` file.
+3. In the Gradle tab on the right, expand Run Configurations
+4. Run `genIntellijRuns`, then press the reimport 🔄 button above.
+5. You should see a `RUNCLIENT` at the top now, you can press the green ▶️ start button to start Minecraft.
+6. If you do not see it, you can manually find it inside Gradle -> Tasks -> fg_runs -> runClient.
+
+### Troubleshooting
+
+#### Could not create task ':\_'.
+
+You will want to delete your Forge caches (below), along with running `./gradlew clean`.
+
+Make sure to run the setup script afterwards.
+
+Windows:
 ```
-git clone --recurse-submodules {{ site.github.repository_url }} kamiblue && cd kamiblue
-./gradlew build
+%userprofile%\.gradle\forge_gradle
+%userprofile%\.gradle\caches\modules-2\files-2.1
 ```
 
-To use the built jar, find a file in `build/libs` called `<folderName>-<kamiVersion>-release.jar` which you can copy to the `mods` folder of a Minecraft instance that has Forge 1.12.2 installed.
+Linux / OSX:
+```
+~/.gradle/forge_gradle
+~/.gradle/caches\modules-2\files-2.1
+```
 
-***
 
-#### Windows
+#### NoSuchMethodError: java.nio.ByteBuffer.flip()Ljava/nio/ByteBuffer;
 
-0. Make sure you have [Oracle JDK 8](https://www.oracle.com/ca-en/java/technologies/javase/javase-jdk8-downloads.html) installed first. 
-1. Navigate to where you downloaded KAMI Blue, open the folder, and in the file path, double click to open the full file path. 
-2. Type `cmd` and hit enter.
-3. This will open `cmd` with the current directory (`cd`) being the KAMI Blue folder. Now type `gradlew.bat build`
-4. and hit enter. 
+This means you decompiled Minecraft previously on JDK 11 or newer, and are now using JDK 8. Follow the above instructions to reset the caches and run the setup script again.
 
-To use the built jar, find a file in `build/libs` called `<folderName>-<kamiVersion>-release.jar` which you can copy to the `mods` folder of a Minecraft instance that has Forge 1.12.2 installed.
+#### Other issues
+
+Contact [support](support) for help, and we can add additional troubleshooting here.
