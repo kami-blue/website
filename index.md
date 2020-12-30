@@ -16,8 +16,6 @@ In late 2019 l1ving picked up the project, noticing the lack of modules, with iB
 086 ported the original project to the Fabric mod system, in early 2020, with l1ving making plans to port Blue to the new plugin system for it. 
 
 [![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://paypal.me/mik4a/5USD) 
-[![BTC](https://img.shields.io/badge/btc-donate-red?color=f08b16&logo=bitcoin&style=flat-square)](https://www.blockchain.com/btc/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7)
-[![BCH](https://img.shields.io/badge/bch-donate-red?color=2db300&logo=cash-app&style=flat-square)](https://www.blockchain.com/bch/address/19pH4aNZZMPJkqQ2826BauRokyBs1NYon7) 
 [![HitCount1](https://camo.githubusercontent.com/8065fb7bb117c1f3d62b5c4e2d8bd8caed4ccb03/687474703a2f2f686974732e6477796c2e636f6d2f6b616d692d626c75652f636c69656e742e737667)](https://github.com/kami-blue/client)
 
 Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
