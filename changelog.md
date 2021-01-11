@@ -10,509 +10,123 @@ Download the latest version at the [download](/download) page!
 
 ### Notes
 
-- [fix] Fixed Text Radar showing dead players.
-- [fix] Disable FakePlayer on death
-- [cleanup] Cleaned up TabFriends code
-- [fix] Fixed null safety and weird casting in PortalGodMode
-- [fix] Nametags uses custom item name
-- [fix] ChatSetting lower minimum and lower default delay
-- [fix] Fixed CoordsLog spams waypoint on death
-- [fix] Fixed Flight allowing player to fly after disabling
-- [fix] Smaller step for GUI scale
-- [fix] Fixed NoSlowDown not working with AutoWalk forward/backward mode
-- [fix] Fixed dying in Freecam not resetting the view entity correctly.
-- [fix] Fixed PortalChat functioning when disabled
-- [fix] Fixed FullBright flashing bug with other clients
-- [fix] Fixed negative ms count down in AutoReconnect
-- [fix] Formatting issue in getServerType()
-- [fix] Fixed AutoEZ broadcast detection
-- [refactor] Moved some enum classes to top level
-- [fix] Fixed rounded rectangles outline drawing
-- [feature] Added ViewLock, replaces *lock (#1594)
-- [fix] Swapped colors in toggle messages
-- [fix] Remove Fast setting from AutoMend, as FastUse already does it
-- [refactor] Cape system rewrite (#1597)
-- [enhancement] Added sound to FriendHighlight. (#1600)
-- [fix] PacketLogger formatting again
-- [fix] PacketLogger formatting
-- [fix] PacketLogger loading null lines causing a crash
-- [enhancement] colorChangeRange should only appear if rangedColor is selected on the Tracers module (#1598)
-- [fix] Fixed GL Error spam in ESP
-- [cleanup] Remove unused MixinAnvilChunkLoader
-- [fix] Removed ChunkSize to fix weird invisible entities bug (#1583)
-- [enhancement] Color change range color to Tracers (#1589)
-- [enhancement] Add Tutorial option to AntiOverlay
-- [fix] Fixed AutoArmor desync
-- [cleanup] Cleaned up BaritoneUtils
-- [enhancement] Don't toggle module if key F3 is down
-- [fix] AutoReply / AntiAFK replying to self
-- [fix] Fixed InventoryManager not unpausing Baritone correctly
-- [fix] Fixed rare crash with other mod in Blink, CrystalAura, and FakePlayer
-- [cleanup] Fixed dead references, fixed syntax errors
-- [fix] Fixed unused parameter build warning in ForgeEventProcessor
-- [enhancement] Remove RH from AutoExcuse (#1579)
-- [fix] Fixed Sprint in compatible with Impact's Sprint
-- [fix] Fixed AutoWalk bug (#1577)
-- [fix] Fixed spectator mode in FakeGameMode
-- [fix] Fixed typo in CoordsLog
-- [refactor] Mixin package refactor (#1573)
-- [refactor] Renamed Aura to KillAura
-- [cleanup] Cleaned up AntiChainPop code
-- [enhancement] Added more excuses to AutoExcuse
-- [cleanup] Removed useless module
-- [cleanup] cleaned up hud info code in AutoWalk
-- [enhancement] Added DisableOnDisconnect option to AutoWalk. Optimized direction calculation code
-- [fix] Fixed Waypoint Json crash
-- [enhancement] Disable AutoTunnel on Baritone cancel command execution, moved Baritone mixin classes into a separated package
-- [enhancement] Optimized AutoTunnel code, added DisableOnDisconnect option
-- [fix] Fixed toggle message spam
-- [feature] Added more messages to Hypixel in AutoEz (#1569)
-- [fix] Make CrystalESP self placing compatible with offhand crystal and checks for colliding
-- [fix] Added error logging to configs
-- [cleanup] Removed newline in mcmod.info (#1566)
-- [fix] Flight crash in singleplayer (#1565)
-- [fix] Remove spam
-- [feature] Added Franky module
-- [feature] Improve /msg regex to work for more servers
-- [feature] Added support for more types of /msg plugins
-- [fix] Optimized BossStack performance
-- [fix] Fixed Step crash
-- [enhancement] Improved CrystalAura yaw speed check
-- [fix] Fixed random head shaking bug
-- [fix] Doubles the font resolution for 4k monitors
-- [feature] Added OnlyOwn setting to CrystalESP
-- [enhancement] Optimized CrystalAura explode damage calculation
-- [fix] Fixed ChunkBorder bug in Freecam
-- [cleanup] Reverted setting names to readable names and actually simplify the code in HoleESP
-- [feature] Added HideOwn option to HoleESP (#1539)
-- [feature] EatBadFood setting for the AutoEat module (#1543)
-- [fix] Fixed more BaritoneUtils Baritone null safety
-- [fix] Fixed BaritoneUtils null safety
-- [fix] Fixed rare concurrent modification exceptions
-- [fix] Fixed file not found exception in LoginMessage
-- [fix] #shortBaritonePrefix being incompatible with BaritoneRemote
-- [fix] Issues with BaritoneRemote
-- [fix] Suppress deprecation warnings where unnecessary
-- [refactor] Proper message detection system
-- [fix] Fixed NoFall
-- [enhancement] Optimized HoleESP performance
-- [fix] Add printing stacktrace to NoPacketKick
-- [fix] Default to false, not non-null
-- [fix] Replace unsafe usages of BaritoneAPI and prevent any issues if Baritone is not present in jar.
-- [fix] Accessing Baritone Control Manager when not init
-- [fix] Fixed AntiFog bug
-- [enhancement] Optimized VoidESP
-- [fix] Set the max speed of EntitySpeed to 25
-- [fix] Fixed ridiculous max speed in EntitySpeed
-- [fix] isDirect() not working on Vanilla /msg
-- [feature] Created VoidESP (#1526)
-- [fix] EntitySpeed max value
-- [enhancement] Optimized Module loading and cleaned up code
-- [enhancement] Added chams opacity
-- [fix] Fixed Chams bug
-- [enhancement] Added command support to LoginMessage
-- [fix] Make Spammer ignores blank lines and removes extra whitespaces
-- [new] Added module alias
-- [fix] Calling BaritoneAPI before it's initialized
-- [fix] Framebuffer creation issues causing black screens
-- [fix] Fixed FontRenderAdapter baseline offset
-- [fix] Fix Autoreconnect and AntiAfk bug
-- [fix] Fixed chat message queue incompatible with Impact command
-- [fix] Fixed ToolTips alignment, added baseline offset setting to CustomFont
-- [fix] Re added http request dependency, closes #1516
-- [enhancement] Speed up loading by reducing usages of reflections
-- [cleanup] Removed random @JvmField annotations
-- [cleanup] Removed unused module category
-- [fix] Bug with AntiWeather
-- [fix] Default Chat delay
-- [fix] Fixed extreme lag caused by Crystal Aura targeting End Dragon
-- [fix] Fixed ESP filled not drawing the whole box
-- [fix] Fix crash in EntitySpeed, closes #1505
-- [fix] SignText default to off in NoRender
-- [fix] Remove duplicate option in NoRender
-- [feature] Added Norender option for signtext (#1507)
-- [fix] typos
-- [fix] Update AutoQMain to work on 2b2t
-- [cleanup] [feature] Cleanup utils, added 2 block step
-- [enhancement] Rewrote Friends (#1498)
-- [feature] Message Manager (#1497)
-- [fix] Fixed packet fly closes gui
-- [cleanup] Fixed :wheelchair: code in AntiSpam
-- [fix] Fixed visibility problem in LagNotifier
-- [fix] AutoEZ self check with Freecam
-- [fix] VisualRange self check
-- [feature] Added rubber band detection to LagNotifier, cleaned up codes
-- [fix] Fixed SelectionHighlight Entity mode in Freecam, Fixed null safety. Closes #1168
-- [fix] Proper fix for Inventory PlayerModel
-- [fix] Fixed min value of line width settings. Closes #1494
-- [fix] Fixed package typo
-- [fix] Fixed all the random names in help messages
-- [feature] Player Inventory Manager (#1496)
-- [fix] Attempt to fix texture bug
-- [fix] Fixed InventoryViewer overlaps other frame, closes #1486
-- [fix] Fixed Chams breaks matrix, closes #1489
-- [fix] Fix CA armor dura calculation
-- [fix] Attempt to fix the blur texture bug
-- [feature] Added lod bias setting to CustomFont
-- [enhancement] Make crystal placing check for all entities collision, cleaned up CrystalUtils, fixed null safety
-- [fix] Fixed yaw difference calculation
-- [enhancement] Improved CA force place, added key bind and armor dura setting for force place.
-- [enhancement] Make CA delay more accurate, improved rotation spoofing and place speed.
-- [fix] Fixed :monkey: code in AutoExcuse
-- [enhancement] Make CrystalBasePlace place at pos that does the most damage
-- [fix] Fixed CrystalBasePlace hotbar spoofing
-- [feature] Custom excuse options for AutoExcuse
-- [fix] Fixed null safety in InventoryUtils
-- [feature] Added bind button to AutoTrap's SelfTrap option
-- [feature] Made UpStep in Step optional, added binds to UpStep and DownStep
-- [fix] Fixed FastUse item check
-- [enhancement] Added option to scale ArmorHUD
-- [fix] Fixed ArmorHUD alignments and damage text
-- [feature] Enchanting Table books option for NoRender
-- [refactor] Added BaritoneSettingsInitEvent.kt, refactored usage of BaritoneAPI.getSettings() to BaritoneUtils.settings()
-- [fix] AntiAfk crash
-- [refactor] Modules Cleanup (#1482)
-- [feature] Added Particles to NoRender
-- [fix] Another typo in BaritoneRemote
-- [fix] BaritoneRemote typo
-- [fix] Fixed TotemPopCounter spamming
-- [feature] CrystalBasePlace and CrystalAura enhancements
-- [fix] Fixed AutoOffhand CrystalAura check
-- [enhancement] Added priorities to Listener
-- [fix] Fixed the listener function for Java
-- [enhancement] Use more accurate distance calculation for CrystalAura, changed damage setting range, added place sync option
-- [enhancement] Make InfoOverlay speed calculation more accurate
-- [fix] Fixed build error and AutoWalk baritone pathing check
-- [enhancement] Disable AutoWalk if the Baritone process gets cancelled
-- [enhancement] Optimized Font Rendering and Click GUI performance
-- [enhancement] Changed default font to Source Sans Pro, make font name setting non case sensitive
-- [fix] Fixed potion UI missing text, fixed :smoothbrain: naming in ColorConverter
-- [fix] Fixed black chat issue caused by gl blend state.
-- [fix] Fixed managers init error, fixed Trajectories incompatible with Freecam
-- [fix] Fixed CombatManager isn't a "Manager"
-- [fix] Only update chunk size if the feature is enabled
-- [fix] Fixed MixinGuiNewChat mapping
-- [enhancement] Added swap delay to CrystalAura
-- [enhancement] Make CrystalESP uses custom font
-- [feature] Added ExtraChatHistory, closes #920
-- [fix] Fixed random hand shaking in Freecam, fixed auto rotate incompatible with Baritone
-- [feature] Added AutoRotate to Freecam
-- [fix] Fixed blink not working. Also clear packets on disconnect
-- [fix] Fixed SelectionHighlight in block check incompatible with Freecam
-- [enhancement] Updated CA default settings, improved crystal explode failure handling,
-- [feature] Added switch message to AutoOffhand, closes #1458
-- [feature] Added keybinds for switching items to AutoOffhand
-- [enhancement] Improved CA damage calculation, added left click face place
-- [fix] Make AutoOffhand, CrystalAura checks for absorption amount
-- [feature] Added fall damage check to AutoOffhand
-- [fix] Fixed Surround hotbar spoofing and one time mode. Make enable in hole only checks for obby hole
-- [enhancement] Improved HoleSnap stability
-- [fix] Fixed head pitch glitching when riding
-- [cleanup] Removed coroutines_version from gradle.properties
-- [fix] Removed random newlines in log during init
-- [feature] Added option to change AutoOffhand priority between hotbar and main inventory
-- [fix] Fixed AutoOffhand swapping items around when ran out of items
-- [fix] Fixed Minecraft dev plugin meme again
-- [feature] Added hoppers to Stashfinder
-- [fix] Don't send chat message when player isn't in world, fixed Custom Font setting not used on start up
-- [fix] Fix event bus crash caused by ConcurrentModificationException
-- [feature] Added option to change font type, closes #1443
-- [feature] Added option to only send message after move for LoginMessage
-- [fix] Fixed Shader ESP incompatible with Optifine Fast Rendering
-- [fix] Make Shader ESP works without Fast Render in optifine
-- [fix] Fixed Nametags bugs, added separated option to toggle custom font.
-- [fix] Remove Alpine from README.md
-- [fix] make ESP, EyeFinder, and Tracers compatible with Freecam, closes #1421
-- [cleanup] Removed unused dependencies
-- [fix] Fixed Velocity bug with Fishing rod, closes #1441
-- [refactor] [new] Event system
-- [fix] Fixed Minecraft dev plugin meme
-- [fix] fixed build error at ChunkSize()
-- [fix] Added warning to gui sizing
-- [refactor] Surround centering utils
-- [fix] Unnecessary print stack trace on stupid Minecraft code
-- [feature] Chunk size option for InfoOverlay
-- [fix] Unnecessary usages of @JvmStatic in TimeUtils.kt
-- [fix] Minimum health to 6 and reduced cognitive complexity in AutoLog
-- [fix] Mfw IDEA failed to refresh VCS changes
-- [cleanup] Cleaned up silly codes in InfoOverlay
-- [rewrite] InfoOverlay and minify code
-- [fix] Fixed Shader ESP incompatible with other render modules
-- [cleanup] Removed redundant debug message
-- [fix] Fix Shader ESP incompatible with vanilla nametags
-- [feature] Shader ESP
-- [enhancement] Improved CleanGUI chat readability.
-- [fix] Config crash
-- [fix] Fixed Offhand crystal check
-- [fix] Made AutoLog ignores FakePlayer and Freecam player, closes #1402
-- [feature] Combat update
-- [fix] Fixed black text in custom font rendering
-- [fix] Name in readme
-- [fix] Fixed weird cringy config bug
-- [fix] Hopefully fix the black text bug
-- [fix] AntiAfk not initializing properly
-- [fix] Custom font option not being applied to Nametags, BreakingESP and TextComponent
-- [cleanup] Remove useless comments in gitignore
-- [feature] AutoTunnel display which direction is selected
-- [fix] InfoOverlay settings not saving
-- [feature] Added option to disable Freecam on disconnect
-- [feature] AntiSpam improvements
-- [feature] Added input timeout option to AntiAFK
-- [new] [feature] TTF Font Renderer
-- [fix] Change chatControl to false by default
-- [fix] Cleanup Baritone settings
-- [fix] Reverted changes to Baritone settings
-- [feature] Added codefactor badge to readme, removed BCH
-- [refactor] Rewrote Freecam (#1375)
-- [fix] Baritone fix prefix bug
-- [fix] Cleanup code in InfoCalculator.kt
-- [feature] Added PrefixControl option to Baritone
-- [feature] Added server brand option to InfoOverlay
-- [feature] Added InstantTeleport to PortalGodMode
-- [fix] Fix Baritone not applying settings sometimes
-- [feature] Made StashFinder saving optional
-- [fix] Fixed InventoryManager throws items randomly
-- [feature] Added swap weapon option to AutoTool. Don't swap weapon for non living entity(crystal, minecart),
-- [feature] Make AutoArmour equip armor piece one by one. Added delay setting
-- [refactor] Refactored name 'l1ving'
-- [fix] Change 'clickme' to 'donate'
-- [fix] Fixed typos, added option to adjust hit delay in FastBreak, make FastUse bow spam compatible with off hand
-- [fix] Fixed Module loading try catch block
-- [fix] Fixed KamiMoji sign editing cursor color
-- [fix] Fixed minor render bugs with Nametags, make dura text bigger, added option to disable frame for drop item
-- [cleanup] Removed LayerCape.kt
-- [cleanup] Removed unneeded javadocs in managers, Fixed FriendManager isn't a "manager"
-- [refactor] Optimization and refactoring for KamiMoji
-- [cleanup] Removed broken stuff in AutoLog, fixed crystal detecting
-- [fix] Fixed Trajectories crashes in singleplayer
-- [cleanup] Cleaned up events
-- [refactor] Rewrote Trajectories
-- [cleanup] Cleaned up ModuleManager
-- [fix] Replaced magical math calculation with timer
-- [refactor] Rewrote LogoutLogger
-- [refactor] NameTags rewrite (#1359)
-- [cleanup] Cleanup AutoMine code
-- [fix] Fix AutoMine not mining log2
-- [feature] Added star chart. (#1357)
-- [fix] Slider Step Fix (#1356)
-- [fix] Fix autotrap bug
-- [fix] Improved Waypoints and optimized code
-- [refactor] Rewrote NoEntityTrace options
-- [feature] Added offhand compatibility to AutoRefill
-- [feature] Added VoidOnly option to NoFall, closes #1345
-- [fix] Fixed AutoArmour causing inventory desync, closes #1346
-- [feature] Added removeHoldingItem function to InventoryUtils
-- [fix] Fixed Velocity breaks CrystalAura
-- [feature] Added FakePlayer, closes #741
-- [fix] Updated 2D rendering utils
-- [feature] Added new enumBuilder function that returns typed enum setting
-- [fix] Hopefully fixed rare crash during world render
-- [fix] Fixed Strafe and Sprint compatibility with Baritone, Added on holding sprint option to strafe. Made strafe reset timer correctly when not moving.
-- [fix] Fixed rounded rectangle drawing functions
-- [fix] Improved WaypointRender font rendering
-- [fix] Fixed BreakingESP and LoginMessage (#1339)
-- [feature] Improved Blink, closes #1336
-- [fix] Fixed TODO after merging
-- [feature] Added an option to not disable AutoLog and a button to manually disable AutoLog
-- [refactor] Converted all module classes to Kotlin object (#1334)
-- [cleanup] Removed unsafe casting added in 551d0f1a
-- [cleanup] Improved Inventory related modules, fixed typos
-- [cleanup] Removed all usage of deprecated MODULE_MANAGER
-- [fix] Antioverlay Improvements (#1294)
-- [fix] Fixed HungerOverlay init error
-- [cleanup] Removed redundant code
-- [cleanup] Cleaned up PlayerModel code
-- [bump] Bump snakeyaml from 1.26 to 1.27 (#1332)
-- [refactor] AntiJava Refactor V2.0 (#1327)
-- [feature] Made EntitySpeed flight option works for boat, added primary passenger check (#1309)
-- [fix] Changed delay default value and range. Fixed weird formatting. Removed useless cast.
-- [fix] Fixed ticks time unit, fixed StopTimer stop() returning timeunit
-- [feature] Added Ticks as a time unit to TimerUtils, added reset method to TimerUtils.
-- [fix] Fix DiscordRPC bug
-- [feature] Added drawLineStrip() to RenderUtils2D
-- [fix] Fixed Vec2d constructor
-- [fix] Fixed ProjectionUtils bugs
-- [feature] Added PingSpoof
-- [refactor] Rewrote PlayerPacketManger mixins
-- [fix] Fix output bug with SearchCommand. Closes #1312
-- [fix] Fixed bug with chunkfinder
-- [fix] Use class comparison instead of name comparison
-- [feature] Added players to AutoLog, added multiline support
-- [refactor] Rewrote Autolog, fixed bugs
-- [refactor] Rewrote Chams and made it more customizable
-- [fix] Made ChunkFinder automatically clear every 10 minutes.
-- [feature] Added Russian server support to AutoReply. Closes #1143
-- [fix] Fixed bugs with FastFall, removed HoleOnly option. Closes #1282
-- [enhancement] Optimized managers loading
-- [fix] Fixed typo that caused build system fail
-- [fix] Made hook remove quotes
-- [fix] Fixed bugs and formatting with Waypoints and their dimensions
-- [fix] Fixed CommandConfig toggle warning, removed log level
-- [fix] Fixed ;toggle toggle message
-- [fix] Fixed module toggle message
-- [feature] Added dimension support to Waypoints
-- [fix] Optimized WaypointRender with events
-- [feature] Added server support to Waypoints
-- [cleanup] Removed unnecessary code from PotionUI, make duration calculation more accurate
-- [fix] Fixed crashes caused LagCompensator.tickRate returns 0, closes #1277
-- [fix] Make InventoryViewer + logo not on by default, closes #1275
-- [fix] Fixed Friend is disabled by default
-- [fix] Fixed ChunkFinder custom color not matching with the setting, Closes #1265
-- [fix] Made GUI showOnArray off by default
-- [fix] Fixed Aura default setting
-- [fix] Replaced Pair usages in RotationUtils with Vec2d
-- [fix] Make LagNotifier aligning to the top of the screen
-- [fix] Fixed LagNotifier breaks other modules and text misplacing, Closes #1259
-- [refactor] Rewrite WaypointRender info box rendering in real 2D
-- [feature] Added functions to get unscaled screen position to ProjectionUtils
-- [feature] Added GUI Scaling Option (#1260)
-- [fix] Fixed upward flight breaks on 2b
-- [feature] Added CustomColor option to ChunkFinder to reduce confusion
-- [fix] Fixed PotionInfo build failing
-- [fix] Fix build failing
-- [fix] Updated issue templates to match labels
-- [fix] Fix PotionUI crash when TPS is 0
-- [feature] Added PlayerPacketManager (#1256)
-- [fix] Fixed config loading not using config name in KAMIBlueLastConfig (#1248)
-- [fix] Renamed AltitudeHold setting to AutoControlAltitude
-- [fix] Fixed sneaking causes ElytraFlight goes forward while moving left or right
-- [feature] Added null check to sprint mixins to avoid exceptions in rare cases
-- [feature] Added MultiDirection and OnHoldingSprint options to Sprint
-- [enhancement] Enhancement for FastUse (#1250)
-- [enhancement] Enhancements for Friends (#1183)
-- [feature] Added 2D Render Utils (#1253)
-- [refactor] AntiJava Refactor (#1220)
-- [fix] Fixed typo in ChestStealer
-- [fix] Improved tracer camera position calculation
-- [fix] Fix lag caused by previous FullBright update
-- [fix] Use proper in water detection for ArmourHUD Closes #1193
-- [feature] Added ExampleCommand to help new contributors with adding new commands
-- [fix] Fixed all nullPointerExceptions caused by mc.objectMouseOver Made AntiFriendHit alwaysListening false
-- [fix] Fixed getting kicked while attempting to send empty message (#1243)
-- [readme] Create FUNDING.yml
-- [fix] ChunkFinder bug fixes and small enhancement
-- [fix] Fixed Spammer random mode does work with 1 line
-- [feature] Added brightness option to FullBright and rewrote
-- [fix] Updated AutoFish to work on all servers, and made AutoRecast better
-- [feature] Added AutoReset option to Blink (#1231)
-- [fix] Fix build fail
-- [fix] Fix ElytraFlight defaults
-- [feature] Added FastFall (#1165)
-- [cleanup] Removed unused imports (#1230)
-- [enhancement] Optimized config saving and added autosaving
-- [feature] Added Potion Effects UI
-- [fix] Fixed Anti-Duplicate bug + Cleanup (#1206)
-- [fix] Radar render fix and smoother PlayerModel (#1211)
-- [feature] Added Items to Nametags
-- [feature] Added HighPingOptimize to ElytraFlight and fixed animation bugs
-- [fix] Fixed formatting in some replies in ;search
-- [fix] Improved Search Rendering and Calculation
-- [fix] Deleted unneeded assets
-- [feature] Added maintainer notice and updated issue templates
-- [feature] Multithreaded Emoji downloading
-- [fix] Made AntiAFK compatible with disconnectOnArrival
-- [fix] Fixed SearchCommand.kt not printing prefix properly
-- [fix] Fixed white screen caused by Radar (#1184)
-- [feature] Added ChestStealer and some bug fix (#1191)
-- [feature] Revamped ElytraReplace
-- [fix] change kamimoji URLs aGaiN
-- [feature] Added MidClickPearl
-- [feature] Added animations to ElytraFlight (#1179)
-- [fix] Made default swing animation speed 0.4
-- [cleanup] Removed random import
-- [fix] Made AutoReconnect support decimals
-- [cleanup] Removed Forgelin (#1170)
-- [fix] Fixed render modules jitters in paused single player world (#1164)
-- [fix] Fixed BreakingESP showing after block was broken
-- [feature] Configurable Color for Tracer and StorageESP (#1163)
-- [refactor] Rewrote MixinFontRenderer & fixed KamiMoji incompatibility with SmoothFont
-- [feature] Added swing animation to ElytraFlight Removed view changing while going down with ElytraFlight
-- [fix] Run bump website nightlies when releasing
-- [fix] Fixed hit rendering for trajectories and removed line rendering
-- [fix] Made selectionhighlight work inside water
-- [fix] have kamimoji use kami-blue/kamimoji
-- [fix] Fixed typo in BreakingESP description
-- [fix] Fix player model bugs caused by Mojang code
-- [fix] Completely fix all render related issues with PlayerModel and InventoryViewer
-- [fix] Fix enchant glint in PlayerModel incompatibility with InventoryViewer
-- [fix] Fix everything turning gray with InventoryViewer
-- [fix] Fix VER_FULL_BETA not being changed properly
-- [fix] Fixed SelectionHighlight issue with Freecam in a smarter way (#1153)
-- [fix] Fixed Coordinates HUD being inaccurate when chunks aren't loaded
-- [fix] Disable selectionhighlight when in freecam
-- [cleanup] Remove random weird import
-- [fix] Updated reload message for `;cfg reload`
-- [fix] Updated AntiAFK to work on 2b2t
-- [feature] Added NCPStrict to ElytraFlight
-- [fix] Fixed PlayerModel enchant glint issue #995 (#1138)
-- [fix] Fixed `;cfg reload` not reloading waypoints
-- [fix] Render bug fixes (#1134)
-- [fix] Fixed MixinFontRenderer build errors (#1136)
-- [fix] Render modules update and bug fixes (#1115)
-- [feature] Added Strafe (#1117)
-- [fix] Fixed LoginMessage crash
-- [fix] Fix silly memory leak
-- [fix] Fixed donation link
-- [feature] Add KamiMoji (#1099)
-- [cleanup] Made final jar file smaller
-- [refactor] Rewrote Waypoint command
-- [fix] Fixed AutoWalk activating when changing settings
-- [fix] Fix empty json files causing crashes
-- [fix] Fix tab complete not working for commands with more then 1 arg
-- [cleanup] Remove redundant .toString
-- [fix] Fix 'direction null' bug and improve autowalk stability
-- [fix] Fixed typos and Death waypoints save server
-- [refactor] Rewrite Waypoints entirely
-- [fix] Updated troubleshooting information to be slightly more helpful
-- [fix] Properly reset LogoutLogger instead of onUpdate()
-- [fix] Fixed bug in LogoutLogger, val -> var
-- [fix] Prevent issues with switching servers in LogoutLogger
-- [feature] Add ShowHidden option to ActiveModules
-- [fix] Fixed Step incompatibility with ElytraFlight
-- [feature] Added LogoutLogger
-- [fix] Made saving to file optional in TeleportLogger
-- [feature] Added TeleportLogger
-- [fix] Fixed PacketLogger crash
-- [fix] Fix dumb bug with CoordsLog
-- [feature] Added Backfill to AutoTunnel
-- [fix] Made Step compatible with Baritone
-- [feature] Step Vanilla mode now supports DownStep
-- [fix] Changed default step height to 1.0
-- [feature] Added Step (#1074)
-- [fix] Fixed command regex thanks to DarkiBoi
-- [readme] Update donate link
-- [feature] Added InventoryManger, Auto Obsidian and some bug fixes (#1064)
-- [feature] Added more excuses (#1063)
-- [readme] Updated website link (#1050)
-- [fix] Stable button in installer is now actually called stable
-- [fix] Fix hook not working
-- [feature] Created Installer (#1042)
-- [fix] Switch to new downloads API url
-- [fix] Fixed capitalization in DiscordRPC 2.0
-- [fix] Fixed capitalization in DiscordRPC
-- [fix] No separator when one field is empty in DiscordRPC module (#1039)
-- [fix] "Fix" crash when movement keys are bound to mouse buttons
-- [cleanup] Rename version variables to make more sense
-- [fix] Switch update checker to new downloads API
-- [feature] Combat modules update (#1031)
-- [fix] Fix merge conflicts from 20c5f2b
-- [refactor] Kotlinized Spammer and added delay for when chat is open
-- [refactor] Improved ElytraFlight and moved Surround calcs to a util (#1023)
-- [feature] Added AutoExcuse(#840) (#1024)
-- [fix] Fixed inventory viewer height & added blue to fancychat (#1029)
-- [fix] Fixed Error (#1013)
-- [feature] Added actual hypixel messages to AutoEZ (#1012)
-- [feature] Add hunger, speed, helditem, fps, tps options to DiscordRPC (#1011)
-- [refactor] Lots of improvements and rewrite of ElytraFlight (#1003)
-- [refactor] Converted some modules to Kotlin
-- [fix] Fixed Setting names
-- [fix] Hopefully fix random empty crash
-- [fix] Made feedback optional
-- [feature] Added Baritone Remote Control
-- [fix] Fixed random bug
-- [fix] Fix 0b0t AutoTPA detection
-- [fix] Delays the spammer msg if the chat gui is open
-- [refactor] Kotlinized Spammer Avoids sending the same message
-- [fix] Update elytraflight defaults
-- [fix] Fix old references
-- [fix] Fix Search Tracer setting not saving
+- [bump] Release Major 2.01.01
+- [fix] Command history
+- [fix] Fixed mixin accessor crashes in Turkish locale
+- [readme] Remove BTC link
+- [feature] ClickGUI pause in SP option
+- [fix] ClickGUI pauses game in single player
+- [fix] Don't append space when auto completing command
+- [feature] lagmonitor pause w/ non-baritone autowalk (#1580)
+- [fix] HUD stops rendering when riding horse in creative
+- [cleanup] SetCommand message formatting
+- [cleanup] Cleaned up KillAura code
+- [fix] Changing CustomFont font name not reloading font
+- [feature] Added OnlySword option to KillAura
+- [refactor] Rewrite and cleanup MapPreview, add map name support
+- [feature] Added custom pos support to `;waypoint goto`
+- [fix] PlayerDetector in MessageDetection not working
+- [enhancement] Make the Czech DM plugin regex supports Russian as well
+- [cleanup] Rewrote message detection (#1770)
+- [fix] Friend/Macro/Waypoint loading and saving
+- [fix] Fixed AutoObsidian target stack counting
+- [enhancement] Added strength mode to AutoOffhand
+- [fix] AutoEat not unpausing baritone
+- [fix] Waypoint stashes regex
+- [fix] Command preview for second argument
+- [enhancement] Rewrote GenerateWebsiteCommand
+- [refactor] Removed Hidden module category
+- [enhancement] Save and load UUID cache. Catch all exceptions on config save/load
+- [bump] Updated submodules
+- [fix] KamiGuiAntiDisconnect confirm button misaligned after resize
+- [bump] Updated Kotlin to 1.4.21
+- [fix] Require `;tsc` output in bug issue template
+- [refactor] Rewrite and greatly improve Scaffold (#1760)
+- [fix] BaritoneUtils not unpausing correctly (#1758)
+- [fix] Don't save config if mod isn't loaded
+- [readme] Amend incorrect statement
+- [refactor] New Command Base (#1747)
+- [feature] Added LeftClickCome to Freecam
+- [fix] StorageESP Culling default to true
+- [feature] Culling for StorageESP (#1515)
+- [cleanup] Cleaned up Macro (#1753)
+- [refactor] Split out event base from client (#1750)
+- [fix] Default for enableInHole Surround
+- [readme] Remove maintainer notice
+- [readme] Fix contributing link
+- [readme] Rearrange and cleanup
+- [cleanup] Removed unnecessary "optimization"
+- [cleanup] Removed extra init block in Jesus
+- [refactor] Auto-format and cleanup `kami` module
+- [refactor] Update editorconfig to inline annotations and fix tab width
+- [cleanup] Added .editorconfig
+- [enhancement] Run Gradle build with build cache
+- [fix] Remove death inducing cringe from BookCrash
+- [bump] Annotations from 13.0 to 20.1.0 (#1744)
+- [cleanup] Replace deprecated Kotlin functions, use property access syntax
+- [fix] Crash when servers don't return a Server Brand
+- [readme] Change badge to use GH Actions
+- [test] Github Actions
+- [feature] Added Github Actions (#1743)
+- [cleanup] Remove unrelated stuff in resources folder (#1742)
+- [enhancement] Faster workspace setup
+- [refactor] Updated Gradle and bunch of dependencies (#1664)
+- [refactor] Moved DisplayEnum to interfaces package
+- [enhancement] Enum setting displaying (#1661)
+- [feature] Minimize jars in build script
+- [feature] Automatically ping for changelogs
+- [feature] Use durability instead of percentage for ElytraReplace
+Added NewChunks to the Radar and improved unloading of NewChunks (#1656)
+- [feature] Added DirectionMode to Freecam (#1650)
+- [fix] Freecam movement input compatibility (#1651)
+- [fix] Typo
+- [cleanup] Cleaned up ColorTextFormatting (#1653)
+- [feature] Default setting button for everything (#1652)
+- [bump] Release Major 1.12.01
+- [fix] Contact link
+- [fix] Make Freecam entity invisible
+- [fix] Fixed BaritoneUtils isActive check for other process
+- [fix] Don't cancel Baritone on disable if not Baritone mode
+- [cleanup] Cleaned up WaypointRender code a bit
+- [fix] Fixed waypoint coordinate converting for end dimension
+- [fix] LagNotifier default timeout
+- [cleanup] Use lazy init for integrated graphics check
+- [fix] Removes FakePlayers safely
+- [fix] Potential ConcurrentModificationException
+- [fix] Pyro Client bug
+- [enhancement] Disable AutoMine on Baritone cancel command
+- [fix] Fix changing AutoWalk mode when disabled starts pathing
+- [cleanup] Cleaned up AutoMine baritone command
+- [feature] Add manual mode to automine. (#1646)
+- [fix] Fixed Friends backward compatibility (#1647)
+- [cleanup] Utils to filesystem package
+- [fix] Potential bug with Freecam
+- [feature] Censor option for BossStack (#1643)
+- [bump] cape-api
+- [fix] Freecam chunk rendering (#1644)
+- [fix] Bug with bumping website
+- [fix] Too much safety when checking git
+- [fix] Cleanup before checking git in automated releases
+- [fix] Added more safety to uploadRelease.sh
+- [feature] Logout time for AutoLog. (#1635)
+- [feature] Added disable potion icons to AntiOverlay
+- [cleanup] Removed weird usage of arrays in ActiveModulesUI
+- [cleanup] Removed access transformer
+- [fix] Fixed AntiAFK stops working after reconnecting
+- [fix] AntiReconnect minimum delay too high
+- [fix] Upload release bug
+- [fix] Build utils git checking
+- [revert] Use old reflection utils (#1637)
+- [refactor] Rewrite build system
+- [refactor] Use new ReflectionUtils, Kotlinized CommandManager (#1629)
+- [bump] Kotlin to 1.3.72
+- [cleanup] Replace Access transformers with Mixins (#1628)
+- [fix] Fixed LogoutLogger logs FakePlayer
+- [fix] Slight bug fix in AutoMend
+- [cleanup] Minecraft#displayGuiScreen Mixin (#1619)
+- [cleanup] Cleaned up NoRender code
+- [cleanup] Removed random annotations
+- [cleanup] KamiMod (#1622)
+- [feature] NoRender rewrite (#1531)
+- [refactor] Switch to commons methods (#1624)
+- [enhancement] Cleaned up update notification GUI code and use a less scary background
