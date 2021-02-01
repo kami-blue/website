@@ -8,7 +8,27 @@ description: A list of changes in the latest version
 
 Download the latest version at the [download](/download) page!
 
-### Notes
+### Release Highlights
+
+**An entirely new GUI**
+Now that this GUI has been in beta for a month, it is ready for a stable release. Please read [this](https://discord.com/channels/573954110454366214/634012886930423818/795757815490543688) announcement on the [discord](/discord) from when it first went into beta, as your *module settings will not be transferred*.
+
+**101 bugs fixed**
+Not as many as last time, but still a lot for 1 month of work.
+
+**General feature improvements**
+Just general niceties such as *automatic server-specific configs*, *nicer font rendering* and *custom font options*, *searching in the GUI* and entering manual values, an only shulker mode and fill button in ChestStealer (for *easily moving stashes* and the such), and plenty of other quality of life features.
+We also have Minecraft Profiler support now. If you press `shift + f3` to open the debug pie, anything performance heavy will show up as a slice to see how much of a performance impact KAMI Blue is making, though in our tests it's almost always less than 1%.
+
+**Significant performance improvements**
+This includes
+- New GUI being much much better optimized. 
+- Rendering module calculation is now all async, meaning even lower end computers should handle Search with the settings cranked up, along with other render modules.
+- General performance improvements across different modules.
+
+Be sure to grab this release from [download](download) and leave feedback on future improvements 🙂
+
+### Commits
 
 - [cleanup] Switch to OkHttp from dumb http libraries (#1884)
 - [fix] Move all configs to `kamiblue` folder (#1897)
