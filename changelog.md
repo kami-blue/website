@@ -28,7 +28,6 @@ We also have Minecraft Profiler support now. If you press `shift + f3` to open t
 This includes
 - New GUI being better optimized. 
 - Optimized font rendering.
-- Rendering module calculation is now all async, meaning even lower end computers should handle Search with the settings cranked up, along with other render modules.
 - General performance improvements across different modules.
 
 Be sure to grab this release from [download](download) and leave feedback on future improvements 🙂
