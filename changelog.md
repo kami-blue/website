@@ -20,13 +20,14 @@ Not as many as last time, but still a lot for 1 month of work.
 
 **General feature improvements**
 
-Just general niceties such as *automatic server-specific configs*, *nicer font rendering* and *custom font options*, *searching in the GUI* and entering manual values, an only shulker mode and fill button in ChestStealer (for *easily moving stashes* and the such), and plenty of other quality of life features.
-We also have Minecraft Profiler support now. If you press `shift + f3` to open the debug pie, anything performance heavy will show up as a slice to see how much of a performance impact KAMI Blue is making, though in our tests it's almost always less than 1%.
+Just general niceties such as *automatic server-specific configs*, *custom font options*, *searching in the GUI* and entering manual values, and plenty of other quality of life features.
+We also have Minecraft Profiler support now. If you press `shift + f3` to open the debug pie, anything performance heavy will show up as a slice to see how much of a performance impact KAMI Blue is making, which is usually very little.
 
 **Significant performance improvements**
 
 This includes
-- New GUI being much much better optimized. 
+- New GUI being better optimized. 
+- Optimized font rendering.
 - Rendering module calculation is now all async, meaning even lower end computers should handle Search with the settings cranked up, along with other render modules.
 - General performance improvements across different modules.
 
@@ -34,6 +35,12 @@ Be sure to grab this release from [download](download) and leave feedback on fut
 
 ### Commits
 
+- [cleanup] ChunkEvent, NoRender, NewChunks (#1900)
+- [fix] FastBreak more packets causes game freeze
+- [cleanup] Removed bloat http request lib (#1899)
+- [fix] Undecorated Accessor Exception with Future
+- [fix] Inaccurate numbers in FPS hud
+- [cleanup] Removed the colon mark in WorldTime hud
 - [cleanup] Switch to OkHttp from dumb http libraries (#1884)
 - [fix] Move all configs to `kamiblue` folder (#1897)
 - [fix] F3 Debug Pie would crash on Single Player (#1894)
