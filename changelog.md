@@ -14,7 +14,7 @@ Download the latest version at the [download](/download) page!
 
 Now that this GUI has been in beta for a month, it is ready for a stable release. Please read [this](https://discord.com/channels/573954110454366214/634012886930423818/795757815490543688) announcement on the [discord](/discord) from when it first went into beta, as your *module settings will not be transferred*.
 
-**101 bugs fixed**
+**104 bugs fixed**
 
 Not as many as last time, but still a lot for 1 month of work.
 
