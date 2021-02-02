@@ -21,7 +21,7 @@ Not as many as last time, but still a lot for 1 month of work.
 **General feature improvements**
 
 Just general niceties such as *automatic server-specific configs*, *custom font options*, *searching in the GUI* and entering manual values, and plenty of other quality of life features.
-We also have Minecraft Profiler support now. If you press `shift + f3` to open the debug pie, anything performance heavy will show up as a slice to see how much of a performance impact KAMI Blue is making, which is usually very little.
+We also have Minecraft Profiler support now. If you press `shift + f3` to open the debug pie, anything performance heavy will show up as a slice to see how much of a performance impact KAMI Blue is making.
 
 **Significant performance improvements**
 
