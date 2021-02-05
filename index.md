@@ -1,10 +1,10 @@
 ---
 layout: default
 title: KAMI Blue
-description: A Minecraft utility mod for anarchy servers
+description: A Minecraft 1.12.2 utility mod for anarchy servers
 ---
 
-### A Minecraft utility mod for anarchy servers
+### A Minecraft 1.12.2 utility mod for anarchy servers
 
 This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
