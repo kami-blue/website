@@ -12,7 +12,7 @@ cur_ver: 2.02.01
 beta_ver: 2.02.14-41f52ab19
 discord_url: https://kamiblue.org/discord
 downloads_api_ver: v1
-build_number: 873
+build_number: 874
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
