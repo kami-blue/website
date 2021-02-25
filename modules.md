@@ -13,7 +13,6 @@ description: A list of modules and commands this mod has
         <li>AutoQMain<p><i>Automatically does '/queue 2b2t-lobby'</i></p></li>
         <li>AutoReply<p><i>Automatically reply to direct messages</i></p></li>
         <li>AutoTPA<p><i>Automatically accept or decline /TPAs</i></p></li>
-        <li>BaritoneRemote<p><i>Remotely control Baritone with /msg</i></p></li>
         <li>ChatEncryption<p><i>Encrypts and decrypts chat messages</i></p></li>
         <li>ChatFilter<p><i>Filters custom words or phrases from the chat</i></p></li>
         <li>ChatTimestamp<p><i>Shows the time a message was sent beside the message</i></p></li>
@@ -24,17 +23,33 @@ description: A list of modules and commands this mod has
         <li>FormatChat<p><i>Add color and linebreak support to upstream chat packets</i></p></li>
         <li>FriendHighlight<p><i>Highlights your friends names in chat</i></p></li>
         <li>KamiMoji<p><i>Add emojis to chat using KamiMoji, courtesy of the EmojiAPI.</i></p></li>
-        <li>LoginMessage<p><i>Sends a given message to public chat on login.</i></p></li>
+        <li>LoginMessage<p><i>Sends a given message(s) to public chat on login.</i></p></li>
         <li>PortalChat<p><i>Allows you to open GUIs in portals</i></p></li>
+        <li>RemoteCommand<p><i>Allow trusted players to send commands</i></p></li>
         <li>Spammer<p><i>Spams text from a file on a set delay into the chat</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Combat (25)</summary>
+    <summary>Client (11)</summary>
+    <p><ul>
+        <li>Baritone<p><i>Configures Baritone settings</i></p></li>
+        <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
+        <li>ChatSetting<p><i>Configures chat message manager</i></p></li>
+        <li>ClickGUI<p><i>Opens the Click GUI</i></p></li>
+        <li>CommandConfig<p><i>Configures client chat related stuff</i></p></li>
+        <li>Configurations<p><i>Setting up configurations of the client</i></p></li>
+        <li>CustomFont<p><i>Use the better font instead of the stupid Minecraft font</i></p></li>
+        <li>GuiColors<p><i>Opens the Click GUI</i></p></li>
+        <li>Hud<p><i>Toggles Hud displaying and settings</i></p></li>
+        <li>HudEditor<p><i>Edits the Hud</i></p></li>
+        <li>Tooltips<p><i>Displays handy module descriptions in the GUI</i></p></li>
+    </ul></p>
+</details>
+<details>
+    <summary>Combat (24)</summary>
     <p><ul>
         <li>AimBot<p><i>Automatically aims at entities for you.</i></p></li>
         <li>AntiBot<p><i>Avoid attacking fake players</i></p></li>
-        <li>AntiChainPop<p><i>Enables Surround when popping a totem</i></p></li>
         <li>AntiDeathScreen<p><i>Fixes random death screen glitches</i></p></li>
         <li>AntiFriendHit<p><i>Don't hit your friends</i></p></li>
         <li>AutoArmor<p><i>Automatically equips armour</i></p></li>
@@ -60,22 +75,7 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Client (10)</summary>
-    <p><ul>
-        <li>ActiveModules<p><i>Configures ActiveModules colours and modes</i></p></li>
-        <li>Baritone<p><i>Configures Baritone settings</i></p></li>
-        <li>Capes<p><i>Controls the display of KAMI Blue capes</i></p></li>
-        <li>ChatSetting<p><i>Configures chat message manager</i></p></li>
-        <li>ClickGUI<p><i>Opens the Click GUI</i></p></li>
-        <li>CommandConfig<p><i>Configures client chat related stuff</i></p></li>
-        <li>CustomFont<p><i>Use the better font instead of the stupid Minecraft font</i></p></li>
-        <li>InfoOverlay<p><i>Configures the game information overlay</i></p></li>
-        <li>InventoryViewer<p><i>Configures Inventory Viewer's options</i></p></li>
-        <li>Tooltips<p><i>Displays handy module descriptions in the GUI</i></p></li>
-    </ul></p>
-</details>
-<details>
-    <summary>Misc (32)</summary>
+    <summary>Misc (33)</summary>
     <p><ul>
         <li>AntiAFK<p><i>Prevents being kicked for AFK</i></p></li>
         <li>AntiBookKick<p><i>Prevents being kicked by clicking on books</i></p></li>
@@ -84,7 +84,7 @@ description: A list of modules and commands this mod has
         <li>AutoFish<p><i>Automatically catch fish</i></p></li>
         <li>AutoMine<p><i>Automatically mines chosen ores</i></p></li>
         <li>AutoNametag<p><i>Automatically nametags entities</i></p></li>
-        <li>AutoObsidian<p><i>Mines ender chest automatically to fill inventory with obsidian</i></p></li>
+        <li>AutoObsidian<p><i>Breaks down Ender Chests to restock obsidian</i></p></li>
         <li>AutoReconnect<p><i>Automatically reconnects after being disconnected</i></p></li>
         <li>AutoRespawn<p><i>Automatically respawn after dying</i></p></li>
         <li>AutoSpawner<p><i>Automatically spawns Withers, Iron Golems and Snowmen</i></p></li>
@@ -105,9 +105,10 @@ description: A list of modules and commands this mod has
         <li>MidClickFriends<p><i>Middle click players to friend or unfriend them</i></p></li>
         <li>MountBypass<p><i>Might allow you to mount chested animals on servers that block it</i></p></li>
         <li>NoSoundLag<p><i>Prevents lag caused by sound machines</i></p></li>
+        <li>NoteBot<p><i>Plays music with note blocks; put .mid or .nbs songs in .minecraft/kamiblue/songs</i></p></li>
         <li>PingSpoof<p><i>Cancels or adds delay to your ping packets</i></p></li>
         <li>SkinFlicker<p><i>Toggle your skin layers rapidly for a cool skin effect</i></p></li>
-        <li>StashFinder<p><i>Logs storage units in render distance.</i></p></li>
+        <li>StashLogger<p><i>Logs storage units in render distance.</i></p></li>
         <li>TeleportLogger<p><i>Logs when a player teleports somewhere</i></p></li>
     </ul></p>
 </details>
@@ -132,16 +133,16 @@ description: A list of modules and commands this mod has
         <li>Sprint<p><i>Automatically makes the player sprint</i></p></li>
         <li>Step<p><i>Changes the vanilla behavior for stepping up blocks</i></p></li>
         <li>Strafe<p><i>Improves control in air</i></p></li>
-        <li>Velocity<p><i>Modify knock back impact</i></p></li>
+        <li>Velocity<p><i>Modify player velocity</i></p></li>
     </ul></p>
 </details>
 <details>
-    <summary>Player (24)</summary>
+    <summary>Player (25)</summary>
     <p><ul>
         <li>AntiForceLook<p><i>Stops server packets from turning your head</i></p></li>
         <li>AutoEat<p><i>Automatically eat when hungry</i></p></li>
         <li>Blink<p><i>Cancels server side packets</i></p></li>
-        <li>ChestStealer<p><i>Automatically steal items from containers</i></p></li>
+        <li>ChestStealer<p><i>Automatically steal or store items from containers</i></p></li>
         <li>EndTeleport<p><i>Allows for teleportation when going through end portals</i></p></li>
         <li>FastBreak<p><i>Breaks block faster and nullifies the break delay</i></p></li>
         <li>FastUse<p><i>Use items faster</i></p></li>
@@ -149,6 +150,7 @@ description: A list of modules and commands this mod has
         <li>InventoryManager<p><i>Manages your inventory automatically</i></p></li>
         <li>LagNotifier<p><i>Displays a warning when the server is lagging</i></p></li>
         <li>LiquidInteract<p><i>Place blocks on liquid!</i></p></li>
+        <li>MultiTask<p><i>Breaks block and uses item at the same time</i></p></li>
         <li>NoBreakAnimation<p><i>Prevents block break animation server side</i></p></li>
         <li>NoEntityTrace<p><i>Blocks entities from stopping you from mining</i></p></li>
         <li>NoFall<p><i>Prevents fall damage</i></p></li>
@@ -165,12 +167,11 @@ description: A list of modules and commands this mod has
     </ul></p>
 </details>
 <details>
-    <summary>Render (33)</summary>
+    <summary>Render (31)</summary>
     <p><ul>
         <li>AntiFog<p><i>Disables or reduces fog</i></p></li>
         <li>AntiOverlay<p><i>Prevents rendering of fire, water and block texture overlays.</i></p></li>
-        <li>ArmorHUD<p><i>Displays your armor and it's durability on screen</i></p></li>
-        <li>ArmourHide<p><i>Hides the armour on selected entities</i></p></li>
+        <li>ArmorHide<p><i>Hides the armor on selected entities</i></p></li>
         <li>BossStack<p><i>Modify the boss health GUI to take up less space</i></p></li>
         <li>Breadcrumbs<p><i>Draws a tail behind as you move</i></p></li>
         <li>BreakingESP<p><i>Highlights blocks being broken near you</i></p></li>
@@ -182,13 +183,13 @@ description: A list of modules and commands this mod has
         <li>EyeFinder<p><i>Draw lines from entity's heads to where they are looking</i></p></li>
         <li>FullBright<p><i>Makes everything brighter!</i></p></li>
         <li>HungerOverlay<p><i>Displays a helpful overlay over your hunger bar.</i></p></li>
+        <li>ItemModel<p><i>Modify hand item rendering in first person</i></p></li>
         <li>MapPreview<p><i>Previews maps when hovering over them</i></p></li>
         <li>MobOwner<p><i>Displays the owner of tamed mobs</i></p></li>
         <li>Nametags<p><i>Draws descriptive nametags above entities</i></p></li>
         <li>NewChunks<p><i>Highlights newly generated chunks</i></p></li>
         <li>NoHurtCam<p><i>Disables the 'hurt' camera effect</i></p></li>
         <li>NoRender<p><i>Ignore entity spawn packets</i></p></li>
-        <li>PlayerModel<p><i>Renders a model of you, or someone you're attacking</i></p></li>
         <li>Search<p><i>Highlights blocks in the world</i></p></li>
         <li>SelectionHighlight<p><i>Highlights object you are looking at</i></p></li>
         <li>ShulkerPreview<p><i>Previews shulkers in the game GUI</i></p></li>
@@ -198,7 +199,6 @@ description: A list of modules and commands this mod has
         <li>Trajectories<p><i>Draws lines to where trajectories are going to fall</i></p></li>
         <li>VoidESP<p><i>Highlights holes leading to the void</i></p></li>
         <li>WaypointRender<p><i>Render saved waypoints</i></p></li>
-        <li>XRay<p><i>See through common blocks!</i></p></li>
         <li>Zoom<p><i>Configures FOV</i></p></li>
     </ul></p>
 </details>
