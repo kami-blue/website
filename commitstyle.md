@@ -1,3 +1,9 @@
+---
+layout: default
+title: Commit Style
+description: Commit style guidelines
+---
+
 # Commit Style
 
 Preferably commits should describe what they've done, instead of something like "fix crash" you should have "fix: Crash in <class> caused by <reason>". 
