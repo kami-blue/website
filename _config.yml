@@ -7,12 +7,12 @@ github:
   website_url: https://github.com/kami-blue/website
   jar_url: https://github.com/kami-blue/client/releases/download/2.03.01/kamiblue-2.03.01.jar
   jar_sig_url: https://github.com/kami-blue/client/releases/download/2.03.01/kamiblue-2.03.01.jar.sig
-  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/2.03.17-2bec86e9d/kamiblue-2.03.17-2bec86e9d.jar
+  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/2.03.25-05f795903/kamiblue-2.03.25-05f795903.jar
 cur_ver: 2.03.01
-beta_ver: 2.03.17-2bec86e9d
+beta_ver: 2.03.25-05f795903
 discord_url: https://kamiblue.org/discord
 downloads_api_ver: v1
-build_number: 887
+build_number: 888
 theme: jekyll-theme-cayman
 gems:
   - jekyll-seo-tag
