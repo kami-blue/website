@@ -7,7 +7,7 @@ github:
   website_url: https://github.com/kami-blue/website
   jar_url: https://github.com/kami-blue/client/releases/download/2.04.01/kamiblue-2.04.01.jar
   jar_sig_url: https://github.com/kami-blue/client/releases/download/2.04.01/kamiblue-2.04.01.jar.sig
-  beta_jar_url: https://github.com/kami-blue/nightly-releases/releases/download/2.04.01/kamiblue-2.04.01.jar
+  beta_jar_url: https://github.com/kami-blue/client/releases/download/2.04.01/kamiblue-2.04.01.jar
 cur_ver: 2.04.01
 beta_ver: 2.04.01
 discord_url: https://kamiblue.org/discord
