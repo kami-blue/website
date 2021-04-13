@@ -12,7 +12,7 @@ Read [Support](support) for help.
 
 When making a pull request or issue, please follow the [Code of Conduct](codeofconduct).
 
-Pull requests are accepted to all non-archived repositories on https://github.com/kami-blue/. Please name your branches and fill in the template (you'll see it when you make a pull request) to make reviewing easier.
+Pull requests are accepted to all non-archived repositories on [https://github.com/kami-blue/](https://github.com/kami-blue/). Please name your branches and fill in the template (you'll see it when you make a pull request) to make reviewing easier.
 
 ### Setup
 
