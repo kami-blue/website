@@ -14,7 +14,25 @@ discord_url: https://kamiblue.org/discord
 downloads_api_ver: v1
 build_number: 893
 theme: jekyll-theme-cayman
+include:
+  - _docs
 gems:
   - jekyll-seo-tag
   - jekyll-redirect-from
   - liquid
+defaults:
+  - scope:
+      path: _docs
+    values:
+      layout: docs
+  - scope:
+      path: ''
+    values:
+      layout: default
+
+collections:
+  docs:
+    output: true
+
+
+
