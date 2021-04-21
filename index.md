@@ -8,7 +8,11 @@ description: A Minecraft 1.12.2 utility mod for anarchy servers
 
 This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-### 2021/04/20 This project is now archived indefinitely.
+### 2021/04/21 This project is now archived indefinitely.
+
+All pull requests, issues or any other activity on the repositories of all KAMI Blue organizations will be ignored completely.
+
+Finally this project is in the bin 🗑️
 
 ## Images
 
