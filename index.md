@@ -8,17 +8,7 @@ description: A Minecraft 1.12.2 utility mod for anarchy servers
 
 This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 160+ unique modules this mod has.
-
-This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
-In late 2019 l1ving picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by l1ving. 
-
-086 ported the original project to the Fabric mod system, in early 2020, with l1ving making plans to port Blue to the new plugin system for it. 
-
-[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://kamiblue.org/donate) 
-[![HitCount1](https://camo.githubusercontent.com/8065fb7bb117c1f3d62b5c4e2d8bd8caed4ccb03/687474703a2f2f686974732e6477796c2e636f6d2f6b616d692d626c75652f636c69656e742e737667)](https://github.com/kami-blue/client)
-
-Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
+### 2021/04/21 This project is now archived indefinitely.
 
 ## Images
 
