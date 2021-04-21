@@ -5,7 +5,7 @@ permalink: /api/v1/downloads.json
 {
   "stable": {
     "name": "{{ site.cur_ver }}",
-    "url": "{{ site.github.jar_url }}"
+    "url": "{{ site.github.beta_jar_url }}"
   },
   "beta": {
     "name": "{{ site.beta_ver }}",
