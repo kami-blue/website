@@ -6,9 +6,9 @@ description: A Minecraft 1.12.2 utility mod for anarchy servers
 
 ### A Minecraft 1.12.2 utility mod for anarchy servers
 
-This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
+This was open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-### 2021/04/20 This project is now archived indefinitely.
+### 2021/04/21 This project is now archived indefinitely.
 
 ## Images
 
@@ -41,7 +41,7 @@ This is an open source project written primarily by 086, l1ving and iBuyMountain
 
 Please see the [issues]({{ site.github.repository_url }}/issues/) page for planned features and bugs.
 
-This is currently in active development. When issues are being closed is by milestone, and bugs are higher priority, though there aren't any bugs that break something completely.
+This was in active development. When issues are being closed is by milestone, and bugs are higher priority, though there aren't any bugs that break something completely.
 
 <p>
 <details>
