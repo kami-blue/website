@@ -8,12 +8,6 @@ description: A Minecraft 1.12.2 utility mod for anarchy servers
 
 This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-### 2021/04/21 This project is now archived indefinitely.
-
-All pull requests, issues or any other activity on the repositories of all KAMI Blue organizations will be ignored completely.
-
-Finally this project is in the bin 🗑️
-
 ## Images
 
 <details> 
@@ -54,7 +48,7 @@ This is currently in active development. When issues are being closed is by mile
 <p>
     See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
 
-    If you get banned for breaking a servers rules using KAMI Blue, it is not any of the developers fault. It is meant to be used on *anarchy* servers, which do not have rules.  
+    If you get banned for breaking a servers rules using lambda, it is not any of the developers fault. It is meant to be used on *anarchy* servers, which do not have rules.  
 </p>
 
 </details>

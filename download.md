@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download
-description: Releases for KAMI Blue
+description: Releases for lambda
 ---
 
 # Download
