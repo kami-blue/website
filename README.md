@@ -1,4 +1,4 @@
-<img src="https://github.com/kami-blue/assets/blob/assets/assets/icons/kami.svg" align="left" width="120"/>
+<img src="https://github.com/lambda-client/assets/blob/assets/assets/icons/Lambda.png" align="left" width="120"/>
 
 # Website for lambda-client/client
 
