@@ -1,10 +1,10 @@
 <img src="https://github.com/kami-blue/assets/blob/assets/assets/icons/kami.svg" align="left" width="120"/>
 
-# Website for kami-blue/client
+# Website for lambda-client/client
 
 ### A Minecraft utility mod for anarchy servers.
 
-https://kamiblue.org
+https://lambda-client.com
 
 ### API
 
