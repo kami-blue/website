@@ -46,8 +46,6 @@ This is currently in active development. When issues are being closed is by mile
 	<summary>< Click to view disclaimers ></summary>
 
 <p>
-    See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
-
     If you get banned for breaking a servers rules using lambda, it is not any of the developers fault. It is meant to be used on *anarchy* servers, which do not have rules.  
 </p>
 
@@ -57,6 +55,8 @@ This is currently in active development. When issues are being closed is by mile
 ## Thank you
 
 [zeroeightysix](https://github.com/zeroeightysix) for the original [KAMI](https://github.com/zeroeightysix/KAMI)
+
+[l1ving](https://github.com/l1ving) for Kami Blue [Kami-Blue](https://github.com/Kami-Blue)
 
 [ronmamo](https://github.com/ronmamo/) for [Reflections](https://github.com/ronmamo/reflections)
 
