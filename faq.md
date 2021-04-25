@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Frequently asked questions
-description: Quick information about KAMI Blue
+description: Quick information about lambda-client
 ---
 
 ## Installing
@@ -9,7 +9,8 @@ description: Quick information about KAMI Blue
 ***
 
 1. First you need to install [Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.12.2.html) for Minecraft 1.12.2.
-2. Open the KAMI Blue installer
+2. Open the lambda-client
+ installer
 3. Select the version that you want to install (latest or beta)
 4. Open Forge through the Minecraft launcher
 
@@ -47,7 +48,7 @@ In order to show HUD elements on screen when the GUI is closed, hit the pin in t
 By using the command `;prefix <new Prefix>` (eg `;prefix .`) or after having ran KAMI Blue (make sure it's closed), editing your configuration file (find it using `;config path` in-game) and changing the value of `commandPrefix` to change the prefix.
 
 ##### Will there ever be a version for newer Minecraft versions?
-No, KAMI Blue's codebase is too big and relies on Forge events way too much to port to a newer version. Instead, you can use [KAMI](https://kamiclient.com), a 1.16.x client.
+No, lambda-client codebase is too big and relies on Forge events way too much to port to a newer version. Instead, you can use [KAMI](https://kamiclient.com), a 1.16.x client.
 
 ##### Missing menus
 Run `;fixgui` and if that doesn't help, make your GUI Scale smaller through the Minecraft settings and move your stuff back on screen. 

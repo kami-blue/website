@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Download
-description: Releases for KAMI Blue
+description: Releases for lambda-client
 ---
 
 # Download
@@ -20,11 +20,11 @@ If you want the {{ site.cur_ver }} stable jar to manually install, click <a href
 
 #### Changelog
 <a href="changelog" class="btnc">Changelog for {{ site.cur_ver }}</a>
-<a href="https://github.com/kami-blue/nightly-releases/releases/latest" class="btnc">Changelog for {{ site.beta_ver }}</a>
+<a href="https://github.com/lambda-client.com/nightly-releases/releases/latest" class="btnc">Changelog for {{ site.beta_ver }}</a>
 
 #### For Developers:
 
 Signed releases are now available, read [signing](/signing)!
 
-There is also a Download API, [https://kamiblue.org/api/{{ site.downloads_api_ver }}/downloads.json](https://kamiblue.org/api/{{ site.downloads_api_ver}}/downloads.json)
+There is also a Download API, [https://lambda-client.com/api/{{ site.downloads_api_ver }}/downloads.json](https://lambda-client.com/api/{{ site.downloads_api_ver}}/downloads.json)
 

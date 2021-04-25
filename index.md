@@ -8,18 +8,6 @@ description: A Minecraft 1.12.2 utility mod for anarchy servers
 
 This is an open source project written primarily by 086, l1ving and iBuyMountainDew. It has many useful combat and general utilities to assist the player. 
 
-See the [FAQ](/faq) pages for information about using the mod itself, and the [modules](/modules) page for information about the 160+ unique modules this mod has.
-
-This project was started by 086 in early 2018, and it gained popularity for having the best CrystalAura.
-In late 2019 l1ving picked up the project, noticing the lack of modules, with iBuyMountainDew taking over the project after 6 months of work by l1ving. 
-
-086 ported the original project to the Fabric mod system, in early 2020, with l1ving making plans to port Blue to the new plugin system for it. 
-
-[![Paypal](https://img.shields.io/badge/paypal-donate-red?color=169bd7&logo=paypal&style=flat-square)](https://kamiblue.org/donate) 
-[![HitCount1](https://camo.githubusercontent.com/8065fb7bb117c1f3d62b5c4e2d8bd8caed4ccb03/687474703a2f2f686974732e6477796c2e636f6d2f6b616d692d626c75652f636c69656e742e737667)](https://github.com/kami-blue/client)
-
-Please consider donating to help support this project and get a unique cape in game. (Capes are a minimum $5 donation, due to PayPal and bank fees, sorry).
-
 ## Images
 
 <details> 
@@ -58,9 +46,7 @@ This is currently in active development. When issues are being closed is by mile
 	<summary>< Click to view disclaimers ></summary>
 
 <p>
-    See <a href="https://github.com/fr1kin/forgehax">forgehax</a> for an equivalent. Some features in KAMI may be based on those of forgehax, and KAMI / KAMI Blue have some features it doesn't. KAMI Blue won't be based off of other mods unless said otherwise.
-
-    If you get banned for breaking a servers rules using KAMI Blue, it is not any of the developers fault. It is meant to be used on *anarchy* servers, which do not have rules.  
+    If you get banned for breaking a servers rules using lambda, it is not any of the developers fault. It is meant to be used on *anarchy* servers, which do not have rules.  
 </p>
 
 </details>
@@ -69,6 +55,8 @@ This is currently in active development. When issues are being closed is by mile
 ## Thank you
 
 [zeroeightysix](https://github.com/zeroeightysix) for the original [KAMI](https://github.com/zeroeightysix/KAMI)
+
+[l1ving](https://github.com/l1ving) for Kami Blue [Kami-Blue](https://github.com/Kami-Blue)
 
 [ronmamo](https://github.com/ronmamo/) for [Reflections](https://github.com/ronmamo/reflections)
 

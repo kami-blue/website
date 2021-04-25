@@ -12,7 +12,7 @@ Read [Support](support) for help.
 
 When making a pull request or issue, please follow the [Code of Conduct](codeofconduct).
 
-Pull requests are accepted to all non-archived repositories on [https://github.com/kami-blue/](https://github.com/kami-blue/). Please name your branches and fill in the template (you'll see it when you make a pull request) to make reviewing easier.
+Pull requests are accepted to all non-archived repositories on [https://github.com/lambda-client/](https://github.com/lambda-client/). Please name your branches and fill in the template (you'll see it when you make a pull request) to make reviewing easier.
 
 ### Setup
 
@@ -42,7 +42,7 @@ Only Intellij IDEA is supported, due to lack of features and proper Kotlin suppo
 Once you have setup a workspace as per above, import the `build.gradle` file
 
 1. File -> New -> Project from Existing Sources.
-2. Select `kamiblue`, then the `build.gradle` file.
+2. Select `lambda-client`, then the `build.gradle` file.
 3. In the Gradle tab on the right, expand Run Configurations
 4. Run `genIntellijRuns`, then press the reimport 🔄 button above.
 5. You should see a `RUNCLIENT` at the top now, you can press the green ▶️ start button to start Minecraft.
