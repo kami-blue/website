@@ -1,18 +1,19 @@
 {% for item in include.nav %}
 {% if item.title %}
-{% if item.url %}
-<a href="{{ item.url }}">
-    <div {% if item.url== page.url %} class="currentDoc" {% endif %}> {{ item.title }}</div>
+
+<a {% if item.url %} href="{{ item.url }}" {% endif %}>
+
+    <div {% if item.url== page.url %} class="currentDoc" {% else %} {% if item.subnav %} class="hasSubnav" {% endif %}{%
+         endif %} style="padding: 5px 5px;"> {{ item.title }}
+    </div>
+
+
+    {% if item.subnav %}
+    <div style="padding-left:1rem; padding-bottom:1px;">
+        {% include subnav.html nav=item.subnav %}
+    </div>
+    {% endif %}
+
 </a>
-
-
-{% endif %}
-
-{% if item.subnav %}
-<div style="padding-top: 1rem"> {{ item.title }}</div>
-<div style="padding:1rem">
-    {% include subnav.html nav=item.subnav %}
-</div>
-{% endif %}
 {% endif %}
 {% endfor %}

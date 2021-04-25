@@ -3,7 +3,8 @@ module Options
 
     site.data["nav"] = []
     x = site.pages
-    x = x.sort_by { |x| x.url.split("/").length() } # make sure entries are in a nice order
+
+    x = x.sort_by { |x| x.url.split("/") } # make sure entries are in a nice order
     x.each { |page|
       if page.url.index("/_docs") == 0 # only run when it is a doc
 
@@ -21,7 +22,11 @@ module Options
     if title.split("/").length() > 1
       x = get_pos_in_array(current, title.partition("/").first)
       if x != nil
-        current[x]["subnav"] << do_for_sub(current[x]["subnav"], title.partition("/").last, full_url)
+        if current[x]["subnav"] != nil
+          current[x]["subnav"] << do_for_sub(current[x]["subnav"], title.partition("/").last, full_url)
+        else
+          current[x]["subnav"] = do_for_sub([], title.partition("/").last, full_url)
+        end
       else
         current << { "title" => title.partition("/").first, "subnav" => do_for_sub([], title.partition("/").last, full_url) }
       end
