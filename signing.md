@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Signing
-description: Ensuring the security of KAMI Blue
+description: Ensuring the security of Lambda
 ---
 
 ## Signing
 
-KAMI Blue is open source and publically auditable. You can view the full source code here: <{{ site.github.repository_url }}>
+Lambda is open source and publically auditable. You can view the full source code here: <{{ site.github.repository_url }}>
 
 Commits are signed by both l1ving and iBuyMountainDew, with releases being published by l1ving. Both members have full write access to the organization, with both members having **2fa** protection on their Github Account. Nobody else has push access to any kami-blue repository. 
 

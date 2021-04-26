@@ -178,6 +178,11 @@ a {
 .project-name {
   margin-top: 0;
   margin-bottom: 0.1rem;
+  color: white;
+
+  &:hover {
+    color: white;
+  }
 
   @include large {
     font-size: 3.25rem;
@@ -475,4 +480,70 @@ h2 {
 
 h1 {
   font-size: 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+.scrollBar {
+  max-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  width: 20%
+}
+
+.scrollArea {
+  background-color: $header-bg-color;
+  height: 100%;
+  position: fixed;
+  width: 20%
+}
+
+.internalScrollArea {
+  padding: 1rem;
+  color: $header-heading-color;
+  height: 100%;
+
+  a {
+    color: #848197;
+
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .hasSubnav {
+    color: white;
+  }
+}
+
+.currentDoc {
+  background-color: blue;
+  border-radius: 3px;
+  padding: 5px 5px;
+  color: white;
+}
+
+.docContent {
+  padding: 1rem
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

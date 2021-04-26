@@ -2,45 +2,11 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
 
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
+    {% include analytics.html %}
     <script data-ad-client="ca-pub-7708188084469659" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <meta charset="UTF-8">
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#9b90ff">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="KAMI Blue">
-    <meta itemprop="description" content="A Minecraft utility mod for anarchy servers">
-    <meta itemprop="image" content="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/icons/kamiSmall.png">
-
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://kamiblue.org">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="KAMI Blue">
-    <meta property="og:description" content="A Minecraft utility mod for anarchy servers">
-    <meta property="og:image" content="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/icons/kamiSmall.png">
-
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="KAMI Blue">
-    <meta name="twitter:description" content="A Minecraft utility mod for anarchy servers">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/kami-blue/assets/assets/assets/icons/kamiSmall.png">
-
-    <!-- Embed icon -->
-    <meta content="/favicon.png" property="og:image">
+    {% include seo.html %}
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -59,6 +25,7 @@
       <a href="/modules">Modules</a>
       <a href="/contributing">Contributing</a>
       <a href="/support">Support</a>
+        <a href="/docs/docs">Docs</a>
     </nav>
 
     <main id="content" class="main-content" role="main">
